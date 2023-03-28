@@ -1,7 +1,7 @@
 import requests
 
 
-def requests_params_hh(name_vacancie: str, one_page_count: int = 10, all_page_count: int = 1):
+def requests_params_hh(name_vacancie: str, one_page_count: int = 10, all_page_count: int = 3):
     params = {
         "text": name_vacancie,
         "per_page": one_page_count,
@@ -32,7 +32,7 @@ def requests_params_hh(name_vacancie: str, one_page_count: int = 10, all_page_co
 #         return "Error:", response.status_code
 
 
-def requests_params_sj(name_vacancie: str, one_page_count: int = 10, all_page_count: int = 1):
+def requests_params_sj(name_vacancie: str, one_page_count: int = 10, all_page_count: int = 3):
     params = {"keywords": name_vacancie,
               "count": one_page_count,
               "page": all_page_count

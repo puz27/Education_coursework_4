@@ -25,14 +25,14 @@ class HH(Engine):
     def vacancies(self):
         return self.__vacancies
 
-    def get_request(self, params: dict) -> None:
+    def get_request(self, params: dict) -> None or str:
         """Return request"""
         url_head_hunter = "https://api.hh.ru/vacancies"
         response = requests.get(url_head_hunter, params=params)
         if response.status_code == 200:
             vacancies = response.json()["items"]
             for vacancy in vacancies:
-                self.__vacancies.append((vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]))
+                self.__vacancies.append((vacancy["employer"]["name"], vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]))
                    # print(vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]) # ,vacancy["salary"]["from"], vacancy["salary"]["to"] доделать проверку на ЗП
         else:
             return "Error:", response.status_code
@@ -42,7 +42,7 @@ class HH(Engine):
 class SJ(Engine):
     """Class for work with SuperJob """
 
-    def __init__(self, api_key: str, params: dict):
+    def __init__(self, api_key: str, params: dict) -> None:
         self.__vacancies = []
         self.__params = params
         self.__api_key = api_key
@@ -51,18 +51,16 @@ class SJ(Engine):
     def vacancies(self):
         return self.__vacancies
 
-    def get_request(self, params):
+    def get_request(self, params: dict) -> None or str:
         url_super_job = "https://api.superjob.ru/2.0/vacancies/"
         headers = {'X-Api-App-Id': self.__api_key}
         response = requests.get(url_super_job, headers=headers, params=params)
         if response.status_code == 200:
             vacancies = response.json()["objects"]
             for vacancy in vacancies:
-                self.__vacancies.append((vacancy["profession"], vacancy["profession"], vacancy["link"],
+                self.__vacancies.append((vacancy["profession"], vacancy["link"], vacancy["firm_name"], vacancy["work"],
                                           vacancy["payment_from"], vacancy["payment_to"], vacancy["town"]["title"]))
 
         else:
             return "Error:", response.status_code
-
-
 
