@@ -1,22 +1,23 @@
 class Vacancy:
     # __slots__ = ...
 
-    #def __init__(self, *args, **kwargs):
-    def __init__(self, name: str = None, url: str = None, description: str = None,
-                 salary: float = None, employer: str = None, town: str = None):
+    #def __init__(self, *args):
+    def __init__(self, name: str, url: str, description: str, town: str, employer: str):
         self.__name = name
         self.__url = url
         self.__description = description
-        self.salary = salary
-        self.employer = employer
-        self.town = town
+        self.__town = town
+        self.__employer = employer
 
 
-    # def __str__(self):
-    #     pass
+    def __str__(self):
+        return f'Наименование:{self.__name} Ссылка:{self.__url} Описание:{self.__description} ' \
+               f'Город:{self.__town} Компания:{self.__employer}'
 
-    def __repr__(self):
-        return f"Название вакансии: {self.__name}\nСсылка на вакансию: {self.__url}\n"
+
+
+    # def __repr__(self):
+    #     return f"Название вакансии: {self.__name}\nСсылка на вакансию: {self.__url}\n"
 
 
 
@@ -31,17 +32,26 @@ class CountMixin:
         pass
 
 
-
 class HHVacancy(Vacancy):  # add counter mixin
     """ HeadHunter Vacancy """
+    def __init__(self, name: str, url: str, description: str, town: str, employer: str,
+                 requirement: str, salary: str):
+        super().__init__(name, url, description, town, employer)
+        self.__requirement = requirement
+        self.__salary = salary
 
-    def __str__(self):
-        return f'HH: {self.comany_name}, зарплата: {self.salary} руб/мес'
 
-
+    # def __str__(self):
+    #     return f'Наименование:{self.__name} Ссылка:{self.__url} Описание:{self.__description} Город:{self.__town} Компания:{self.__employer} Доп.требования:{self.__requirement} Зарплата: {self.__salary} руб/мес'
+    #
 
 class SJVacancy(Vacancy):  # add counter mixin
     """ SuperJob Vacancy """
+    def __init__(self, name: str, url: str, description: str, town: str, employer: str,
+                 salary_from: str, salary_to: str):
+        super().__init__(name, url, description, town, employer)
+        self.__salary_from = salary_from
+        self.__salary_to = salary_to
 
     def __str__(self):
         return f'SJ: {self.comany_name}, зарплата: {self.salary} руб/мес'

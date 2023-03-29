@@ -34,7 +34,7 @@ class HH(Engine):
             for vacancy in vacancies:
 
                 self.__vacancies.append((vacancy["name"], vacancy["url"], vacancy["snippet"]["responsibility"],
-                                         vacancy["snippet"]["requirement"], vacancy["area"]["name"],
+                                         vacancy["area"], vacancy["employer"], vacancy["snippet"]["requirement"],
                                          vacancy["salary"]))
                    # print(vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]) # ,vacancy["salary"]["from"], vacancy["salary"]["to"] (vacancy["employer"]["name"],доделать проверку на ЗП
         else:
@@ -61,8 +61,8 @@ class SJ(Engine):
         if response.status_code == 200:
             vacancies = response.json()["objects"]
             for vacancy in vacancies:
-                self.__vacancies.append((vacancy["profession"], vacancy["link"], vacancy["candidat"],
-                                          vacancy["payment_from"], vacancy["payment_to"], vacancy["town"])) # vacancy["firm_name"],vacancy["work"],
+                self.__vacancies.append((vacancy["profession"], vacancy["link"], vacancy["candidat"], vacancy["town"],
+                                         vacancy["work"], vacancy["payment_from"], vacancy["payment_to"])) # ,vacancy["work"],
 
         else:
             return "Error:", response.status_code
