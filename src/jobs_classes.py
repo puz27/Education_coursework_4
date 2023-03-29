@@ -1,11 +1,22 @@
 class Vacancy:
-    __slots__ = ...
+    # __slots__ = ...
 
-    def __init__(self, *args, **kwargs):
-        pass
+    #def __init__(self, *args, **kwargs):
+    def __init__(self, name: str = None, url: str = None, description: str = None,
+                 salary: float = None, employer: str = None, town: str = None):
+        self.__name = name
+        self.__url = url
+        self.__description = description
+        self.salary = salary
+        self.employer = employer
+        self.town = town
 
-    def __str__(self):
-        pass
+
+    # def __str__(self):
+    #     pass
+
+    def __repr__(self):
+        return f"Название вакансии: {self.__name}\nСсылка на вакансию: {self.__url}\n"
 
 
 

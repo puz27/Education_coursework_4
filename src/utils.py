@@ -1,7 +1,7 @@
 import requests
 
 
-def requests_params_hh(name_vacancie: str, one_page_count: int = 10, all_page_count: int = 3):
+def requests_params_hh(name_vacancie: str, one_page_count: int = 10, all_page_count: int = 10):
     params = {
         "text": name_vacancie,
         "per_page": one_page_count,

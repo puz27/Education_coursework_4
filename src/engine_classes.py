@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 import requests
-
+from src.jobs_classes import *
 
 class Engine(ABC):
 
@@ -32,8 +32,11 @@ class HH(Engine):
         if response.status_code == 200:
             vacancies = response.json()["items"]
             for vacancy in vacancies:
-                self.__vacancies.append((vacancy["employer"]["name"], vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]))
-                   # print(vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]) # ,vacancy["salary"]["from"], vacancy["salary"]["to"] доделать проверку на ЗП
+
+                self.__vacancies.append((vacancy["name"], vacancy["url"], vacancy["snippet"]["responsibility"],
+                                         vacancy["snippet"]["requirement"], vacancy["area"]["name"],
+                                         vacancy["salary"]))
+                   # print(vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]) # ,vacancy["salary"]["from"], vacancy["salary"]["to"] (vacancy["employer"]["name"],доделать проверку на ЗП
         else:
             return "Error:", response.status_code
 
@@ -58,8 +61,8 @@ class SJ(Engine):
         if response.status_code == 200:
             vacancies = response.json()["objects"]
             for vacancy in vacancies:
-                self.__vacancies.append((vacancy["profession"], vacancy["link"], vacancy["firm_name"], vacancy["work"],
-                                          vacancy["payment_from"], vacancy["payment_to"], vacancy["town"]["title"]))
+                self.__vacancies.append((vacancy["profession"], vacancy["link"], vacancy["candidat"],
+                                          vacancy["payment_from"], vacancy["payment_to"], vacancy["town"])) # vacancy["firm_name"],vacancy["work"],
 
         else:
             return "Error:", response.status_code
