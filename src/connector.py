@@ -1,4 +1,7 @@
+import json
+
 class Connector:
+
     """
     Класс коннектор к файлу, обязательно файл должен быть в json формате
     не забывать проверять целостность данных, что файл с данными не подвергся
@@ -23,11 +26,14 @@ class Connector:
         """
         pass
 
-    def insert(self, data):
+    def insert(self, dicti):
         """
         Запись данных в файл с сохранением структуры и исходных данных
         """
-        pass
+
+        json_object = json.dumps(dicti, indent=4)
+        with open("information.json", 'w') as f:
+            f.write(json.dumps(json_object))
 
     def select(self, query):
         """

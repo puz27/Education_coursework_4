@@ -2,17 +2,17 @@ class Vacancy:
     # __slots__ = ...
 
     #def __init__(self, *args):
-    def __init__(self, name: str, url: str, description: str, town: str, employer: str):
+    def __init__(self, name: str, url: str, description: str, area: str, employer: str, experience: str):
         self.__name = name
         self.__url = url
         self.__description = description
-        self.__town = town
+        self.__area = area
         self.__employer = employer
-
+        self.__experience = experience
 
     def __str__(self):
         return f'Наименование:{self.__name} Ссылка:{self.__url} Описание:{self.__description} ' \
-               f'Город:{self.__town} Компания:{self.__employer}'
+               f'Город:{self.__area} Компания:{self.__employer}'
 
 
 
@@ -34,9 +34,9 @@ class CountMixin:
 
 class HHVacancy(Vacancy):  # add counter mixin
     """ HeadHunter Vacancy """
-    def __init__(self, name: str, url: str, description: str, town: str, employer: str,
-                 requirement: str, salary: str):
-        super().__init__(name, url, description, town, employer)
+    def __init__(self, name: str, url: str, description: str, area: str, employer: str,
+                 requirement: str, salary: str, experience: str):
+        super().__init__(name, url, description, area, employer, experience)
         self.__requirement = requirement
         self.__salary = salary
 
@@ -48,8 +48,8 @@ class HHVacancy(Vacancy):  # add counter mixin
 class SJVacancy(Vacancy):  # add counter mixin
     """ SuperJob Vacancy """
     def __init__(self, name: str, url: str, description: str, town: str, employer: str,
-                 salary_from: str, salary_to: str):
-        super().__init__(name, url, description, town, employer)
+                 salary_from: str, salary_to: str, experience: str):
+        super().__init__(name, url, description, town, employer, experience)
         self.__salary_from = salary_from
         self.__salary_to = salary_to
 

@@ -33,10 +33,23 @@ class HH(Engine):
             vacancies = response.json()["items"]
             for vacancy in vacancies:
 
-                self.__vacancies.append((vacancy["name"], vacancy["url"], vacancy["snippet"]["responsibility"],
-                                         vacancy["area"], vacancy["employer"], vacancy["snippet"]["requirement"],
-                                         vacancy["salary"]))
-                   # print(vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]) # ,vacancy["salary"]["from"], vacancy["salary"]["to"] (vacancy["employer"]["name"],доделать проверку на ЗП
+                id = vacancy["id"]
+                url_id_request = "https://api.hh.ru/vacancies/" + id
+                vacancy_id_response = requests.get(url_id_request)
+
+                # self.__vacancies.append((vacancy["name"], vacancy["url"], vacancy["snippet"]["responsibility"],
+                #                          vacancy["area"], vacancy["employer"], vacancy["snippet"]["requirement"],
+                #                          vacancy["salary"], vacancy_id_response.json()["experience"]))
+
+                self.__vacancies.append({"name": vacancy["name"],
+                                         "url": vacancy["url"],
+                                         "responsibility": vacancy["snippet"]["responsibility"],
+                                         "area": vacancy["area"],
+                                         "employer": vacancy["employer"],
+                                         "requirement": vacancy["snippet"]["requirement"],
+                                         "salary": vacancy["salary"],
+                                         "experience": vacancy_id_response.json()["experience"]
+                                         })
         else:
             return "Error:", response.status_code
 
@@ -61,8 +74,19 @@ class SJ(Engine):
         if response.status_code == 200:
             vacancies = response.json()["objects"]
             for vacancy in vacancies:
-                self.__vacancies.append((vacancy["profession"], vacancy["link"], vacancy["candidat"], vacancy["town"],
-                                         vacancy["work"], vacancy["payment_from"], vacancy["payment_to"])) # ,vacancy["work"],
+                # self.__vacancies.append((vacancy["profession"], vacancy["link"], vacancy["candidat"],
+                # vacancy["town"],vacancy["work"], vacancy["payment_from"],
+                #                          vacancy["payment_to"], vacancy["experience"]))
+                self.__vacancies.append({"profession": vacancy["profession"],
+                                      "link": vacancy["link"],
+                                       "candidat": vacancy["candidat"],
+                                       "town": vacancy["town"],
+                                       "work": vacancy["work"],
+                                       "payment_from": vacancy["payment_from"],
+                                       "payment_to": vacancy["payment_to"],
+                                       "experience": vacancy["experience"]
+                                      })
+
 
         else:
             return "Error:", response.status_code

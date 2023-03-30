@@ -5,7 +5,8 @@ def requests_params_hh(name_vacancie: str, one_page_count: int = 3, all_page_cou
     params = {
         "text": name_vacancie,
         "per_page": one_page_count,
-        "page": all_page_count
+        "page": all_page_count,
+
     }
     return params
 
