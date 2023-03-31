@@ -10,6 +10,7 @@ import os
 # x.get_request(requests_params_hh("python"))
 # print(x.vacancies)
 # for i in x.vacancies:
+#     print(i)
 #     temp = HHVacancy(i[0], i[1], i[2], i[3], i[4], i[5], i[6], i[7])
 #     print(temp.__dict__)
 #
@@ -23,12 +24,15 @@ import os
 #
 #     print(temp.__dict__)
 
-y = SJ(superjob_api_key, requests_params_sj("python"))
-y.get_request(requests_params_sj("python"))
-eee = y.vacancies
+# y = SJ(superjob_api_key, requests_params_sj("python"))
+# y.get_request(requests_params_sj("python"))
+# eee = y.vacancies
 # print(eee)
+#
+tes = Connector("information.json")
 
 
-tes = Connector("information1.json")
-tes.insert(eee)
+query = {"link": "https://www.superjob.ru/vakansii/razrabotchik-po-45548247.html"}
+tes.delete(query)
+print(tes.data_file)
 

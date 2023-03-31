@@ -33,7 +33,7 @@ def requests_params_hh(name_vacancie: str, one_page_count: int = 3, all_page_cou
 #         return "Error:", response.status_code
 
 
-def requests_params_sj(name_vacancie: str, one_page_count: int = 3, all_page_count: int = 3):
+def requests_params_sj(name_vacancie: str, one_page_count: int = 10, all_page_count: int = 3):
     params = {"keywords": name_vacancie,
               "count": one_page_count,
               "page": all_page_count
