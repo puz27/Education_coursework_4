@@ -2,6 +2,9 @@ from src.engine_classes import *
 from src.utils import *
 from src.connector import Connector
 from src.jobs_classes import Vacancy
+import json
+import os
+
 
 # x = HH(requests_params_hh("python"))
 # x.get_request(requests_params_hh("python"))
@@ -20,9 +23,12 @@ from src.jobs_classes import Vacancy
 #
 #     print(temp.__dict__)
 
-# y = SJ(superjob_api_key, requests_params_sj("python"))
-# print(y.get_request(requests_params_sj("python")))
-# eee = y.vacancies[0]
+y = SJ(superjob_api_key, requests_params_sj("python"))
+y.get_request(requests_params_sj("python"))
+eee = y.vacancies
 # print(eee)
-test = Connector
-test.insert({"name": "sathiyajith"})
+
+
+tes = Connector("information1.json")
+tes.insert(eee)
+

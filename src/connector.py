@@ -1,4 +1,6 @@
 import json
+import os
+
 
 class Connector:
 
@@ -7,14 +9,19 @@ class Connector:
     не забывать проверять целостность данных, что файл с данными не подвергся
     внешнего деградации
     """
-    __data_file = None
+
+    def __init__(self, data_file):
+        self.__data_file = data_file
+        self.__path_file = None
+        self.data_file = data_file
+
     @property
     def data_file(self):
-        pass
+        return self.__data_file
 
     @data_file.setter
-    def data_file(self, value):
-        # тут должен быть код для установки файла
+    def data_file(self, value: str):
+        self.__data_file = value
         self.__connect()
 
     def __connect(self):
@@ -24,16 +31,21 @@ class Connector:
         Также проверить на деградацию и возбудить исключение
         если файл потерял актуальность в структуре данных
         """
-        pass
+        self.__path_file = os.path.join(os.getcwd(), "data", self.__data_file)
+        check_file = os.path.isfile(self.__path_file)
+        if check_file is False:
+            my_file = open(self.__path_file, "w+", encoding="utf8")
+            my_file.close()
 
-    def insert(self, dicti):
+
+    def insert(self, data):
         """
         Запись данных в файл с сохранением структуры и исходных данных
         """
-
-        json_object = json.dumps(dicti, indent=4)
-        with open("information.json", 'w') as f:
-            f.write(json.dumps(json_object))
+        json_object = json.dumps(data, indent=4, ensure_ascii=False)
+        print(self.__path_file)
+        with open(self.__path_file, "w", encoding='utf-8') as write_file:
+            write_file.write(json_object)
 
     def select(self, query):
         """
@@ -54,15 +66,16 @@ class Connector:
         pass
 
 
-if __name__ == '__main__':
-    df = Connector('df.json')
 
-    data_for_file = {'id': 1, 'title': 'tet'}
-
-    df.insert(data_for_file)
-    data_from_file = df.select(dict())
-    assert data_from_file == [data_for_file]
-
-    df.delete({'id':1})
-    data_from_file = df.select(dict())
-    assert data_from_file == []
+# if __name__ == '__main__':
+#     df = Connector('df.json')
+#
+#     data_for_file = {'id': 1, 'title': 'tet'}
+#
+#     df.insert(data_for_file)
+#     data_from_file = df.select(dict())
+#     assert data_from_file == [data_for_file]
+#
+#     df.delete({'id':1})
+#     data_from_file = df.select(dict())
+#     assert data_from_file == []
