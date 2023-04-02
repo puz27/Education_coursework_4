@@ -6,11 +6,17 @@ import json
 import os
 
 
-# x = HH(requests_params_hh("python"))
-# x.get_request(requests_params_hh("python"))
-# print(x.vacancies)
-# for i in x.vacancies:
-#     print(i)
+x = HH()
+x.get_request("python")
+z = 0
+eee = x.vacancies
+for i in x.vacancies:
+    z += 1
+print(z)
+con = Connector("information.json")
+con.insert(eee)
+
+
 #     temp = HHVacancy(i[0], i[1], i[2], i[3], i[4], i[5], i[6], i[7])
 #     print(temp.__dict__)
 #
@@ -24,15 +30,13 @@ import os
 #
 #     print(temp.__dict__)
 
-# y = SJ(superjob_api_key, requests_params_sj("python"))
-# y.get_request(requests_params_sj("python"))
+# y = SJ(superjob_api_key)
+# y.get_request("python")
 # eee = y.vacancies
-# print(eee)
-#
-tes = Connector("information.json")
-
-
-query = {"link": "https://www.superjob.ru/vakansii/razrabotchik-po-45548247.html"}
-tes.delete(query)
-print(tes.data_file)
+# z = 0
+# for i in eee:
+#     z += 1
+# print(z)
+# con = Connector("information.json")
+# con.insert(eee)
 

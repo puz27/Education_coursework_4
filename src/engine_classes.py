@@ -17,77 +17,116 @@ class Engine(ABC):
 class HH(Engine):
     """Class for work with HeadHunter"""
 
-    def __init__(self, params: str) -> None:
+    def __init__(self) -> None:
         self.__vacancies = []
-        self.__params = params
+
 
     @property
     def vacancies(self):
         return self.__vacancies
 
-    def get_request(self, params: dict) -> None or str:
+    def get_request(self, keywords: str) -> None or str:
         """Return request"""
         url_head_hunter = "https://api.hh.ru/vacancies"
-        response = requests.get(url_head_hunter, params=params)
-        if response.status_code == 200:
-            vacancies = response.json()["items"]
-            for vacancy in vacancies:
+        page_number = 0
+        all_pages = 1
 
-                id = vacancy["id"]
-                url_id_request = "https://api.hh.ru/vacancies/" + id
-                vacancy_id_response = requests.get(url_id_request)
+        #while page_number < all_pages:
+        while page_number < 2:
 
-                # self.__vacancies.append((vacancy["name"], vacancy["url"], vacancy["snippet"]["responsibility"],
-                #                          vacancy["area"], vacancy["employer"], vacancy["snippet"]["requirement"],
-                #                          vacancy["salary"], vacancy_id_response.json()["experience"]))
+            params = {
+                "text": keywords,
+                "per_page": 100,
+                "page": page_number,
+                        }
 
-                self.__vacancies.append({"name": vacancy["name"],
-                                         "url": vacancy["url"],
-                                         "responsibility": vacancy["snippet"]["responsibility"],
-                                         "area": vacancy["area"],
-                                         "employer": vacancy["employer"],
-                                         "requirement": vacancy["snippet"]["requirement"],
-                                         "salary": vacancy["salary"],
-                                         "experience": vacancy_id_response.json()["experience"]
-                                         })
-        else:
-            return "Error:", response.status_code
+            response = requests.get(url_head_hunter, params=params)
 
+            print("PAGE:", response.json()["page"])
+
+            if response.status_code == 200:
+
+                vacancies = response.json()["items"]
+                for vacancy in vacancies:
+
+                    # данные по experience тянем через этот запрос
+
+                    # id = vacancy["id"]
+                    # url_id_request = "https://api.hh.ru/vacancies/" + id
+                    # vacancy_id_response = requests.get(url_id_request)
+
+                    #обработка данных по заработной плате
+                    if vacancy["salary"] != None:
+                        salary_from = vacancy["salary"]["from"]
+                        salary_to = vacancy["salary"]["to"]
+                    else:
+                        salary_from = 0
+                        salary_to = 0
+
+                    # получаем всю информацию по запросу
+
+                    self.__vacancies.append({"name": vacancy["name"],
+                                             "url": vacancy["url"],
+                                             "responsibility": vacancy["snippet"]["responsibility"],
+                                             "town": vacancy["area"]["name"],
+                                             "employer": vacancy["employer"]["name"],
+                                             "requirement": vacancy["snippet"]["requirement"],
+                                             "salary_from": salary_from,
+                                             "salary_to": salary_to,
+                                             #"experience": vacancy_id_response.json()["experience"]["id"]
+                                             })
+            else:
+                return "Error:", response.status_code
+
+            #all_pages = response.json()["pages"]
+            all_pages = 1
+            page_number += 1
 
 
 class SJ(Engine):
     """Class for work with SuperJob """
 
-    def __init__(self, api_key: str, params: dict) -> None:
+    def __init__(self, api_key: str) -> None:
         self.__vacancies = []
-        self.__params = params
         self.__api_key = api_key
+        #количество результатов на странице
+
 
     @property
     def vacancies(self):
         return self.__vacancies
 
-    def get_request(self, params: dict) -> None or str:
+    def get_request(self, keywords: str) -> None or str:
         url_super_job = "https://api.superjob.ru/2.0/vacancies/"
         headers = {'X-Api-App-Id': self.__api_key}
-        response = requests.get(url_super_job, headers=headers, params=params)
-        if response.status_code == 200:
-            vacancies = response.json()["objects"]
-            for vacancy in vacancies:
-                # self.__vacancies.append((vacancy["profession"], vacancy["link"], vacancy["candidat"],
-                # vacancy["town"],vacancy["work"], vacancy["payment_from"],
-                #                          vacancy["payment_to"], vacancy["experience"]))
-                self.__vacancies.append({"profession": vacancy["profession"],
-                                      "link": vacancy["link"],
-                                       "candidat": vacancy["candidat"],
-                                       "town": vacancy["town"],
-                                       "work": vacancy["work"],
-                                       "payment_from": vacancy["payment_from"],
-                                       "payment_to": vacancy["payment_to"],
-                                       "experience": vacancy["experience"]
-                                      })
+        page_number = 1
+        response_page = True
 
+        while response_page:
 
-        else:
-            return "Error:", response.status_code
+            params = {"keywords": keywords,
+                      "count": 100,
+                      "page": page_number,
+                      }
 
+            response = requests.get(url_super_job, headers=headers, params=params)
+            if response.status_code == 200:
+                vacancies = response.json()["objects"]
+
+                for vacancy in vacancies:
+                    self.__vacancies.append({"name": vacancy["profession"],
+                                             "url": vacancy["link"],
+                                             "responsibility": vacancy["candidat"],
+                                             "town": vacancy["town"]["title"],
+                                             "employer": vacancy["firm_name"],
+                                             "requirement": vacancy["work"],
+                                             "salary_from": vacancy["payment_from"],
+                                             "salary_to": vacancy["payment_to"],
+                                             #"experience": vacancy["experience"]["id"]
+                                             })
+
+            else:
+                return "Error:", response.status_code
+
+            response_page = response.json()["more"]
+            page_number += 1
