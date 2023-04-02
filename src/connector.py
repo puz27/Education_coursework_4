@@ -59,12 +59,16 @@ class Connector:
         with open(self.__path_file, "r", encoding='utf-8') as read_file:
             datas = json.load(read_file)
 
-        # Поиск данных в списке словарей по ключу
-        for data in datas:
-            search_key = data.get(*query, None)
-            if search_key is not None:
-                if search_key == list(query.values())[0]:
-                    data_filter.append(data)
+        if query == {"*": "*"}:
+            for data in datas:
+                data_filter.append(data)
+        else:
+            # Поиск данных в списке словарей по ключу
+            for data in datas:
+                search_key = data.get(*query, None)
+                if search_key is not None:
+                    if search_key == list(query.values())[0]:
+                        data_filter.append(data)
         return data_filter
 
     def delete(self, query: dict) -> None:

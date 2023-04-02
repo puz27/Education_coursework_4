@@ -5,16 +5,16 @@ from src.jobs_classes import Vacancy
 import json
 import os
 
-
-x = HH()
-x.get_request("python")
-z = 0
-eee = x.vacancies
-for i in x.vacancies:
-    z += 1
-print(z)
-con = Connector("information.json")
-con.insert(eee)
+#
+# x = HH()
+# x.get_request("python")
+# z = 0
+# eee = x.vacancies
+# for i in x.vacancies:
+#     z += 1
+# print(z)
+# con = Connector("information.json")
+# con.insert(eee)
 
 
 #     temp = HHVacancy(i[0], i[1], i[2], i[3], i[4], i[5], i[6], i[7])
@@ -33,10 +33,16 @@ con.insert(eee)
 # y = SJ(superjob_api_key)
 # y.get_request("python")
 # eee = y.vacancies
-# z = 0
-# for i in eee:
-#     z += 1
-# print(z)
+s = Connector("information.json")
+d = s.select({"*": "*"})
+for i in d:
+    print(i)
+    sj =SJ(i)
+    print(sj)
+
+#
 # con = Connector("information.json")
 # con.insert(eee)
-
+#
+# temp = HHVacancy(i[0], i[1], i[2], i[3], i[4], i[5], i[6], i[7])
+# print(temp.__dict__)

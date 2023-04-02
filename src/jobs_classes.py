@@ -1,20 +1,21 @@
 class Vacancy:
     # __slots__ = ...
 
-    #def __init__(self, *args):
-    def __init__(self, name: str, url: str, description: str, area: str, employer: str, experience: str):
-        self.__name = name
-        self.__url = url
-        self.__description = description
-        self.__area = area
-        self.__employer = employer
-        self.__experience = experience
+    def __init__(self, *args):
+        self.__name = args[0]
+        self.__url = args[1]
+        self.__responsibility = args[2]
+        self.__town = args[3]
+        self.__employer = args[4]
+        self.__requirement = args[5]
+        self.__salary_from = args[6]
+        self.__salary_to = args[7]
+        self.__expierence = args[7]
+
 
     def __str__(self):
-        return f'Наименование:{self.__name} Ссылка:{self.__url} Описание:{self.__description} ' \
-               f'Город:{self.__area} Компания:{self.__employer}'
-
-
+        return f'Наименование:{self.__name} Ссылка:{self.__url} Описание:{self.__responsibility}' \
+               f'Город:{self.__town} Компания:{self.__employer}'
 
     # def __repr__(self):
     #     return f"Название вакансии: {self.__name}\nСсылка на вакансию: {self.__url}\n"
@@ -34,11 +35,11 @@ class CountMixin:
 
 class HHVacancy(Vacancy):  # add counter mixin
     """ HeadHunter Vacancy """
-    def __init__(self, name: str, url: str, description: str, area: str, employer: str,
-                 requirement: str, salary: str, experience: str):
-        super().__init__(name, url, description, area, employer, experience)
-        self.__requirement = requirement
-        self.__salary = salary
+    # def __init__(self, name: str, url: str, description: str, area: str, employer: str,
+    #              requirement: str, salary: str, experience: str):
+
+    def __init__(self, *args):
+        super().__init__(*args)
 
 
     # def __str__(self):
@@ -47,14 +48,12 @@ class HHVacancy(Vacancy):  # add counter mixin
 
 class SJVacancy(Vacancy):  # add counter mixin
     """ SuperJob Vacancy """
-    def __init__(self, name: str, url: str, description: str, town: str, employer: str,
-                 salary_from: str, salary_to: str, experience: str):
-        super().__init__(name, url, description, town, employer, experience)
-        self.__salary_from = salary_from
-        self.__salary_to = salary_to
+
+    def __init__(self, *args):
+        super().__init__(*args)
 
     def __str__(self):
-        return f'SJ: {self.comany_name}, зарплата: {self.salary} руб/мес'
+        return f'SJ: {self.__employer}, зарплата: {self.__salary_from} руб/мес'
 
 
 def sorting(vacancies):
