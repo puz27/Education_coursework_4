@@ -42,8 +42,6 @@ class HH(Engine):
 
             response = requests.get(url_head_hunter, params=params)
 
-            print("PAGE:", response.json()["page"])
-
             if response.status_code == 200:
 
                 vacancies = response.json()["items"]
@@ -106,7 +104,6 @@ class SJ(Engine):
 
             params = {"keywords": keywords,
                       "count": 100,
-                      #"page": page_number,
                       "page": page_number,
                       }
 
