@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 import requests
-from src.jobs_classes import *
 
 class Engine(ABC):
 
@@ -20,13 +19,13 @@ class HH(Engine):
     def __init__(self) -> None:
         self.__vacancies = []
 
-
     @property
     def vacancies(self):
         return self.__vacancies
 
     def get_request(self, keywords: str) -> None or str:
         """Return request"""
+        print("Делаем запрос с HEAD HUNTER")
         url_head_hunter = "https://api.hh.ru/vacancies"
         page_number = 0
         all_pages = 1
@@ -89,12 +88,12 @@ class SJ(Engine):
         self.__api_key = api_key
         #количество результатов на странице
 
-
     @property
     def vacancies(self):
         return self.__vacancies
 
     def get_request(self, keywords: str) -> None or str:
+        print("Делаем запрос с SUPER JOB")
         url_super_job = "https://api.superjob.ru/2.0/vacancies/"
         headers = {'X-Api-App-Id': self.__api_key}
         page_number = 1

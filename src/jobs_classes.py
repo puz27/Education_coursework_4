@@ -55,15 +55,3 @@ class SJVacancy(Vacancy):  # add counter mixin
     def __str__(self):
         return f"Данные с SuperJob\n{super().__str__()}\n"
 
-
-    # def __iter__(self):
-    #     self.x = 1
-    #     return self.__salary_to
-    #
-    # def __next__(self):
-    #     x = self.x
-    #     if x > self.limit:
-    #         raise StopIteration
-    #     else:
-    #         self.x = x + 1
-    #     return x

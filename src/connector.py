@@ -37,6 +37,7 @@ class Connector:
         if check_file is False:
             my_file = open(self.__path_file, "w+", encoding="utf8")
             my_file.close()
+            print(f"Файл {self.__data_file} для хранения данных создан.")
 
     def insert(self, data: str) -> None:
         """
@@ -45,6 +46,7 @@ class Connector:
         json_object = json.dumps(data, indent=4, ensure_ascii=False)
         with open(self.__path_file, "w", encoding='utf-8') as write_file:
             write_file.write(json_object)
+            print(f"Заносим данные в файл {self.__data_file}.")
 
     def select(self, query: dict) -> list:
         """
@@ -58,7 +60,7 @@ class Connector:
         data_filter = []
         with open(self.__path_file, "r", encoding='utf-8') as read_file:
             datas = json.load(read_file)
-
+            print(datas)
         if query == {"*": "*"}:
             for data in datas:
                 data_filter.append(data)
@@ -95,16 +97,16 @@ class Connector:
         with open(self.__path_file, "w", encoding='utf-8') as write_file:
             write_file.write(json_object)
 
+    def __len__(self):
+        return len(self.select({"*": "*"}))
 
-# if __name__ == '__main__':
-#     df = Connector('df.json')
-#
-#     data_for_file = {'id': 1, 'title': 'tet'}
-#
-#     df.insert(data_for_file)
-#     data_from_file = df.select(dict())
-#     assert data_from_file == [data_for_file]
-#
-#     df.delete({'id':1})
-#     data_from_file = df.select(dict())
-#     assert data_from_file == []
+    def validate(self):
+        try:
+            with open(self.__path_file, "r", encoding='utf-8') as read_file:
+                json.load(read_file)
+        except ValueError:
+            print("! Файл для обработки неверного формата, либо пустой !\n")
+        return False
+
+
+
