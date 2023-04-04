@@ -68,8 +68,8 @@ class HH(Engine):
                                              "town": vacancy["area"]["name"],
                                              "employer": vacancy["employer"]["name"],
                                              "requirement": vacancy["snippet"]["requirement"],
-                                             "salary_from": salary_from,
-                                             "salary_to": salary_to,
+                                             "salary_from": str(salary_from),
+                                             "salary_to": str(salary_to),
                                              #"experience": vacancy_id_response.json()["experience"]["id"]
                                              })
             else:
@@ -117,8 +117,8 @@ class SJ(Engine):
                                              "town": vacancy["town"]["title"],
                                              "employer": vacancy["firm_name"],
                                              "requirement": vacancy["work"],
-                                             "salary_from": vacancy["payment_from"],
-                                             "salary_to": vacancy["payment_to"],
+                                             "salary_from": str(vacancy["payment_from"]),
+                                             "salary_to": str(vacancy["payment_to"]),
                                              #"experience": vacancy["experience"]["id"]
                                              })
 

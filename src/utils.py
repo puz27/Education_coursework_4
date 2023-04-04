@@ -1,75 +1,49 @@
-import requests
 
-
-# def requests_params_hh(name_vacancie: str, one_page_count: int = 3, all_page_count: int = 10):
-#     params = {
-#         "text": name_vacancie,
-#         "per_page": one_page_count,
-#         "page": all_page_count,
-#
-#     }
-#     return params
-
-
-# def get_vacancies_hh(params: dict):
-#     """
-#     При указании параметров пагинации (page, per_page) работает ограничение: глубина возвращаемых результатов не может быть больше 2000.
-#     Например, возможен запрос per_page=10&page=199 (выдача с 1991 по 2000 вакансию),
-#     но запрос с per_page=10&page=200 вернёт ошибку (выдача с 2001 по 2010 вакансию)
-#     :param params:
-#     :return:
-#     """
-#     url_head_hunter = "https://api.hh.ru/vacancies"
-#     response = requests.get(url_head_hunter, params=params)
-#     final_information = []
-#     if response.status_code == 200:
-#         vacancies = response.json()["items"]
-#         for vacancy in vacancies:
-#             final_information.append((vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]))
-#         return final_information
-#             #print(vacancy["name"], vacancy["url"], vacancy["area"]["name"], vacancy["snippet"]) # ,vacancy["salary"]["from"], vacancy["salary"]["to"] доделать проверку на ЗП
-#
-#     else:
-#         return "Error:", response.status_code
-
-#
-# def requests_params_sj(name_vacancie: str, one_page_count: int = 10, all_page_count: int = 3):
-#     params = {"keywords": name_vacancie,
-#               "count": one_page_count,
-#               "page": all_page_count
-#               }
-#     return params
-
-
-# def get_vacancies_sj(api_key: str, params: dict):
-#     """
-#     Прежде чем начать использовать API, необходимо зарегистрироваться и получить токен для работы,
-#     более подробная инструкция описана по ссылке описания документации в разделе Getting started
-#     :param api_key:
-#     :param params:
-#     :return:
-#     """
-#     url_super_job = "https://api.superjob.ru/2.0/vacancies/"
-#     headers = {'X-Api-App-Id': api_key}
-#     response = requests.get(url_super_job, headers=headers, params=params)
-#     final_information = []
-#     if response.status_code == 200:
-#         vacancies = response.json()["objects"]
-#         for vacancy in vacancies:
-#             final_information.append((vacancy["profession"], vacancy["profession"], vacancy["link"],
-#                                       vacancy["payment_from"], vacancy["payment_to"], vacancy["town"]["title"]))
-#
-#         return final_information
-#     else:
-#         return "Error:", response.status_code
-
-
-# request to superjob
 superjob_api_key = "v3.r.137436720.8c7f8aba97fa695bc8eb530e248876d05b91ac49.93eb1ab45d1127728b93d412484a5f08ae09f2c8"
+user_questions = [
+    {
+        " 1.Запросить данные с сайта HEAD HUNTER\n": "1",
+        "2.Запросить данные с сайта SUPER JOB\n": "2",
+        "3.Работа с файлом\n": "3",
+        "4.Работа с вакансиями\n": "4",
+        "5.Завершить обработку": "5"
+     },
+    {
+        " 1.Выбор данных их файла\n": "1",
+        "2.Удаление данных их файла\n": "2",
+        "3.Выйти в команды верхнего меню\n": "3"
+     },
+    {
+         " 1.Вывести произвольное количество вакансий из файла\n": "1",
+         "2.Вывести самые высокооплачиваемые вакансии\n": "2",
+         "3.Глубокий поиск по вакансиям\n": "3",
+         "4.Выйти в команды верхнего меню\n": "4"
+     },
+    {
+        "! Введите корректную команду !\n": "1"
+    }
 
-# for i in get_vacancies_sj(superjob_api_key, requests_params_sj("python")):
-#     print(i)
+]
 
-# for i in get_vacancies_hh(requests_params_hh("python")):
-#     print(i)
+user_search = {
+    " 1.Поле:'name'          - название вакансии\n": "1",
+    "2.Поле:'url'          - ссылка на вакансию\n": "2",
+    "3.Поле:'responsibility'         - описание \n": "3",
+    "4.Поле:'town'                      - город\n": "4",
+    "5.Поле:'employer'   - название организации\n": "5",
+    "6.Поле:'requirement'          - требования\n": "6",
+    "7.Поле:'salary_from'               - ЗП от\n": "7",
+    "8.Поле:'salary_to'                 - ЗП до\n": "8",
+    }
+
+user_search_answers = {
+    "1": "name",
+    "2": "url",
+    "3": "responsibility",
+    "4": "town",
+    "5": "employer",
+    "6": "requirement",
+    "7": "salary_from",
+    "8": "salary_to"
+    }
 

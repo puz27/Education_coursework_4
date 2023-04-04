@@ -37,7 +37,7 @@ class Connector:
         if check_file is False:
             my_file = open(self.__path_file, "w+", encoding="utf8")
             my_file.close()
-            print(f"Файл {self.__data_file} для хранения данных создан.")
+            print(f"Файл {self.__data_file} для хранения данных создан.\n")
 
     def insert(self, data: str) -> None:
         """
@@ -48,7 +48,7 @@ class Connector:
             write_file.write(json_object)
             print(f"Заносим данные в файл {self.__data_file}.")
 
-    def select(self, query: dict) -> list:
+    def select(self, query: dict) -> list or str:
         """
         Выбор данных из файла с применением фильтрации
         query содержит словарь, в котором ключ это поле для
@@ -60,7 +60,7 @@ class Connector:
         data_filter = []
         with open(self.__path_file, "r", encoding='utf-8') as read_file:
             datas = json.load(read_file)
-            print(datas)
+
         if query == {"*": "*"}:
             for data in datas:
                 data_filter.append(data)
@@ -71,9 +71,13 @@ class Connector:
                 if search_key is not None:
                     if search_key == list(query.values())[0]:
                         data_filter.append(data)
-        return data_filter
 
-    def delete(self, query: dict) -> None:
+        if len(data_filter) == 0:
+            return f"Данные не найдены"
+        else:
+            return data_filter
+
+    def delete(self, query: dict) -> int:
         """
         Удаление записей из файла, которые соответствуют запрос,
         как в методе select. Если в query передан пустой словарь, то
@@ -84,21 +88,22 @@ class Connector:
         # Счытывает информацию из файла
         with open(self.__path_file, "r", encoding='utf-8') as read_file:
             datas = json.load(read_file)
-
+        deleted_counts = 0
         # Поиск данных в списке словарей по ключу и удаление
         for data in datas:
             search_key = data.get(*query, None)
             if search_key is not None:
                 if search_key != list(query.values())[0]:
                     data_not_delete.append(data)
+                else:
+                    deleted_counts += 1
 
         # Запись информации в файл
         json_object = json.dumps(data_not_delete, indent=4, ensure_ascii=False)
         with open(self.__path_file, "w", encoding='utf-8') as write_file:
             write_file.write(json_object)
 
-    def __len__(self):
-        return len(self.select({"*": "*"}))
+        return deleted_counts
 
     def validate(self):
         try:
@@ -106,7 +111,5 @@ class Connector:
                 json.load(read_file)
         except ValueError:
             print("! Файл для обработки неверного формата, либо пустой !\n")
-        return False
-
-
-
+            return False
+        return True
