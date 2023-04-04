@@ -52,20 +52,8 @@ class Vacancy:
         return int(self.salary_to) <= int(other.salary_to)
 
 
-class CountMixin:
-
-    @property
-    def get_count_of_vacancy(self):
-        """
-        Вернуть количество вакансий от текущего сервиса.
-        Получать количество необходимо динамически из файла.
-        """
-        pass
-
-
-class HHVacancy(Vacancy):  # add counter mixin
+class HHVacancy(Vacancy):
     """ HeadHunter Vacancy """
-
     def __str__(self):
         return f"Данные с HeadHunter\n{super().__str__()}\n"
 
@@ -75,4 +63,3 @@ class SJVacancy(Vacancy):  # add counter mixin
 
     def __str__(self):
         return f"Данные с SuperJob\n{super().__str__()}\n"
-

@@ -1,5 +1,5 @@
-
 superjob_api_key = "v3.r.137436720.8c7f8aba97fa695bc8eb530e248876d05b91ac49.93eb1ab45d1127728b93d412484a5f08ae09f2c8"
+
 # Вопросы для меню
 user_questions = [
     {
@@ -63,4 +63,3 @@ user_search_answers_vacancies = {
     "4": "employer",
     "5": "requirement",
     }
-
