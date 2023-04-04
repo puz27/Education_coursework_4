@@ -19,18 +19,30 @@ while True:
 
     # Запросить данные с сайта HEAD HUNTER
     if user_answer == user_questions[0][" 1.Запросить данные с сайта HEAD HUNTER\n"]:
+        search_filter = input("Введите слово поиска для вакансии\n").lower()
         head_hunter = HH()
-        head_hunter.get_request("python")
-        head_hunter_connector = Connector("information.json")
-        head_hunter_connector.insert(head_hunter.vacancies)
+        head_hunter.get_request(search_filter)
+        respond = head_hunter.vacancies
+
+        if respond:
+            head_hunter_connector = Connector("information.json")
+            head_hunter_connector.insert(head_hunter.vacancies)
+        else:
+            print("Введен некорректный запрос\n")
 
     # Запросить данные с сайта SUPER JOB
     elif user_answer == user_questions[0]["2.Запросить данные с сайта SUPER JOB\n"]:
+        search_filter = input("Введите слово поиска для вакансии\n")
         sj_api_key = "v3.r.137436720.8c7f8aba97fa695bc8eb530e248876d05b91ac49.93eb1ab45d1127728b93d412484a5f08ae09f2c8"
         super_job = SJ(sj_api_key)
-        super_job.get_request("python")
-        super_job_connector = Connector("information.json")
-        super_job_connector.insert(super_job.vacancies)
+        super_job.get_request(search_filter)
+        respond = super_job.vacancies
+
+        if respond:
+            super_job_connector = Connector("information.json")
+            super_job_connector.insert(super_job.vacancies)
+        else:
+            print("Введен некорректный запрос\n")
 
     # Работа с файлом
     elif user_answer == user_questions[0]["3.Работа с файлом\n"]:

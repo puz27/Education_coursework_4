@@ -17,7 +17,7 @@
         "employer": "Радиум",
         "requirement": "Хорошее знание языка программирования <highlighttext>Python</highlighttext>. Знание SQL (PostgreSQL) на среднем уровне. Навык самостоятельного поиска информации и готовых решений. ",
         "salary_from": "50000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
         "name": "Разработчик Python",
@@ -47,7 +47,7 @@
         "employer": "ФинТех",
         "requirement": "Уверенное знание <highlighttext>Python</highlighttext> 3. Уверенное знание ОС GNU/Linux. Опыт работы в команде (git). Опыт работы с SQLAlchemy. ",
         "salary_from": "150000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
         "name": "Python разработчик",
@@ -67,7 +67,7 @@
         "employer": "X-LAB",
         "requirement": "Опыт коммерческой разработки от 3 лет. Уровень не ниже сильного middle или senior. Коммерческий опыт работы с асинхронными фреймворками. ",
         "salary_from": "150000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
         "name": "Python Backend Developer / WEB - разработчик",
@@ -96,7 +96,7 @@
         "town": "Москва",
         "employer": "getmatch",
         "requirement": "...коммерческого опыта на <highlighttext>Python</highlighttext> – для позиции middle, от 3-4 лет для позиции Senior + есть роль <highlighttext>Python</highlighttext> Lead. ",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "450000"
     },
     {
@@ -150,16 +150,6 @@
         "salary_to": "360000"
     },
     {
-        "name": "Python разработчик",
-        "url": "https://api.hh.ru/vacancies/78016944?host=hh.ru",
-        "responsibility": "Разработка web-проектов на Flask, Django. Разработка парсеров, чат-ботов.",
-        "town": "Брянск",
-        "employer": "Kvando Technologies",
-        "requirement": "Уверенное знание <highlighttext>Python</highlighttext>. Умение писать читабельный и оптимальный код. Понимание принципов ООП. Знание основных паттернов программирования. Будет плюсом, если есть...",
-        "salary_from": "25000",
-        "salary_to": "None"
-    },
-    {
         "name": "Программист Python",
         "url": "https://api.hh.ru/vacancies/77956088?host=hh.ru",
         "responsibility": "Поддержка проекта программы лояльности покупателей. Доработка/ апгрейд действующего функционала программы. Ведение отчетности по запросу пользователей.",
@@ -168,6 +158,16 @@
         "requirement": "Уверенный пользователь языка <highlighttext>Python</highlighttext>. Приветствуется знание Django Framework, PostqreSQL. Коммуникабельность, активность.",
         "salary_from": "100000",
         "salary_to": "100000"
+    },
+    {
+        "name": "Python разработчик",
+        "url": "https://api.hh.ru/vacancies/78016944?host=hh.ru",
+        "responsibility": "Разработка web-проектов на Flask, Django. Разработка парсеров, чат-ботов.",
+        "town": "Брянск",
+        "employer": "Kvando Technologies",
+        "requirement": "Уверенное знание <highlighttext>Python</highlighttext>. Умение писать читабельный и оптимальный код. Понимание принципов ООП. Знание основных паттернов программирования. Будет плюсом, если есть...",
+        "salary_from": "25000",
+        "salary_to": "0"
     },
     {
         "name": "Программист Python (Django)",
@@ -180,16 +180,6 @@
         "salary_to": "180000"
     },
     {
-        "name": "Ведущий Python разработчик (удаленно)",
-        "url": "https://api.hh.ru/vacancies/78106381?host=hh.ru",
-        "responsibility": "Разрабатывать пайплайн для обработки большого количества исторических/риалтайм данных (100+ гигабайт). Пайплайн находит индикаторы будущих атак и считает десятки...",
-        "town": "Москва",
-        "employer": "Apostro",
-        "requirement": "Знание <highlighttext>Python</highlighttext>, Django и основных сопутствующих библиотек и фреймворков. Практический опыт работы построения пайплайнов для обработки больших объемов данных в...",
-        "salary_from": "None",
-        "salary_to": "8000"
-    },
-    {
         "name": "Наставник курсов по Python разработке",
         "url": "https://api.hh.ru/vacancies/76767074?host=hh.ru",
         "responsibility": "Проверяет домашние задания студентов по чек-листу в рамках 24 часов. Дает подробную развивающую обратную связь. Проверяет курсовые работы учеников...",
@@ -198,6 +188,16 @@
         "requirement": "Есть опыт работы <highlighttext>Python</highlighttext> разработчиком. Есть опыт работы с фреймворками Django и Flask. Есть опыт работы на Linux и с...",
         "salary_from": "60000",
         "salary_to": "100000"
+    },
+    {
+        "name": "Ведущий Python разработчик (удаленно)",
+        "url": "https://api.hh.ru/vacancies/78106381?host=hh.ru",
+        "responsibility": "Разрабатывать пайплайн для обработки большого количества исторических/риалтайм данных (100+ гигабайт). Пайплайн находит индикаторы будущих атак и считает десятки...",
+        "town": "Москва",
+        "employer": "Apostro",
+        "requirement": "Знание <highlighttext>Python</highlighttext>, Django и основных сопутствующих библиотек и фреймворков. Практический опыт работы построения пайплайнов для обработки больших объемов данных в...",
+        "salary_from": "0",
+        "salary_to": "8000"
     },
     {
         "name": "Back-end-разработчик Python (Django)",
@@ -210,16 +210,6 @@
         "salary_to": "140000"
     },
     {
-        "name": "Senior Python+Go developer",
-        "url": "https://api.hh.ru/vacancies/78768435?host=hh.ru",
-        "responsibility": "Поиск и реализация наиболее оптимальных решений задач бизнеса в рамках разработки приложения. Ожидаем от кандидата инициатив и их реализации по...",
-        "town": "Москва",
-        "employer": "Reputation House",
-        "requirement": "Плюсом является умение работы по принципам DDD. <highlighttext>Python</highlighttext> (не менее 3 лет опыта работы с языком). Go (не менее 2...",
-        "salary_from": "300000",
-        "salary_to": "350000"
-    },
-    {
         "name": "Python-разработчик",
         "url": "https://api.hh.ru/vacancies/75914254?host=hh.ru",
         "responsibility": "Разрабатывать бэк-энд части приложений на <highlighttext>Python</highlighttext> Django, интегрированными между собой и с внешними сервисами. Разрабатывать системы на PostgreSQL. ",
@@ -230,14 +220,14 @@
         "salary_to": "0"
     },
     {
-        "name": "Python developer (Senior)",
-        "url": "https://api.hh.ru/vacancies/78661418?host=hh.ru",
-        "responsibility": "Разработкой архитектуры, поддержкой, развитием и оптимизацией проектов. Проектированием и развитием архитектуры баз данных. Разработкой новой функциональности и улучшением имеющейся. ",
-        "town": "Санкт-Петербург",
-        "employer": "Вайт Код",
-        "requirement": "Навыки, которые необходимы: Отличные знания <highlighttext>Python</highlighttext>. Разнообразный опыт работы с asyncio, aiohttp. Большой опыт разработки высоконагруженных и распределенных систем. ",
-        "salary_from": "360000",
-        "salary_to": "480000"
+        "name": "Senior Python+Go developer",
+        "url": "https://api.hh.ru/vacancies/78768435?host=hh.ru",
+        "responsibility": "Поиск и реализация наиболее оптимальных решений задач бизнеса в рамках разработки приложения. Ожидаем от кандидата инициатив и их реализации по...",
+        "town": "Москва",
+        "employer": "Reputation House",
+        "requirement": "Плюсом является умение работы по принципам DDD. <highlighttext>Python</highlighttext> (не менее 3 лет опыта работы с языком). Go (не менее 2...",
+        "salary_from": "300000",
+        "salary_to": "350000"
     },
     {
         "name": "Senior Python Developer",
@@ -246,7 +236,7 @@
         "town": "Москва",
         "employer": "Progressive Mind",
         "requirement": "Опыт коммерческой разработки от 3 и более лет. Опыт работы с данными и алгоритмами. Опыт работы с NLP, ML. ",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "7000"
     },
     {
@@ -256,7 +246,7 @@
         "town": "Минск",
         "employer": "Aston",
         "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 4-х лет. Опыт разработки на AIOHTTP/ FastAPI/Sanic от 2-х лет. ",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "340000"
     },
     {
@@ -280,6 +270,16 @@
         "salary_to": "2000"
     },
     {
+        "name": "Специалист по анализу данных (Data Scientist)",
+        "url": "https://api.hh.ru/vacancies/78845024?host=hh.ru",
+        "responsibility": null,
+        "town": "Астана",
+        "employer": "ITbyDesign (АйТибайДизайн)",
+        "requirement": "Знание основных алгоритмов классификации, регрессии и кластеризации. Опыт работы с языком программирования <highlighttext>Python</highlighttext> и соответствующими библиотеками для анализа данных. ",
+        "salary_from": "600000",
+        "salary_to": "0"
+    },
+    {
         "name": "Программист Python",
         "url": "https://api.hh.ru/vacancies/78452335?host=hh.ru",
         "responsibility": "Уверенное знание базовых технологий: js, css, html. Разработка API. Написание модулей сбора и обработки данных. Участие в проектировании архитектуры разрабатываемых...",
@@ -290,14 +290,14 @@
         "salary_to": "0"
     },
     {
-        "name": "Специалист по анализу данных (Data Scientist)",
-        "url": "https://api.hh.ru/vacancies/78845024?host=hh.ru",
-        "responsibility": null,
-        "town": "Астана",
-        "employer": "ITbyDesign (АйТибайДизайн)",
-        "requirement": "Знание основных алгоритмов классификации, регрессии и кластеризации. Опыт работы с языком программирования <highlighttext>Python</highlighttext> и соответствующими библиотеками для анализа данных. ",
-        "salary_from": "600000",
-        "salary_to": "None"
+        "name": "Python developer (Senior)",
+        "url": "https://api.hh.ru/vacancies/78661418?host=hh.ru",
+        "responsibility": "Разработкой архитектуры, поддержкой, развитием и оптимизацией проектов. Проектированием и развитием архитектуры баз данных. Разработкой новой функциональности и улучшением имеющейся. ",
+        "town": "Санкт-Петербург",
+        "employer": "Вайт Код",
+        "requirement": "Навыки, которые необходимы: Отличные знания <highlighttext>Python</highlighttext>. Разнообразный опыт работы с asyncio, aiohttp. Большой опыт разработки высоконагруженных и распределенных систем. ",
+        "salary_from": "360000",
+        "salary_to": "480000"
     },
     {
         "name": "Trainee Python Developer",
@@ -317,26 +317,6 @@
         "employer": "Эстимал",
         "requirement": "Большим преимуществом будет если вы full stack (<highlighttext>python</highlighttext> backend и angular/vue front) со значительным пересмотром з.п. ",
         "salary_from": "120000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Data scientist / Python разработчик",
-        "url": "https://api.hh.ru/vacancies/78867877?host=hh.ru",
-        "responsibility": "Работать с базами данных. Программировать на <highlighttext>Python</highlighttext>. Работать с API.",
-        "town": "Рязань",
-        "employer": "Пауэр Тех",
-        "requirement": "Ключевые навыки: <highlighttext>Python</highlighttext>, SQL. Опыт работы с БД (MongoDB, PosgreSQL, Clickhouse). Знание английского языка, умение выразить и написать свою мысль.",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Data Scientist / Python разработчик",
-        "url": "https://api.hh.ru/vacancies/78771412?host=hh.ru",
-        "responsibility": "Мы предоставляем услуги web-разработки, мобильной разработки, десктопной разработки, разработки в области data science, проектирования, тестирования и создания UX/UI...",
-        "town": "Ростов-на-Дону",
-        "employer": "ЗАЗЕКС",
-        "requirement": "Знания и опыт разработки <highlighttext>Python</highlighttext>. Опыт работы с различными научными и специализированными пакетами (numpy, scipy, matplotlib, pandas, TensorFlow и т...",
-        "salary_from": "0",
         "salary_to": "0"
     },
     {
@@ -347,7 +327,27 @@
         "employer": "КВАНТ ПРОГРАММ",
         "requirement": "Готовность показать примеры/скриншоты разработанных приложений. Знание Qt Creator. Знание <highlighttext>Python</highlighttext> 3.X (опыт работы от 5 лет). ",
         "salary_from": "150000",
-        "salary_to": "None"
+        "salary_to": "0"
+    },
+    {
+        "name": "Data SQL developer (remote)",
+        "url": "https://api.hh.ru/vacancies/78714504?host=hh.ru",
+        "responsibility": "Documenting data models. - Developing scripts (<highlighttext>python</highlighttext> and java script) to interact with data. - Write complex stored procedures in data warehouse...",
+        "town": "Тбилиси",
+        "employer": "COMTEK Inc.",
+        "requirement": "3+ years of developing applications using any object-oriented language (<highlighttext>Python</highlighttext>, Java, Scala etc). 1+ years working in...",
+        "salary_from": "4000",
+        "salary_to": "5500"
+    },
+    {
+        "name": "Data Scientist / Python разработчик",
+        "url": "https://api.hh.ru/vacancies/78771412?host=hh.ru",
+        "responsibility": "Мы предоставляем услуги web-разработки, мобильной разработки, десктопной разработки, разработки в области data science, проектирования, тестирования и создания UX/UI...",
+        "town": "Ростов-на-Дону",
+        "employer": "ЗАЗЕКС",
+        "requirement": "Знания и опыт разработки <highlighttext>Python</highlighttext>. Опыт работы с различными научными и специализированными пакетами (numpy, scipy, matplotlib, pandas, TensorFlow и т...",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
         "name": "Разработчик в области машинного обучения и больших данных (Data Scientist)",
@@ -380,16 +380,6 @@
         "salary_to": "200000"
     },
     {
-        "name": "Data SQL developer (remote)",
-        "url": "https://api.hh.ru/vacancies/78714504?host=hh.ru",
-        "responsibility": "Documenting data models. - Developing scripts (<highlighttext>python</highlighttext> and java script) to interact with data. - Write complex stored procedures in data warehouse...",
-        "town": "Тбилиси",
-        "employer": "COMTEK Inc.",
-        "requirement": "3+ years of developing applications using any object-oriented language (<highlighttext>Python</highlighttext>, Java, Scala etc). 1+ years working in...",
-        "salary_from": "4000",
-        "salary_to": "5500"
-    },
-    {
         "name": "Python Backend разработчик",
         "url": "https://api.hh.ru/vacancies/78672998?host=hh.ru",
         "responsibility": "Умение давать оценку сроков выполнения задач и соблюдать их или вовремя сообщать о проблемах с соблюдением сроков. Работа в международной...",
@@ -401,23 +391,13 @@
     },
     {
         "name": "Python Developer",
-        "url": "https://api.hh.ru/vacancies/78820290?host=hh.ru",
-        "responsibility": "Корпоративный портал с материалами для изучения любого нового стека и повышения уровня по своей специальности и не только. ",
-        "town": "Санкт-Петербург",
-        "employer": "Aston",
-        "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 6-ти лет. Владение одним из фреймворков: AIOHTTP, Sanic, FastAPI, Starlette, Django, Flask. ",
-        "salary_from": "None",
-        "salary_to": "340000"
-    },
-    {
-        "name": "Data analyst (middle)",
-        "url": "https://api.hh.ru/vacancies/77790199?host=hh.ru",
-        "responsibility": "Сегментация пользователей и анализ пользовательских данных. Проведение ad-hoc исследований и создание аналитических решений для включения в продукт. ",
-        "town": "Москва",
-        "employer": "Predicto",
-        "requirement": "SQL (оконные функции, вложенные запросы, регулярные выражения). Владение инструментами визуализации данных (используем Tableau). Методы статистического анализа. Опыт работы с <highlighttext>Python</highlighttext>...",
-        "salary_from": "180000",
-        "salary_to": "300000"
+        "url": "https://api.hh.ru/vacancies/78850487?host=hh.ru",
+        "responsibility": "Ищем в команду <highlighttext>Python</highlighttext> Developer для разработки новых проектов и доработки текущих проектов. Разработка RESTful API. Разработка продукта с 0. ",
+        "town": "Минск",
+        "employer": "Синергия МС",
+        "requirement": "Опыт коммерческой разработки проектов от 3+ лет. Глубокое знание <highlighttext>Python</highlighttext> 3, Django, FastAPI, DRF, Redis, RabbitMQ, Kafka, PostgreSQL. ",
+        "salary_from": "2000",
+        "salary_to": "0"
     },
     {
         "name": "Разработчик Python",
@@ -427,7 +407,37 @@
         "employer": "Универсальная Электронная Платформа",
         "requirement": "Понимание и знание ООП. Уверенные навыки коммерческой разработки на <highlighttext>Python</highlighttext> от 2х лет. Опыт разработки REST API (flask, fastAPI). ",
         "salary_from": "100000",
-        "salary_to": "None"
+        "salary_to": "0"
+    },
+    {
+        "name": "Python Developer",
+        "url": "https://api.hh.ru/vacancies/78820290?host=hh.ru",
+        "responsibility": "Корпоративный портал с материалами для изучения любого нового стека и повышения уровня по своей специальности и не только. ",
+        "town": "Санкт-Петербург",
+        "employer": "Aston",
+        "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 6-ти лет. Владение одним из фреймворков: AIOHTTP, Sanic, FastAPI, Starlette, Django, Flask. ",
+        "salary_from": "0",
+        "salary_to": "340000"
+    },
+    {
+        "name": "Backend-разработчик, Python",
+        "url": "https://api.hh.ru/vacancies/78860297?host=hh.ru",
+        "responsibility": "Мобильные приложения. Сайты, CRM и ERP системы. Прототипирование и дизайн. Участвовать в различных фазах разработки приложений с качественным и легко...",
+        "town": "Белгород",
+        "employer": "Терабит",
+        "requirement": "Опыт коммерческой разработки от 2-х лет. Мы используем Django, Django Rest Framework, Postgresql. Опыт в применении этих инструментов будет...",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Преподаватель Python",
+        "url": "https://api.hh.ru/vacancies/78796822?host=hh.ru",
+        "responsibility": "Подготовка методического материала. Обучение программированию учеников. Контроль успеваемости и выполнения домашних заданий. Предоставление обратной связи ученикам.",
+        "town": "Алматы",
+        "employer": "2дэй академи",
+        "requirement": "Знание теории алгоритмов и структуры данных. Знание синтаксиса языка программирования <highlighttext>Python</highlighttext>. Знание дополнительных модулей будет плюсом. Знание Framework-ов Django...",
+        "salary_from": "35000",
+        "salary_to": "400000"
     },
     {
         "name": "Программист Python",
@@ -438,16 +448,6 @@
         "requirement": "Знание <highlighttext>Python</highlighttext> на уровне Middle-разработчика. Знание SQL, Radis, RabbitMQ, Elasticsearch. Знание языка 1С:Предприятие (базовый уровень или выше). ",
         "salary_from": "0",
         "salary_to": "0"
-    },
-    {
-        "name": "Python developer (FastAPI)",
-        "url": "https://api.hh.ru/vacancies/78739557?host=hh.ru",
-        "responsibility": "Разрабатывать новые сервисы. Участвовать в проектировании архитектуры системы. Проводить code review, рефакторить код, писать тесты. Искать узкие места и улучшать...",
-        "town": "Москва",
-        "employer": "КИБЕР-РОМ",
-        "requirement": "<highlighttext>Python</highlighttext> 3.10. FastAPI. SQLAlchemy. PostgreSQL. Kafka. Kubernetes. GitLab CI/CD. EFK. Умение писать тестируемый поддерживаемый код. Опыт в разработке...",
-        "salary_from": "None",
-        "salary_to": "250000"
     },
     {
         "name": "Разработчик Python",
@@ -467,7 +467,7 @@
         "employer": "Own Script",
         "requirement": "Уверенное владение <highlighttext>Python</highlighttext> 3+ и опыт коммерческой разработки от года. Фреймворки: FastAPI, Tornado, Flask или аналог. ORM: SQLAlchemy, django...",
         "salary_from": "100000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
         "name": "Python-разработчик (Django)",
@@ -477,26 +477,56 @@
         "employer": "Российское общество Знание",
         "requirement": "Очень важен опыт разработки на <highlighttext>Python</highlighttext> 3 (Django Framework) от 3-х лет. Опыт работы с PostgreSQL, Redis, Elasticsearch, DRF...",
         "salary_from": "230000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
-        "name": "Преподаватель Python",
-        "url": "https://api.hh.ru/vacancies/78796822?host=hh.ru",
-        "responsibility": "Подготовка методического материала. Обучение программированию учеников. Контроль успеваемости и выполнения домашних заданий. Предоставление обратной связи ученикам.",
-        "town": "Алматы",
-        "employer": "2дэй академи",
-        "requirement": "Знание теории алгоритмов и структуры данных. Знание синтаксиса языка программирования <highlighttext>Python</highlighttext>. Знание дополнительных модулей будет плюсом. Знание Framework-ов Django...",
-        "salary_from": "35000",
-        "salary_to": "400000"
-    },
-    {
-        "name": "Backend-разработчик, Python",
-        "url": "https://api.hh.ru/vacancies/78860297?host=hh.ru",
-        "responsibility": "Мобильные приложения. Сайты, CRM и ERP системы. Прототипирование и дизайн. Участвовать в различных фазах разработки приложений с качественным и легко...",
-        "town": "Белгород",
-        "employer": "Терабит",
-        "requirement": "Опыт коммерческой разработки от 2-х лет. Мы используем Django, Django Rest Framework, Postgresql. Опыт в применении этих инструментов будет...",
+        "name": "Python developer (FastAPI)",
+        "url": "https://api.hh.ru/vacancies/78739557?host=hh.ru",
+        "responsibility": "Разрабатывать новые сервисы. Участвовать в проектировании архитектуры системы. Проводить code review, рефакторить код, писать тесты. Искать узкие места и улучшать...",
+        "town": "Москва",
+        "employer": "КИБЕР-РОМ",
+        "requirement": "<highlighttext>Python</highlighttext> 3.10. FastAPI. SQLAlchemy. PostgreSQL. Kafka. Kubernetes. GitLab CI/CD. EFK. Умение писать тестируемый поддерживаемый код. Опыт в разработке...",
         "salary_from": "0",
+        "salary_to": "250000"
+    },
+    {
+        "name": "Разработчик ИСУ (SQL/Python)",
+        "url": "https://api.hh.ru/vacancies/78810754?host=hh.ru",
+        "responsibility": "Анализ данных (выявление ошибок в работе специалистов контактных центров Сбербанка). Ad hoc аналитика по запросам. Разработка отклонений для ИСУ.",
+        "town": "Омск",
+        "employer": "СБЕР",
+        "requirement": "Хорошее знание SQL. Знание <highlighttext>Python</highlighttext> и основных библиотек для анализа данных (numpy, pandas и др.), желательно machine learning, data analysis. ",
+        "salary_from": "66000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Data analyst (middle)",
+        "url": "https://api.hh.ru/vacancies/77790199?host=hh.ru",
+        "responsibility": "Сегментация пользователей и анализ пользовательских данных. Проведение ad-hoc исследований и создание аналитических решений для включения в продукт. ",
+        "town": "Москва",
+        "employer": "Predicto",
+        "requirement": "SQL (оконные функции, вложенные запросы, регулярные выражения). Владение инструментами визуализации данных (используем Tableau). Методы статистического анализа. Опыт работы с <highlighttext>Python</highlighttext>...",
+        "salary_from": "180000",
+        "salary_to": "300000"
+    },
+    {
+        "name": "Разработчик Backend Python / Django",
+        "url": "https://api.hh.ru/vacancies/78889887?host=hh.ru",
+        "responsibility": "Фронт: flutter.",
+        "town": "Москва",
+        "employer": "Сервис",
+        "requirement": "Потребуется обязательное подписание nda.",
+        "salary_from": "150000",
+        "salary_to": "200000"
+    },
+    {
+        "name": "Senior Python разработчик",
+        "url": "https://api.hh.ru/vacancies/77179552?host=hh.ru",
+        "responsibility": null,
+        "town": "Москва",
+        "employer": "24 часа ТВ",
+        "requirement": "Экспертные знания <highlighttext>Python</highlighttext>. Опыт продуктовой разработки. Понимание принципов работы баз данных, в частности PostgreSQL. Опыт работы или желание разобраться с...",
+        "salary_from": "300000",
         "salary_to": "0"
     },
     {
@@ -507,27 +537,17 @@
         "employer": "Alex Staff Agency",
         "requirement": "6+ лет опыта коммерческой разработки на <highlighttext>Python</highlighttext> с использованием Django-фреймворка. Знание ORM. Опыт работы с REST API. ",
         "salary_from": "4500",
-        "salary_to": "None"
-    },
-    {
-        "name": "Senior Python разработчик",
-        "url": "https://api.hh.ru/vacancies/77179552?host=hh.ru",
-        "responsibility": null,
-        "town": "Москва",
-        "employer": "24 часа ТВ",
-        "requirement": "Экспертные знания <highlighttext>Python</highlighttext>. Опыт продуктовой разработки. Понимание принципов работы баз данных, в частности PostgreSQL. Опыт работы или желание разобраться с...",
-        "salary_from": "300000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
         "name": "Python Developer",
-        "url": "https://api.hh.ru/vacancies/78850487?host=hh.ru",
-        "responsibility": "Ищем в команду <highlighttext>Python</highlighttext> Developer для разработки новых проектов и доработки текущих проектов. Разработка RESTful API. Разработка продукта с 0. ",
-        "town": "Минск",
-        "employer": "Синергия МС",
-        "requirement": "Опыт коммерческой разработки проектов от 3+ лет. Глубокое знание <highlighttext>Python</highlighttext> 3, Django, FastAPI, DRF, Redis, RabbitMQ, Kafka, PostgreSQL. ",
-        "salary_from": "2000",
-        "salary_to": "None"
+        "url": "https://api.hh.ru/vacancies/78820362?host=hh.ru",
+        "responsibility": "Корпоративный портал с материалами для изучения любого нового стека и повышения уровня по своей специальности и не только. ",
+        "town": "Москва",
+        "employer": "Aston",
+        "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 4-ти лет. Опыт разработки на AIOHTTP/ FastAPI/Sanic от 2-х лет. ",
+        "salary_from": "200000",
+        "salary_to": "340000"
     },
     {
         "name": "Python backend developer",
@@ -536,18 +556,8 @@
         "town": "Москва",
         "employer": "evrone.ru",
         "requirement": "Какие скиллы и опыт важны: Опыт коммерческой веб-разработки от 4-х лет на <highlighttext>Python</highlighttext> и понимание каковы были основные...",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "300000"
-    },
-    {
-        "name": "Разработчик ИСУ (SQL/Python)",
-        "url": "https://api.hh.ru/vacancies/78810754?host=hh.ru",
-        "responsibility": "Анализ данных (выявление ошибок в работе специалистов контактных центров Сбербанка). Ad hoc аналитика по запросам. Разработка отклонений для ИСУ.",
-        "town": "Омск",
-        "employer": "СБЕР",
-        "requirement": "Хорошее знание SQL. Знание <highlighttext>Python</highlighttext> и основных библиотек для анализа данных (numpy, pandas и др.), желательно machine learning, data analysis. ",
-        "salary_from": "66000",
-        "salary_to": "None"
     },
     {
         "name": "Python Developer",
@@ -556,6 +566,16 @@
         "town": "Минск",
         "employer": "Алюсофт",
         "requirement": "Опыт работы в должности программиста от 2 лет. Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 2-х лет. Опыт работы с...",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Data scientist / Python разработчик",
+        "url": "https://api.hh.ru/vacancies/78867877?host=hh.ru",
+        "responsibility": "Работать с базами данных. Программировать на <highlighttext>Python</highlighttext>. Работать с API.",
+        "town": "Рязань",
+        "employer": "Пауэр Тех",
+        "requirement": "Ключевые навыки: <highlighttext>Python</highlighttext>, SQL. Опыт работы с БД (MongoDB, PosgreSQL, Clickhouse). Знание английского языка, умение выразить и написать свою мысль.",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -580,36 +600,6 @@
         "salary_to": "380000"
     },
     {
-        "name": "Machine Learning Engineer (ML)",
-        "url": "https://api.hh.ru/vacancies/78786735?host=hh.ru",
-        "responsibility": "Придумывать и внедрять новые применения для LLM. Выводить в прод все, что мы обучим. Обучать и тюнить существующие модели. ",
-        "town": "Москва",
-        "employer": "Alliesverse",
-        "requirement": "<highlighttext>Python</highlighttext>, алгоритмы, математика. Знания в DL, опыт обучения просто моделей и больших моделей. Опыт обучения моделей для прода. ",
-        "salary_from": "250000",
-        "salary_to": "300000"
-    },
-    {
-        "name": "Python Developer",
-        "url": "https://api.hh.ru/vacancies/78827749?host=hh.ru",
-        "responsibility": "Корпоративный портал с материалами для изучения любого нового стека и повышения уровня по своей специальности и не только. ",
-        "town": "Казань",
-        "employer": "Aston",
-        "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 4-ти лет. Опыт разработки на AIOHTTP/ FastAPI/Sanic от 2-х лет. ",
-        "salary_from": "None",
-        "salary_to": "340000"
-    },
-    {
-        "name": "Python Developer",
-        "url": "https://api.hh.ru/vacancies/78820362?host=hh.ru",
-        "responsibility": "Корпоративный портал с материалами для изучения любого нового стека и повышения уровня по своей специальности и не только. ",
-        "town": "Москва",
-        "employer": "Aston",
-        "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 4-ти лет. Опыт разработки на AIOHTTP/ FastAPI/Sanic от 2-х лет. ",
-        "salary_from": "200000",
-        "salary_to": "340000"
-    },
-    {
         "name": "Middle разработчик Python / Django",
         "url": "https://api.hh.ru/vacancies/78818283?host=hh.ru",
         "responsibility": "Выверенный годами баланс между дисциплиной и свободой.",
@@ -618,26 +608,6 @@
         "requirement": "Необходимые навыки: Уверенно владеть <highlighttext>Python</highlighttext> 3, понимать отличия от <highlighttext>Python</highlighttext> 2. Иметь опыт работы с Django и Flask в production. ",
         "salary_from": "60000",
         "salary_to": "140000"
-    },
-    {
-        "name": "Разработчик Python",
-        "url": "https://api.hh.ru/vacancies/47668037?host=hh.ru",
-        "responsibility": "Разработка бэкенд новых SaaS проектов на <highlighttext>Python</highlighttext>. Поддержка, устранение проблем в ранее разработанном ПО совместно с командой. Рефакторинг и оптимизация...",
-        "town": "Ростов-на-Дону",
-        "employer": "Электронная медицина",
-        "requirement": "Опыт проектирования, поддержки и разработки серверных компонентов на <highlighttext>Python</highlighttext>. Знание Microsoft SQL server и PostgreSql. Опыт работы с Git. ",
-        "salary_from": "30000",
-        "salary_to": "80000"
-    },
-    {
-        "name": "Junior Data Analyst",
-        "url": "https://api.hh.ru/vacancies/78155321?host=hh.ru",
-        "responsibility": "Выгрузка/обработка данных по требованию заказчика. Составление ежедневной отчетности.",
-        "town": "Москва",
-        "employer": "АТОН",
-        "requirement": "Базовые знания <highlighttext>python</highlighttext> 3.7 + (jupyter, pandas). Основы мат. статистики. Опыт работы с данными средствами <highlighttext>python</highlighttext>. Ответственность, внимательность, готовность...",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Python Developer/Программист Python/Python-разработчик",
@@ -650,13 +620,23 @@
         "salary_to": "0"
     },
     {
+        "name": "Junior Data Analyst",
+        "url": "https://api.hh.ru/vacancies/78155321?host=hh.ru",
+        "responsibility": "Выгрузка/обработка данных по требованию заказчика. Составление ежедневной отчетности.",
+        "town": "Москва",
+        "employer": "АТОН",
+        "requirement": "Базовые знания <highlighttext>python</highlighttext> 3.7 + (jupyter, pandas). Основы мат. статистики. Опыт работы с данными средствами <highlighttext>python</highlighttext>. Ответственность, внимательность, готовность...",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
         "name": "Стажёр по направлению \"Кибербезопасность\" от SBERSEASONS",
         "url": "https://api.hh.ru/vacancies/78861327?host=hh.ru",
         "responsibility": "Оплачиваемая стажировка по направлению Кибербезопасность от SBERSEASONS: треки AppSec, Pentest, SOC и реагирование на инциденты, Аналитика кибербезопасности, Киберразведка! — ",
         "town": "Москва",
         "employer": "СБЕР",
         "requirement": "Трек “Pentest”: умеешь анализировать программный код (C/C++, Go, <highlighttext>Python</highlighttext>, Perl и другие), имеешь опыт программирования на скриптовых языках (<highlighttext>Python</highlighttext>...",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "57700"
     },
     {
@@ -670,24 +650,54 @@
         "salary_to": "350000"
     },
     {
+        "name": "Разработчик Python",
+        "url": "https://api.hh.ru/vacancies/47668037?host=hh.ru",
+        "responsibility": "Разработка бэкенд новых SaaS проектов на <highlighttext>Python</highlighttext>. Поддержка, устранение проблем в ранее разработанном ПО совместно с командой. Рефакторинг и оптимизация...",
+        "town": "Ростов-на-Дону",
+        "employer": "Электронная медицина",
+        "requirement": "Опыт проектирования, поддержки и разработки серверных компонентов на <highlighttext>Python</highlighttext>. Знание Microsoft SQL server и PostgreSql. Опыт работы с Git. ",
+        "salary_from": "30000",
+        "salary_to": "80000"
+    },
+    {
+        "name": "Python Developer",
+        "url": "https://api.hh.ru/vacancies/78827749?host=hh.ru",
+        "responsibility": "Корпоративный портал с материалами для изучения любого нового стека и повышения уровня по своей специальности и не только. ",
+        "town": "Казань",
+        "employer": "Aston",
+        "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 4-ти лет. Опыт разработки на AIOHTTP/ FastAPI/Sanic от 2-х лет. ",
+        "salary_from": "0",
+        "salary_to": "340000"
+    },
+    {
+        "name": "Machine Learning Engineer (ML)",
+        "url": "https://api.hh.ru/vacancies/78786735?host=hh.ru",
+        "responsibility": "Придумывать и внедрять новые применения для LLM. Выводить в прод все, что мы обучим. Обучать и тюнить существующие модели. ",
+        "town": "Москва",
+        "employer": "Alliesverse",
+        "requirement": "<highlighttext>Python</highlighttext>, алгоритмы, математика. Знания в DL, опыт обучения просто моделей и больших моделей. Опыт обучения моделей для прода. ",
+        "salary_from": "250000",
+        "salary_to": "300000"
+    },
+    {
         "name": "Software Engineer / Senior Python Developer",
         "url": "https://api.hh.ru/vacancies/78095599?host=hh.ru",
         "responsibility": "# If you work remotely: allowances for exercise equipment, a laptop, home office setup, and coworking space.",
         "town": "Москва",
         "employer": "Сигматрикс",
         "requirement": "# At least 5 yrs. of experience building software with <highlighttext>Python</highlighttext> & expert <highlighttext>Python</highlighttext> skills. # Experience with asyncio, aiohttp, fast...",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "7000"
     },
     {
-        "name": "Аналитик данных",
-        "url": "https://api.hh.ru/vacancies/78075399?host=hh.ru",
-        "responsibility": "Извлечение, преобразование, загрузка данных и их обработка. Формирование отчетов, визуализация данных. Общение с представителями заказчика, формализация требований к проектам. ",
-        "town": "Москва",
-        "employer": "Автомакон",
-        "requirement": "Уверенный опыт программирования на <highlighttext>Python</highlighttext> (не менее 1 года). Уверенные знания SQL и опыт работы с базами данных. ",
-        "salary_from": "110000",
-        "salary_to": "250000"
+        "name": "Разработчик Backend Python / Django",
+        "url": "https://api.hh.ru/vacancies/78889888?host=hh.ru",
+        "responsibility": "Фронт: flutter.",
+        "town": "Минск",
+        "employer": "Сервис",
+        "requirement": "Потребуется обязательное подписание nda.",
+        "salary_from": "150000",
+        "salary_to": "200000"
     },
     {
         "name": "Python Developer",
@@ -707,17 +717,7 @@
         "employer": "Creative",
         "requirement": "Обладаешь знаниями: Имеешь опыт работы с Django. Знаешь ООП, имеешь представление о SOLID. Работаешь с git. Работаешь с SQL. ",
         "salary_from": "150000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Стажер-программист Python",
-        "url": "https://api.hh.ru/vacancies/78742845?host=hh.ru",
-        "responsibility": "написание новых модулей для backend (<highlighttext>python</highlighttext>, django), доработка существующих. - взаимодействие со сторонними сервисами для написания интеграций (интеграции с SIP телефониями...",
-        "town": "Волгоград",
-        "employer": "Онлайн Дом",
-        "requirement": "django-push-notifications (push уведомления на мобильные устройства). - знание ОС Linux (Ubuntu), знание и умение пользоваться GIT (pull, push, rebase...",
-        "salary_from": "40000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
         "name": "Python Developer",
@@ -727,6 +727,36 @@
         "employer": "Outlines Technologies",
         "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 4 лет. Владение Django, Django REST Framework от 3 лет. Уверенные знания Linux, git...",
         "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python-разработчик",
+        "url": "https://api.hh.ru/vacancies/71525700?host=hh.ru",
+        "responsibility": "Сейчас мы начали с перевода части монолита - api для мобильных клиентов и фронта, переписываем с perl на асинхронный <highlighttext>python</highlighttext> 3...",
+        "town": "Москва",
+        "employer": "Литрес",
+        "requirement": "Задачи и технологии: Владения асинхронным <highlighttext>Python</highlighttext> и современным фреймворком веб-разработки на его основе (fastapi, aiohttp) от 2-х лет...",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Аналитик данных",
+        "url": "https://api.hh.ru/vacancies/78075399?host=hh.ru",
+        "responsibility": "Извлечение, преобразование, загрузка данных и их обработка. Формирование отчетов, визуализация данных. Общение с представителями заказчика, формализация требований к проектам. ",
+        "town": "Москва",
+        "employer": "Автомакон",
+        "requirement": "Уверенный опыт программирования на <highlighttext>Python</highlighttext> (не менее 1 года). Уверенные знания SQL и опыт работы с базами данных. ",
+        "salary_from": "110000",
+        "salary_to": "250000"
+    },
+    {
+        "name": "Стажер-программист Python",
+        "url": "https://api.hh.ru/vacancies/78742845?host=hh.ru",
+        "responsibility": "написание новых модулей для backend (<highlighttext>python</highlighttext>, django), доработка существующих. - взаимодействие со сторонними сервисами для написания интеграций (интеграции с SIP телефониями...",
+        "town": "Волгоград",
+        "employer": "Онлайн Дом",
+        "requirement": "django-push-notifications (push уведомления на мобильные устройства). - знание ОС Linux (Ubuntu), знание и умение пользоваться GIT (pull, push, rebase...",
+        "salary_from": "40000",
         "salary_to": "0"
     },
     {
@@ -746,7 +776,7 @@
         "town": "Нижний Новгород",
         "employer": "Aston",
         "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 5-ти лет. Опыт разработки на AIOHTTP/ FastAPI/Sanic от 2-х лет. ",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "340000"
     },
     {
@@ -757,15 +787,15 @@
         "employer": "СБЕР",
         "requirement": "Опыт работы с <highlighttext>Python</highlighttext> от 3 лет. Опыт работы с Django, FastAPI, SQL Alchemy. Практика создания unit тестов и документирования...",
         "salary_from": "350000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
-        "name": "Python-разработчик",
-        "url": "https://api.hh.ru/vacancies/71525700?host=hh.ru",
-        "responsibility": "Сейчас мы начали с перевода части монолита - api для мобильных клиентов и фронта, переписываем с perl на асинхронный <highlighttext>python</highlighttext> 3...",
-        "town": "Москва",
-        "employer": "Литрес",
-        "requirement": "Задачи и технологии: Владения асинхронным <highlighttext>Python</highlighttext> и современным фреймворком веб-разработки на его основе (fastapi, aiohttp) от 2-х лет...",
+        "name": "Python Frontend - Backend Developer (Django)",
+        "url": "https://api.hh.ru/vacancies/78164773?host=hh.ru",
+        "responsibility": "Участие в разработке сервисов, согласно техническому заданию.",
+        "town": "Набережные Челны",
+        "employer": "О2",
+        "requirement": "Ответственный и творческий подход к решению задач. Приветствуются в том числе студенты или выпускники IT направлений.",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -777,26 +807,6 @@
         "employer": "Автомакон",
         "requirement": "Уверенные знания SQL и опыт работы с базами данных. Уверенный опыт программирования на <highlighttext>Python</highlighttext>. Опыт работы с Apache Airflow. ",
         "salary_from": "250000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Middle/Middle+Python разработчик",
-        "url": "https://api.hh.ru/vacancies/78816308?host=hh.ru",
-        "responsibility": "Актуальные технологии, которые используем на проектах: Front-End: React Js, Vue.JS.",
-        "town": "Ростов-на-Дону",
-        "employer": "Рабочие решения",
-        "requirement": "В качестве знаний и навыков нам нужны: Отличное знание <highlighttext>Python</highlighttext>, хорошим плюсом будет знание фреймворков Django, Flask, Tornado. ",
-        "salary_from": "140000",
-        "salary_to": "220000"
-    },
-    {
-        "name": "Python Frontend - Backend Developer (Django)",
-        "url": "https://api.hh.ru/vacancies/78164773?host=hh.ru",
-        "responsibility": "Участие в разработке сервисов, согласно техническому заданию.",
-        "town": "Набережные Челны",
-        "employer": "О2",
-        "requirement": "Ответственный и творческий подход к решению задач. Приветствуются в том числе студенты или выпускники IT направлений.",
-        "salary_from": "0",
         "salary_to": "0"
     },
     {
@@ -810,6 +820,16 @@
         "salary_to": "0"
     },
     {
+        "name": "Middle / Senior python developer",
+        "url": "https://api.hh.ru/vacancies/78108458?host=hh.ru",
+        "responsibility": "Работа со множеством источников данных: сбор, обработка, анализ. Визуализация данных, создание схем, диаграмм, графиков. Построение моделей МО и нейросетей. ",
+        "town": "Москва",
+        "employer": "Химтех",
+        "requirement": "Продвинутое владение <highlighttext>Python</highlighttext>. Владение инструментами визуализации данных. Знание математичекой статистики. Опыт работы с реляционными СУБД, знание SQL. Владение техниками программной...",
+        "salary_from": "3000",
+        "salary_to": "5000"
+    },
+    {
         "name": "Ведущий Python разработчик (удаленно, из любой точки мира)",
         "url": "https://api.hh.ru/vacancies/78754688?host=hh.ru",
         "responsibility": "Разрабатывать новый функционал. Проводить code review. Участвовать в проектировании и анализе архитектуры решений. Писать unit-тесты.",
@@ -817,16 +837,26 @@
         "employer": "Amex Development",
         "requirement": "Опыт разработки на <highlighttext>Python</highlighttext>, опыт с Django Framework от 3-х лет. Глубокий опыт работы с Kafka. Знание gRPC, GraphQL. ",
         "salary_from": "250000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
-        "name": "Data Engineer / Дата-инженер (Middle)",
-        "url": "https://api.hh.ru/vacancies/77722681?host=hh.ru",
-        "responsibility": "Мероприятия для поддержания хорошего настроения (корпоративы, презентации новых IT-продуктов, сюрпризы). ∙ Разработка архитектуры решений по загрузке данных в кластер. ∙ ",
+        "name": "Middle/Middle+Python разработчик",
+        "url": "https://api.hh.ru/vacancies/78816308?host=hh.ru",
+        "responsibility": "Актуальные технологии, которые используем на проектах: Front-End: React Js, Vue.JS.",
+        "town": "Ростов-на-Дону",
+        "employer": "Рабочие решения",
+        "requirement": "В качестве знаний и навыков нам нужны: Отличное знание <highlighttext>Python</highlighttext>, хорошим плюсом будет знание фреймворков Django, Flask, Tornado. ",
+        "salary_from": "140000",
+        "salary_to": "220000"
+    },
+    {
+        "name": "Разработчик Python",
+        "url": "https://api.hh.ru/vacancies/76718141?host=hh.ru",
+        "responsibility": "Написание программного кода с использованием языка программирования <highlighttext>Python</highlighttext>. Оформление программного кода в соответствии с установленными требованиями. Работа с системой управления...",
         "town": "Москва",
-        "employer": "Платформа Больших Данных",
-        "requirement": "Опыт работы c Hadoop, Hive, Spark. Хорошее знание <highlighttext>Python</highlighttext>. Отличное знание SQL. Понимание и интерес к области больших данных. ",
-        "salary_from": "250000",
+        "employer": "Точных Приборов, НИИ",
+        "requirement": "Наличие высшего технического образования. Хорошее знание <highlighttext>Python</highlighttext> (мы используем <highlighttext>Python</highlighttext> 3), опыт командной разработки веб-приложений от 3 лет. ",
+        "salary_from": "120000",
         "salary_to": "300000"
     },
     {
@@ -850,44 +880,24 @@
         "salary_to": "200000"
     },
     {
-        "name": "Разработчик Python",
-        "url": "https://api.hh.ru/vacancies/76718141?host=hh.ru",
-        "responsibility": "Написание программного кода с использованием языка программирования <highlighttext>Python</highlighttext>. Оформление программного кода в соответствии с установленными требованиями. Работа с системой управления...",
+        "name": "Data Engineer / Дата-инженер (Middle)",
+        "url": "https://api.hh.ru/vacancies/77722681?host=hh.ru",
+        "responsibility": "Мероприятия для поддержания хорошего настроения (корпоративы, презентации новых IT-продуктов, сюрпризы). ∙ Разработка архитектуры решений по загрузке данных в кластер. ∙ ",
         "town": "Москва",
-        "employer": "Точных Приборов, НИИ",
-        "requirement": "Наличие высшего технического образования. Хорошее знание <highlighttext>Python</highlighttext> (мы используем <highlighttext>Python</highlighttext> 3), опыт командной разработки веб-приложений от 3 лет. ",
-        "salary_from": "120000",
+        "employer": "Платформа Больших Данных",
+        "requirement": "Опыт работы c Hadoop, Hive, Spark. Хорошее знание <highlighttext>Python</highlighttext>. Отличное знание SQL. Понимание и интерес к области больших данных. ",
+        "salary_from": "250000",
         "salary_to": "300000"
     },
     {
-        "name": "Middle / Senior python developer",
-        "url": "https://api.hh.ru/vacancies/78108458?host=hh.ru",
-        "responsibility": "Работа со множеством источников данных: сбор, обработка, анализ. Визуализация данных, создание схем, диаграмм, графиков. Построение моделей МО и нейросетей. ",
+        "name": "Разработчик Python",
+        "url": "https://api.hh.ru/vacancies/75553007?host=hh.ru",
+        "responsibility": "Разрабатывать код для применения ML-решений в промышленных процессах Банка. Проектировать и реализовывать решения для промышленного применения ML алгоритмов. ",
         "town": "Москва",
-        "employer": "Химтех",
-        "requirement": "Продвинутое владение <highlighttext>Python</highlighttext>. Владение инструментами визуализации данных. Знание математичекой статистики. Опыт работы с реляционными СУБД, знание SQL. Владение техниками программной...",
-        "salary_from": "3000",
-        "salary_to": "5000"
-    },
-    {
-        "name": "Python программист в сфере крипто трейдинга",
-        "url": "https://api.hh.ru/vacancies/78753080?host=hh.ru",
-        "responsibility": "Разработка веб-ресурсов.",
-        "town": "Екатеринбург",
-        "employer": "ZAVOD",
-        "requirement": "Нам важно понимание алгоритмов и индикаторов, в идеале ML. Понимание алгоритмов и индикаторов. SQL. HTML, CSS. Javascript.",
-        "salary_from": "40000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Эконометрист/Data scientist (Junior/Middle) в консалтинг",
-        "url": "https://api.hh.ru/vacancies/78876532?host=hh.ru",
-        "responsibility": "Построение моделей эластичности спроса на банковские продукты и моделей прогнозирования в ритейле в т.ч. с учётом гео-аналитических данных. ",
-        "town": "Москва",
-        "employer": "БСТ Менеджмент-Консалтинг",
-        "requirement": "Умение быстро работать с большими объемами информации. Умение программировать на <highlighttext>Python</highlighttext>. Большим плюсом будет знание методов машинного обучения, стат.пакетов. ",
-        "salary_from": "40000",
-        "salary_to": "None"
+        "employer": "Иннотех, Группа компаний",
+        "requirement": "Какие знания и навыки для нас важны: Знание принципов ООП. Знание <highlighttext>Python</highlighttext>. Опыт разработки веб-приложений/сервисов (<highlighttext>Python</highlighttext>/Java/JavaScript). ",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
         "name": "Data engineer (junior +)",
@@ -900,6 +910,26 @@
         "salary_to": "0"
     },
     {
+        "name": "Python программист в сфере крипто трейдинга",
+        "url": "https://api.hh.ru/vacancies/78753080?host=hh.ru",
+        "responsibility": "Разработка веб-ресурсов.",
+        "town": "Екатеринбург",
+        "employer": "ZAVOD",
+        "requirement": "Нам важно понимание алгоритмов и индикаторов, в идеале ML. Понимание алгоритмов и индикаторов. SQL. HTML, CSS. Javascript.",
+        "salary_from": "40000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python-разработчик",
+        "url": "https://api.hh.ru/vacancies/78838620?host=hh.ru",
+        "responsibility": "Интуитивно понятный, доступный сервис по заказу и доставке на площадку пользователя любых данных, содержащихся в Фабрике данных Сбера. ",
+        "town": "Москва",
+        "employer": "СБЕР",
+        "requirement": "Опыт разработки Backend (<highlighttext>Python</highlighttext>) приложений от 3-х лет. Опыт разработки различных API (REST). Опыт разработки приложений для с ELK. ",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
         "name": "Ведущий Python-developer",
         "url": "https://api.hh.ru/vacancies/78612659?host=hh.ru",
         "responsibility": "Прорабатывать архитектуру и планировать способы реализации нового функционала. Анализировать способы оптимизации производительности методов бизнес-логики и SQL запросов. ",
@@ -908,6 +938,16 @@
         "requirement": "Уверенные знания <highlighttext>Python</highlighttext>, ООП. Опыт работы с PostgreSQL: построение оптимальных sql-запросов (без использования ORM), умение профилировать запросы. ",
         "salary_from": "240000",
         "salary_to": "300000"
+    },
+    {
+        "name": "Python разработчик (middle+ - senior)",
+        "url": "https://api.hh.ru/vacancies/78886287?host=hh.ru",
+        "responsibility": "Продуктовый и проектный подход к разработке - разработчики плотно общаются с продуктом, предлагают технические решения, отвечают за сходимость проектов. ",
+        "town": "Армения",
+        "employer": "КСК-Эйч Ар",
+        "requirement": "Коммерческий опыт работы от 4 лет в качестве разработчика. Уверенные знания <highlighttext>python</highlighttext>. Опыт работы с Django/ Flask.",
+        "salary_from": "250000",
+        "salary_to": "0"
     },
     {
         "name": "Python Data Engineer",
@@ -927,6 +967,16 @@
         "employer": "ЭлРос",
         "requirement": "Знает основы программирования на <highlighttext>Python</highlighttext> и имеет опыт работы с базами данных. Способен анализировать данные, быстро учиться и быстро адаптироваться...",
         "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python разработчик (middle+ - senior)",
+        "url": "https://api.hh.ru/vacancies/78886285?host=hh.ru",
+        "responsibility": "Продуктовый и проектный подход к разработке - разработчики плотно общаются с продуктом, предлагают технические решения, отвечают за сходимость проектов. ",
+        "town": "Москва",
+        "employer": "КСК-Эйч Ар",
+        "requirement": "Коммерческий опыт работы от 4 лет в качестве разработчика. Уверенные знания <highlighttext>python</highlighttext>. Опыт работы с Django/ Flask.",
+        "salary_from": "250000",
         "salary_to": "0"
     },
     {
@@ -956,8 +1006,18 @@
         "town": "Москва",
         "employer": "Enjoypro",
         "requirement": "Опыт разработки прикладного ПО на <highlighttext>Python</highlighttext>3 в парадигме ООП от 3-х лет. Опыт разработки асинхронных и многопоточных приложений...",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "180000"
+    },
+    {
+        "name": "Python разработчик (middle+ - senior)",
+        "url": "https://api.hh.ru/vacancies/78886288?host=hh.ru",
+        "responsibility": "Продуктовый и проектный подход к разработке - разработчики плотно общаются с продуктом, предлагают технические решения, отвечают за сходимость проектов. ",
+        "town": "Астана",
+        "employer": "КСК-Эйч Ар",
+        "requirement": "Коммерческий опыт работы от 4 лет в качестве разработчика. Уверенные знания <highlighttext>python</highlighttext>. Опыт работы с Django/ Flask.",
+        "salary_from": "250000",
+        "salary_to": "0"
     },
     {
         "name": "Python Developer (SOC)",
@@ -980,23 +1040,13 @@
         "salary_to": "0"
     },
     {
-        "name": "Разработчик Python",
-        "url": "https://api.hh.ru/vacancies/75553007?host=hh.ru",
-        "responsibility": "Разрабатывать код для применения ML-решений в промышленных процессах Банка. Проектировать и реализовывать решения для промышленного применения ML алгоритмов. ",
-        "town": "Москва",
-        "employer": "Иннотех, Группа компаний",
-        "requirement": "Какие знания и навыки для нас важны: Знание принципов ООП. Знание <highlighttext>Python</highlighttext>. Опыт разработки веб-приложений/сервисов (<highlighttext>Python</highlighttext>/Java/JavaScript). ",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Data Scientist",
         "url": "https://api.hh.ru/vacancies/78706463?host=hh.ru",
         "responsibility": "У нас микросервисная архитектура. Команды работают с последними технологиями, областями вроде машинного обучения и big data, а также свободны в...",
         "town": "Москва",
         "employer": "Точка",
         "requirement": "Знаешь <highlighttext>Python</highlighttext>, умеешь обрабатывать данные с помощью pandas, NumPy и Plotly. Есть опыт работы с SQL. Есть опыт работы с...",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "300000"
     },
     {
@@ -1020,13 +1070,43 @@
         "salary_to": "250000"
     },
     {
-        "name": "Python-разработчик",
-        "url": "https://api.hh.ru/vacancies/78838620?host=hh.ru",
-        "responsibility": "Интуитивно понятный, доступный сервис по заказу и доставке на площадку пользователя любых данных, содержащихся в Фабрике данных Сбера. ",
-        "town": "Москва",
-        "employer": "СБЕР",
-        "requirement": "Опыт разработки Backend (<highlighttext>Python</highlighttext>) приложений от 3-х лет. Опыт разработки различных API (REST). Опыт разработки приложений для с ELK. ",
+        "name": "Разработчик back-end (python)",
+        "url": "https://api.hh.ru/vacancies/74365805?host=hh.ru",
+        "responsibility": "Разработка на <highlighttext>Python</highlighttext> и Django. Доработка и сопровождение существующего кода. Участие в планировании/code-review задач.",
+        "town": "Санкт-Петербург",
+        "employer": "ИнфоТеКС",
+        "requirement": "Отличное знание <highlighttext>Python</highlighttext>, Django. Понимание принципов ООП, SOLID, паттернов проектирования. Опыт работы с базами данных.",
         "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python developer",
+        "url": "https://api.hh.ru/vacancies/78890759?host=hh.ru",
+        "responsibility": "Разработка кросс-платформенных веб и AI сервисов. Разработка и оптимизация кросс-платформенных <highlighttext>Python</highlighttext> модулей. Интеграция сервисов и систем в корпоративной...",
+        "town": "Санкт-Петербург",
+        "employer": "LG Electronics Inc.",
+        "requirement": "Опыт программирования на <highlighttext>Python</highlighttext> не менее 2-х лет. Опыт разработки с Django фреймворками и различными СУБД (PostgreSQL, MySQL). ",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Data Scientist (логистика)",
+        "url": "https://api.hh.ru/vacancies/78359038?host=hh.ru",
+        "responsibility": "Работа с большими массивами логистических данных. Поиск инсайтов в данных по заданной логике и без неё. Разработка системы построения оптимальных...",
+        "town": "Санкт-Петербург",
+        "employer": "Северный Путь",
+        "requirement": "Готовые кейсы по созданию алгоритмов обработки данных для решения практических задач. Знание <highlighttext>Python</highlighttext> в части дата анализа на уровне Middle...",
+        "salary_from": "130000",
+        "salary_to": "0"
+    },
+    {
+        "name": "CV/ML Engineer",
+        "url": "https://api.hh.ru/vacancies/78842150?host=hh.ru",
+        "responsibility": "Разработка и оптимизация алгоритмов и моделей машинного обучения для анализа и обработки изображений электронных документов. Проектирование и реализация функционала для...",
+        "town": "Калининград",
+        "employer": "Бизнес Продвижение",
+        "requirement": "Знание языков программирования, таких как <highlighttext>Python</highlighttext> или C++, и опыт работы с библиотеками для компьютерного зрения, такими как OpenCV, TensorFlow...",
+        "salary_from": "300000",
         "salary_to": "0"
     },
     {
@@ -1037,35 +1117,15 @@
         "employer": "Омский НИИ Приборостроения",
         "requirement": "Опыт разработки от 2 лет на <highlighttext>Python</highlighttext>. - Опыт в ОС Linux. - Стек: Flask/FastAPI, SQLAlchemy, Postgres, Redis, Celery. - ",
         "salary_from": "50000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
-        "name": "Data Scientist (логистика)",
-        "url": "https://api.hh.ru/vacancies/78359038?host=hh.ru",
-        "responsibility": "Работа с большими массивами логистических данных. Поиск инсайтов в данных по заданной логике и без неё. Разработка системы построения оптимальных...",
-        "town": "Санкт-Петербург",
-        "employer": "Северный Путь",
-        "requirement": "Готовые кейсы по созданию алгоритмов обработки данных для решения практических задач. Знание <highlighttext>Python</highlighttext> в части дата анализа на уровне Middle...",
-        "salary_from": "130000",
-        "salary_to": "None"
-    },
-    {
-        "name": "CV/ML Engineer",
-        "url": "https://api.hh.ru/vacancies/78842150?host=hh.ru",
-        "responsibility": "Разработка и оптимизация алгоритмов и моделей машинного обучения для анализа и обработки изображений электронных документов. Проектирование и реализация функционала для...",
-        "town": "Калининград",
-        "employer": "Бизнес Продвижение",
-        "requirement": "Знание языков программирования, таких как <highlighttext>Python</highlighttext> или C++, и опыт работы с библиотеками для компьютерного зрения, такими как OpenCV, TensorFlow...",
-        "salary_from": "300000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Python Developer",
-        "url": "https://api.hh.ru/vacancies/77475249?host=hh.ru",
-        "responsibility": null,
-        "town": "Алматы",
-        "employer": "SlonW",
-        "requirement": "Уверенные знания и опыт работы с <highlighttext>Python</highlighttext> (фреймворки Flask, Django). Навыки объектно-ориентированного программирования. Уверенное владение системой контроля версий (Git). ",
+        "name": "Разработчик Python(RuPost)",
+        "url": "https://api.hh.ru/vacancies/43558725?host=hh.ru",
+        "responsibility": "Разработка системы управления распределенными программными компонентами под управлением Linux. Возможна fullstack-разработка или фокус на системной части или на web...",
+        "town": "Москва",
+        "employer": "Группа компаний Астра",
+        "requirement": "Отличное знание <highlighttext>Python</highlighttext>, Flask. Знание и опыт работы с HTTP/HTTPS. Опыт работы с JSON, XML. Для фокуса на web...",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -1087,15 +1147,35 @@
         "employer": "Каналсервис",
         "requirement": "Главное требование – успешное тестовое задание и прохождение собеседований + хороший русский язык. Уверенное знание <highlighttext>Python</highlighttext>. Опыт работы с фреймворком Django. ",
         "salary_from": "100000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
-        "name": "Разработчик Python(RuPost)",
-        "url": "https://api.hh.ru/vacancies/43558725?host=hh.ru",
-        "responsibility": "Разработка системы управления распределенными программными компонентами под управлением Linux. Возможна fullstack-разработка или фокус на системной части или на web...",
+        "name": "Python Backend Developer / Data Engineer",
+        "url": "https://api.hh.ru/vacancies/78306430?host=hh.ru",
+        "responsibility": "Разрабатывать и улучшать наш продукт – стриминг данных – с помощью FastAPI; Сервис высоконагруженный – около 4000 RPS. Работать с интеграциями – разрабатывать коннекторы...",
         "town": "Москва",
-        "employer": "Группа компаний Астра",
-        "requirement": "Отличное знание <highlighttext>Python</highlighttext>, Flask. Знание и опыт работы с HTTP/HTTPS. Опыт работы с JSON, XML. Для фокуса на web...",
+        "employer": "DataGo!",
+        "requirement": "Наличие опыта разработки на <highlighttext>Python</highlighttext> (Pandas, Numpy), с асинхронным стэком в частности (FastAPI, asyncio, aiohttp) – от 2-ух лет. ",
+        "salary_from": "0",
+        "salary_to": "250000"
+    },
+    {
+        "name": "Middle Python Developer",
+        "url": "https://api.hh.ru/vacancies/77956097?host=hh.ru",
+        "responsibility": "Участие в разработке новых продуктов используя язык <highlighttext>Python</highlighttext> и стек технологий: asyncio, aiohttp( jrpc, GraphQL), PostgresSQL(Sqlalchemy). Анализ и оптимизация...",
+        "town": "Москва",
+        "employer": "Филиал компании Лист Ренталс Лимитед",
+        "requirement": "Техническое образование или эквивалентный практический опыт. Хороший опыт разработки на <highlighttext>Python</highlighttext>. Опыт разработки веб-приложений. Не понаслышке знать про aiohttp...",
+        "salary_from": "2000",
+        "salary_to": "4000"
+    },
+    {
+        "name": "Python Developer",
+        "url": "https://api.hh.ru/vacancies/77475249?host=hh.ru",
+        "responsibility": null,
+        "town": "Алматы",
+        "employer": "SlonW",
+        "requirement": "Уверенные знания и опыт работы с <highlighttext>Python</highlighttext> (фреймворки Flask, Django). Навыки объектно-ориентированного программирования. Уверенное владение системой контроля версий (Git). ",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -1110,16 +1190,6 @@
         "salary_to": "0"
     },
     {
-        "name": "Python Backend Developer / Data Engineer",
-        "url": "https://api.hh.ru/vacancies/78306430?host=hh.ru",
-        "responsibility": "Разрабатывать и улучшать наш продукт – стриминг данных – с помощью FastAPI; Сервис высоконагруженный – около 4000 RPS. Работать с интеграциями – разрабатывать коннекторы...",
-        "town": "Москва",
-        "employer": "DataGo!",
-        "requirement": "Наличие опыта разработки на <highlighttext>Python</highlighttext> (Pandas, Numpy), с асинхронным стэком в частности (FastAPI, asyncio, aiohttp) – от 2-ух лет. ",
-        "salary_from": "None",
-        "salary_to": "250000"
-    },
-    {
         "name": "Junior ETL / BI / SQL разработчик",
         "url": "https://api.hh.ru/vacancies/78785666?host=hh.ru",
         "responsibility": "Построение отчетов с использованием инструментов Bi-аналитики. Написание скриптов для загрузки данных. Сбор бизнес требований.",
@@ -1127,6 +1197,36 @@
         "employer": "Смарт- Интегратор",
         "requirement": "Профильное образование. Уверенное знание SQL. Знание <highlighttext>Python</highlighttext>, как преимущество. Знание одного Bi инструмента, как преимущество.",
         "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Middle+ Backend разработчик Python/Django",
+        "url": "https://api.hh.ru/vacancies/78595053?host=hh.ru",
+        "responsibility": "Писать много кода на <highlighttext>python</highlighttext>, django и асинхронных фреймворках. Поддерживать существующую логику, переносить её на сервисную архитектуру. Бороться с легаси...",
+        "town": "Москва",
+        "employer": "ЧУ ДО Московская школа программистов",
+        "requirement": "Умение писать код на <highlighttext>Python</highlighttext>, оценивать качество, рефакторить. Опыт работы с Django, или с другим фреймворком (Flask, starlette, aiohttp). ",
+        "salary_from": "220000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Senior Fullstack Engineer (React + Python)",
+        "url": "https://api.hh.ru/vacancies/77853688?host=hh.ru",
+        "responsibility": "Продукт — b2b и b2b2c life insurance adviser/concierge для рынка США. Страхование жизни в...",
+        "town": "Москва",
+        "employer": "4CV Recruitment Services",
+        "requirement": "Опыт разработки бэкенда на <highlighttext>Python</highlighttext> от двух лет (если у вас сильный иной бэкенд язык, а с <highlighttext>Python</highlighttext> поменьше опыта...",
+        "salary_from": "7000",
+        "salary_to": "9000"
+    },
+    {
+        "name": "Data Engineer",
+        "url": "https://api.hh.ru/vacancies/77820466?host=hh.ru",
+        "responsibility": "Разобраться как устроены действующие проекты компании, спроектировать правильное Data Flow. Разрабатывать и впоследствии сопровождать Data-продукты на основе ETL-процессов...",
+        "town": "Санкт-Петербург",
+        "employer": "Ит-Финанс",
+        "requirement": "Хорошее знание <highlighttext>Python</highlighttext> и SQL, опыт оптимизации запросов. Опыт оркестрации ETL на Apache Airflow или других системах. Знания и опыт...",
+        "salary_from": "250000",
         "salary_to": "0"
     },
     {
@@ -1140,16 +1240,6 @@
         "salary_to": "0"
     },
     {
-        "name": "Middle+ Backend разработчик Python/Django",
-        "url": "https://api.hh.ru/vacancies/78595053?host=hh.ru",
-        "responsibility": "Писать много кода на <highlighttext>python</highlighttext>, django и асинхронных фреймворках. Поддерживать существующую логику, переносить её на сервисную архитектуру. Бороться с легаси...",
-        "town": "Москва",
-        "employer": "ЧУ ДО Московская школа программистов",
-        "requirement": "Умение писать код на <highlighttext>Python</highlighttext>, оценивать качество, рефакторить. Опыт работы с Django, или с другим фреймворком (Flask, starlette, aiohttp). ",
-        "salary_from": "220000",
-        "salary_to": "None"
-    },
-    {
         "name": "Программист С++/Python (R&D в проекте цифровых двойников)",
         "url": "https://api.hh.ru/vacancies/78674588?host=hh.ru",
         "responsibility": "В1: доработка/обучение сетей для удаления фона с последовательности изображений. B2: анализ потока фотографических данных, выбор качественных кадров...",
@@ -1157,17 +1247,7 @@
         "employer": "3Д Платформа",
         "requirement": "Отличное знание <highlighttext>Python</highlighttext>. Желательно знание C++. Отличная математическая и алгоритмическая база. Умение разбираться в чужом коде.",
         "salary_from": "150000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Senior Fullstack Engineer (React + Python)",
-        "url": "https://api.hh.ru/vacancies/77853688?host=hh.ru",
-        "responsibility": "Продукт — b2b и b2b2c life insurance adviser/concierge для рынка США. Страхование жизни в...",
-        "town": "Москва",
-        "employer": "4CV Recruitment Services",
-        "requirement": "Опыт разработки бэкенда на <highlighttext>Python</highlighttext> от двух лет (если у вас сильный иной бэкенд язык, а с <highlighttext>Python</highlighttext> поменьше опыта...",
-        "salary_from": "7000",
-        "salary_to": "9000"
+        "salary_to": "0"
     },
     {
         "name": "Python developer",
@@ -1180,14 +1260,34 @@
         "salary_to": "0"
     },
     {
+        "name": "Middle Python Developer / Django Developer",
+        "url": "https://api.hh.ru/vacancies/77490340?host=hh.ru",
+        "responsibility": "Разработка backend для клиент-серверных приложений. Написание Unit тестов. Внедрение ПО. Составление технической документации. Консультирование DevOps.",
+        "town": "Минск",
+        "employer": "Водород",
+        "requirement": "Опыт коммерческой разработки не менее 3 лет. Знание Django framework, PostgreSQL, REST/SOAP, XML, JAXB, Jackson, JSON, Linux, NGINX, Docker...",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
         "name": "Аналитик данных",
         "url": "https://api.hh.ru/vacancies/78809962?host=hh.ru",
         "responsibility": "Создавать прикладную аналитику для топ-менеджеров компании, на основе которой принимаются важные управленческие решения. Выгружать базы данных, разрабатывать и визуализировать...",
         "town": "Новосибирск",
         "employer": "Шахматов Александр Сергеевич",
         "requirement": "Power BI. Microsoft Excel. Английский - средний/выше среднего. Знание SQL, <highlighttext>Python</highlighttext>. Свободное владение английским языком. Опыт работы в аналитике, консалтинге...",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "100000"
+    },
+    {
+        "name": "Data Engineer (lead)",
+        "url": "https://api.hh.ru/vacancies/77874929?host=hh.ru",
+        "responsibility": "Проектировать, разрабатывать и поддерживать пайплайны для сбора и обработки данных. Обеспечивать SLA и качество данных. Готовить данные для моделей машинного...",
+        "town": "Москва",
+        "employer": "Predicto",
+        "requirement": "Опыт разработки высоконагруженных бэкенд сервисов на Java, Scala или <highlighttext>Python</highlighttext>. Опыт работы с моделями машинного обучения в продакшене. ",
+        "salary_from": "300000",
+        "salary_to": "400000"
     },
     {
         "name": "Бэкенд-разработчик Python",
@@ -1210,46 +1310,6 @@
         "salary_to": "0"
     },
     {
-        "name": "Middle Python Developer / Django Developer",
-        "url": "https://api.hh.ru/vacancies/77490340?host=hh.ru",
-        "responsibility": "Разработка backend для клиент-серверных приложений. Написание Unit тестов. Внедрение ПО. Составление технической документации. Консультирование DevOps.",
-        "town": "Минск",
-        "employer": "Водород",
-        "requirement": "Опыт коммерческой разработки не менее 3 лет. Знание Django framework, PostgreSQL, REST/SOAP, XML, JAXB, Jackson, JSON, Linux, NGINX, Docker...",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "FullStack Developer (Python)",
-        "url": "https://api.hh.ru/vacancies/78847281?host=hh.ru",
-        "responsibility": "Писать качественный, тестируемый поддерживаемый код. Проектированием архитектуры сервисов и баз данных. Code-review и рефаторинг. Оптимизацией производительности приложений. ",
-        "town": "Санкт-Петербург",
-        "employer": "ИНФИНАЙТ СИНЕРДЖИ",
-        "requirement": "Опыт в разработке на <highlighttext>Python</highlighttext> 3+ лет. Опыт JS/TS 1.5+ лет. Знание любого SPA фреймворка (Angular...",
-        "salary_from": "250000",
-        "salary_to": "280000"
-    },
-    {
-        "name": "Data Engineer (lead)",
-        "url": "https://api.hh.ru/vacancies/77874929?host=hh.ru",
-        "responsibility": "Проектировать, разрабатывать и поддерживать пайплайны для сбора и обработки данных. Обеспечивать SLA и качество данных. Готовить данные для моделей машинного...",
-        "town": "Москва",
-        "employer": "Predicto",
-        "requirement": "Опыт разработки высоконагруженных бэкенд сервисов на Java, Scala или <highlighttext>Python</highlighttext>. Опыт работы с моделями машинного обучения в продакшене. ",
-        "salary_from": "300000",
-        "salary_to": "400000"
-    },
-    {
-        "name": "Data Engineer",
-        "url": "https://api.hh.ru/vacancies/77820466?host=hh.ru",
-        "responsibility": "Разобраться как устроены действующие проекты компании, спроектировать правильное Data Flow. Разрабатывать и впоследствии сопровождать Data-продукты на основе ETL-процессов...",
-        "town": "Санкт-Петербург",
-        "employer": "Ит-Финанс",
-        "requirement": "Хорошее знание <highlighttext>Python</highlighttext> и SQL, опыт оптимизации запросов. Опыт оркестрации ETL на Apache Airflow или других системах. Знания и опыт...",
-        "salary_from": "250000",
-        "salary_to": "None"
-    },
-    {
         "name": "Middle-Senior Python/Django разработчик",
         "url": "https://api.hh.ru/vacancies/78733443?host=hh.ru",
         "responsibility": "Онлайн-Сервис «МДО» (Мой Дом Онлайн) является разработчиком и интегратором собственного программного обеспечения для УК и ТСЖ \"Мой Дом Онлайн...",
@@ -1258,6 +1318,26 @@
         "requirement": "Требуемые навыки: <highlighttext>Python</highlighttext>, Django, Django REST Framework, PostgreSQL, Git. Плюсом будет: Опыт с AIOHTTP, OpenSips, FreeSwitch. Django Rest Framework. ",
         "salary_from": "100000",
         "salary_to": "150000"
+    },
+    {
+        "name": "Эконометрист/Data scientist (Junior/Middle) в консалтинг",
+        "url": "https://api.hh.ru/vacancies/78876532?host=hh.ru",
+        "responsibility": "Построение моделей эластичности спроса на банковские продукты и моделей прогнозирования в ритейле в т.ч. с учётом гео-аналитических данных. ",
+        "town": "Москва",
+        "employer": "БСТ Менеджмент-Консалтинг",
+        "requirement": "Умение быстро работать с большими объемами информации. Умение программировать на <highlighttext>Python</highlighttext>. Большим плюсом будет знание методов машинного обучения, стат.пакетов. ",
+        "salary_from": "40000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Разработчик Python ( Голосовой ассистент )",
+        "url": "https://api.hh.ru/vacancies/78118811?host=hh.ru",
+        "responsibility": "Разрабатывать и развивать текущие сервисы. Разрабатывать архитектурные решения. Взаимодействовать с другими командами разработки.",
+        "town": "Москва",
+        "employer": "Иннотех, Группа компаний",
+        "requirement": "Отличное знание <highlighttext>Python</highlighttext> (опыт работы от 3х лет). Опыт построения архитектурных решений. Опыт работы с PostgreSQL . Опыт работы с...",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
         "name": "Junior Python Developer",
@@ -1280,14 +1360,14 @@
         "salary_to": "140000"
     },
     {
-        "name": "Middle Python Developer",
-        "url": "https://api.hh.ru/vacancies/77956097?host=hh.ru",
-        "responsibility": "Участие в разработке новых продуктов используя язык <highlighttext>Python</highlighttext> и стек технологий: asyncio, aiohttp( jrpc, GraphQL), PostgresSQL(Sqlalchemy). Анализ и оптимизация...",
+        "name": "Middle Python/Django Developer",
+        "url": "https://api.hh.ru/vacancies/78628329?host=hh.ru",
+        "responsibility": "Разрабатывать и поддерживать back-end используя Django Rest Framework. Сотрудничать с разработчиками и stakeholder’ами для дизайна и имплементации новой...",
         "town": "Москва",
-        "employer": "Филиал компании Лист Ренталс Лимитед",
-        "requirement": "Техническое образование или эквивалентный практический опыт. Хороший опыт разработки на <highlighttext>Python</highlighttext>. Опыт разработки веб-приложений. Не понаслышке знать про aiohttp...",
-        "salary_from": "2000",
-        "salary_to": "4000"
+        "employer": "Лаборатория Маркетинга",
+        "requirement": "Сильные навыки самостоятельного решения технических проблем. Опыт разработки на <highlighttext>Python</highlighttext> от 3х лёт. Опыт разработки на Django, Django Rest...",
+        "salary_from": "150000",
+        "salary_to": "250000"
     },
     {
         "name": "Python Developer",
@@ -1300,13 +1380,33 @@
         "salary_to": "0"
     },
     {
-        "name": "Разработчик Python ( Голосовой ассистент )",
-        "url": "https://api.hh.ru/vacancies/78118811?host=hh.ru",
-        "responsibility": "Разрабатывать и развивать текущие сервисы. Разрабатывать архитектурные решения. Взаимодействовать с другими командами разработки.",
+        "name": "Senior Python/Go developer",
+        "url": "https://api.hh.ru/vacancies/78768593?host=hh.ru",
+        "responsibility": "Поиск и реализация наиболее оптимальных решений задач бизнеса в рамках разработки приложения. Ожидаем от кандидата инициатив и их реализации по...",
+        "town": "Алматы",
+        "employer": "Reputation House",
+        "requirement": "Плюсом является умение работы по принципам DDD. <highlighttext>Python</highlighttext> (не менее 3 лет опыта работы с языком). Go (не менее 2...",
+        "salary_from": "300000",
+        "salary_to": "350000"
+    },
+    {
+        "name": "Python-разработчик",
+        "url": "https://api.hh.ru/vacancies/78703677?host=hh.ru",
+        "responsibility": "Необходимо: Администрирование Linux, nginx, Postgres.",
+        "town": "Уфа",
+        "employer": "ЦСИ Интегро",
+        "requirement": "Уверенное программирование с использованием какого-либо объекто-ориентированного языка программирования. Опыт разработки на <highlighttext>Python</highlighttext>. Желательно знание JavaScript или TypeScript, PostgreSQL. ",
+        "salary_from": "80000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Data Analyst",
+        "url": "https://api.hh.ru/vacancies/77911933?host=hh.ru",
+        "responsibility": "Создание и поддержка панелей мониторинга и отчетов, которые обеспечивают бизнес-задачи компании. Обработка больших объемов данных и участие в повышении...",
         "town": "Москва",
-        "employer": "Иннотех, Группа компаний",
-        "requirement": "Отличное знание <highlighttext>Python</highlighttext> (опыт работы от 3х лет). Опыт построения архитектурных решений. Опыт работы с PostgreSQL . Опыт работы с...",
-        "salary_from": "0",
+        "employer": "Americor Funding Inc",
+        "requirement": "Опыт работы с базами данных MySQL/ MariaDB, SQL, <highlighttext>Python</highlighttext>. Знание статистических методов и анализа данных. Умение презентовать результаты своей работы. ",
+        "salary_from": "230000",
         "salary_to": "0"
     },
     {
@@ -1320,54 +1420,14 @@
         "salary_to": "340000"
     },
     {
-        "name": "Middle Python/Django Developer",
-        "url": "https://api.hh.ru/vacancies/78628329?host=hh.ru",
-        "responsibility": "Разрабатывать и поддерживать back-end используя Django Rest Framework. Сотрудничать с разработчиками и stakeholder’ами для дизайна и имплементации новой...",
-        "town": "Москва",
-        "employer": "Лаборатория Маркетинга",
-        "requirement": "Сильные навыки самостоятельного решения технических проблем. Опыт разработки на <highlighttext>Python</highlighttext> от 3х лёт. Опыт разработки на Django, Django Rest...",
-        "salary_from": "150000",
-        "salary_to": "250000"
-    },
-    {
-        "name": "Python-разработчик",
-        "url": "https://api.hh.ru/vacancies/78703677?host=hh.ru",
-        "responsibility": "Необходимо: Администрирование Linux, nginx, Postgres.",
-        "town": "Уфа",
-        "employer": "ЦСИ Интегро",
-        "requirement": "Уверенное программирование с использованием какого-либо объекто-ориентированного языка программирования. Опыт разработки на <highlighttext>Python</highlighttext>. Желательно знание JavaScript или TypeScript, PostgreSQL. ",
-        "salary_from": "80000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Python developer",
-        "url": "https://api.hh.ru/vacancies/70093763?host=hh.ru",
-        "responsibility": "Участие в разработке архитектуры и принятии решений по выбору технологий. Развитие надёжных, производительных, масштабируемых решений. Участие в мероприятиях по обеспечению...",
-        "town": "Москва",
-        "employer": "НПФ ЭВОЛЮЦИЯ",
-        "requirement": "Опыт работы от 1 года. Отличное знание <highlighttext>Python</highlighttext>. Опыт разработки web-приложений и API. Знание принципов работы HTTP/HTTPS. ",
+        "name": "Python разработчик",
+        "url": "https://api.hh.ru/vacancies/78808784?host=hh.ru",
+        "responsibility": "Работа с бекендом аналитической платформы и парсинга данных, на базе fastapi. Обработка больших данных, оптимизация скорости работы приложения. ",
+        "town": "Нижний Новгород",
+        "employer": "Форкитех",
+        "requirement": "Уверенное знание <highlighttext>python</highlighttext>, fastapi. Отличные знания raw SQL, sqlalchemy. Опыт работы с postgres, kafka. Опыт работы с linter и покрытие...",
         "salary_from": "0",
         "salary_to": "0"
-    },
-    {
-        "name": "Data Analyst",
-        "url": "https://api.hh.ru/vacancies/77911933?host=hh.ru",
-        "responsibility": "Создание и поддержка панелей мониторинга и отчетов, которые обеспечивают бизнес-задачи компании. Обработка больших объемов данных и участие в повышении...",
-        "town": "Москва",
-        "employer": "Americor Funding Inc",
-        "requirement": "Опыт работы с базами данных MySQL/ MariaDB, SQL, <highlighttext>Python</highlighttext>. Знание статистических методов и анализа данных. Умение презентовать результаты своей работы. ",
-        "salary_from": "230000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Senior Python/Go developer",
-        "url": "https://api.hh.ru/vacancies/78768593?host=hh.ru",
-        "responsibility": "Поиск и реализация наиболее оптимальных решений задач бизнеса в рамках разработки приложения. Ожидаем от кандидата инициатив и их реализации по...",
-        "town": "Алматы",
-        "employer": "Reputation House",
-        "requirement": "Плюсом является умение работы по принципам DDD. <highlighttext>Python</highlighttext> (не менее 3 лет опыта работы с языком). Go (не менее 2...",
-        "salary_from": "300000",
-        "salary_to": "350000"
     },
     {
         "name": "Python-разработчик в R&D отдел",
@@ -1380,6 +1440,16 @@
         "salary_to": "150000"
     },
     {
+        "name": "Аналитик данных",
+        "url": "https://api.hh.ru/vacancies/77497476?host=hh.ru",
+        "responsibility": "Построение базовой отчетности, основанной на данных. Работа с атрибуцией и событиями, интеграция с внешними системами. Контроль и аналитика внутренней сервиса...",
+        "town": "Казань",
+        "employer": "Miles&Miles",
+        "requirement": "Базовое понимание работы индексов, MySQL, Clickhouse. Знание <highlighttext>Python</highlighttext> на уровне Junior/Middle. Знание библиотек Pandas \\ NumPy. Будет плюсом знание маркетинга...",
+        "salary_from": "2000",
+        "salary_to": "0"
+    },
+    {
         "name": "Программист Python",
         "url": "https://api.hh.ru/vacancies/78686402?host=hh.ru",
         "responsibility": "Доработка back-end на <highlighttext>Python</highlighttext> в рамках поставленных задач (рефакторинг, исправление ошибок, добавление нового функционала). Покрытие узких участков кода юнит...",
@@ -1388,36 +1458,6 @@
         "requirement": "Знание <highlighttext>Python</highlighttext>, SQL. Умение разобраться в чужом коде. Опыт работы с вышеуказанными технологиями от 1 года или образование в сфере...",
         "salary_from": "50000",
         "salary_to": "130000"
-    },
-    {
-        "name": "Аналитик данных",
-        "url": "https://api.hh.ru/vacancies/77497476?host=hh.ru",
-        "responsibility": "Построение базовой отчетности, основанной на данных. Работа с атрибуцией и событиями, интеграция с внешними системами. Контроль и аналитика внутренней сервиса...",
-        "town": "Казань",
-        "employer": "Miles&Miles",
-        "requirement": "Базовое понимание работы индексов, MySQL, Clickhouse. Знание <highlighttext>Python</highlighttext> на уровне Junior/Middle. Знание библиотек Pandas \\ NumPy. Будет плюсом знание маркетинга...",
-        "salary_from": "2000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Python разработчик",
-        "url": "https://api.hh.ru/vacancies/78808784?host=hh.ru",
-        "responsibility": "Работа с бекендом аналитической платформы и парсинга данных, на базе fastapi. Обработка больших данных, оптимизация скорости работы приложения. ",
-        "town": "Нижний Новгород",
-        "employer": "Форкитех",
-        "requirement": "Уверенное знание <highlighttext>python</highlighttext>, fastapi. Отличные знания raw SQL, sqlalchemy. Опыт работы с postgres, kafka. Опыт работы с linter и покрытие...",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Python разработчик (Django)",
-        "url": "https://api.hh.ru/vacancies/78687763?host=hh.ru",
-        "responsibility": "Разработка на <highlighttext>Python</highlighttext> нового ПО для проектирования оптических транспортных сетей.",
-        "town": "Москва",
-        "employer": "Т8",
-        "requirement": "Опыт промышленной разработки на <highlighttext>Python</highlighttext> от двух лет. Опыт работы с базами данных. Опыт работы с Linux. Знание сетевых протоколов. ",
-        "salary_from": "None",
-        "salary_to": "220000"
     },
     {
         "name": "Python Developer (Remote)",
@@ -1430,14 +1470,24 @@
         "salary_to": "300000"
     },
     {
-        "name": "Программист Python/Python Developer",
-        "url": "https://api.hh.ru/vacancies/78850727?host=hh.ru",
-        "responsibility": "Разработка сложных Backend на <highlighttext>Python</highlighttext>3. Разработка простых пользовательских приложений (агенты, клиенты) на <highlighttext>Python</highlighttext> 3. Участвовать в проектировании архитектуры приложений. ",
-        "town": "Санкт-Петербург",
-        "employer": "Нума Технологии",
-        "requirement": "Опыт разработки на <highlighttext>Python</highlighttext> 3 не менее 2-3-х лет. Опыт разработки больших приложений c применением фреймворка Django 2...",
+        "name": "Middle Python Developer",
+        "url": "https://api.hh.ru/vacancies/78843836?host=hh.ru",
+        "responsibility": "Проектирование и разработка отказоустойчивых и высоконагруженных микросервисов. Участие в разработке бизнес-логики нового продукта. Интеграция с другими системами.",
+        "town": "Минск",
+        "employer": "Банковский процессинговый центр",
+        "requirement": "RabbitMQ. Redis. Имеешь обширный опыт проектирования и разработки приложений на <highlighttext>Python</highlighttext>. Знаешь что такое Pep8 и следуешь ему. ",
         "salary_from": "0",
         "salary_to": "0"
+    },
+    {
+        "name": "Python разработчик (Django)",
+        "url": "https://api.hh.ru/vacancies/78687763?host=hh.ru",
+        "responsibility": "Разработка на <highlighttext>Python</highlighttext> нового ПО для проектирования оптических транспортных сетей.",
+        "town": "Москва",
+        "employer": "Т8",
+        "requirement": "Опыт промышленной разработки на <highlighttext>Python</highlighttext> от двух лет. Опыт работы с базами данных. Опыт работы с Linux. Знание сетевых протоколов. ",
+        "salary_from": "0",
+        "salary_to": "220000"
     },
     {
         "name": "Python-разработчик систем сбора",
@@ -1450,14 +1500,14 @@
         "salary_to": "150000"
     },
     {
-        "name": "Разработчик Python",
-        "url": "https://api.hh.ru/vacancies/78125583?host=hh.ru",
-        "responsibility": "Участвовать в разработке продуктов компании на языке программирования - <highlighttext>Python</highlighttext>. Разрабатывать и поддерживать интеграции со сторонними API. Взаимодействовать с командой аналитиков...",
-        "town": "Москва",
-        "employer": "Staffwell",
-        "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 3х лет. Опыт разработки REST API на каком-либо из мини-фреймворков (Flask...",
-        "salary_from": "None",
-        "salary_to": "300000"
+        "name": "Программист Python/Python Developer",
+        "url": "https://api.hh.ru/vacancies/78850727?host=hh.ru",
+        "responsibility": "Разработка сложных Backend на <highlighttext>Python</highlighttext>3. Разработка простых пользовательских приложений (агенты, клиенты) на <highlighttext>Python</highlighttext> 3. Участвовать в проектировании архитектуры приложений. ",
+        "town": "Санкт-Петербург",
+        "employer": "Нума Технологии",
+        "requirement": "Опыт разработки на <highlighttext>Python</highlighttext> 3 не менее 2-3-х лет. Опыт разработки больших приложений c применением фреймворка Django 2...",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
         "name": "Python-разработчик",
@@ -1466,16 +1516,6 @@
         "town": "Москва",
         "employer": "СБЕР",
         "requirement": "Опыт работы лидером команды разработки (от 3 человек). Опыт разработки на <highlighttext>Python</highlighttext>, знание фреймворка Flask (Django/Tornado etc). ",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Python (только офис) Developer, разработчик, программист",
-        "url": "https://api.hh.ru/vacancies/78786773?host=hh.ru",
-        "responsibility": "Доработка/усовершенствование существующего API. Разработка новых компонентов.",
-        "town": "Киров (Кировская область)",
-        "employer": "Новые Системы",
-        "requirement": "Опыт разработки <highlighttext>Python</highlighttext> от года и больше. Опыт работы с API. Опыт работы с Git. Понимание MySQL, PostgreSQL.",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -1490,6 +1530,46 @@
         "salary_to": "70000"
     },
     {
+        "name": "Python developer",
+        "url": "https://api.hh.ru/vacancies/70093763?host=hh.ru",
+        "responsibility": "Участие в разработке архитектуры и принятии решений по выбору технологий. Развитие надёжных, производительных, масштабируемых решений. Участие в мероприятиях по обеспечению...",
+        "town": "Москва",
+        "employer": "НПФ ЭВОЛЮЦИЯ",
+        "requirement": "Опыт работы от 1 года. Отличное знание <highlighttext>Python</highlighttext>. Опыт разработки web-приложений и API. Знание принципов работы HTTP/HTTPS. ",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python (только офис) Developer, разработчик, программист",
+        "url": "https://api.hh.ru/vacancies/78786773?host=hh.ru",
+        "responsibility": "Доработка/усовершенствование существующего API. Разработка новых компонентов.",
+        "town": "Киров (Кировская область)",
+        "employer": "Новые Системы",
+        "requirement": "Опыт разработки <highlighttext>Python</highlighttext> от года и больше. Опыт работы с API. Опыт работы с Git. Понимание MySQL, PostgreSQL.",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Аналитик данных / Data Analyst / BI-аналитик",
+        "url": "https://api.hh.ru/vacancies/78694897?host=hh.ru",
+        "responsibility": "Составление дэшбордов по метрикам продуктов (выборки данных из разных БД, построение DWH, визуализация метрик). Формулирование и проверка гипотез. ",
+        "town": "Москва",
+        "employer": "Фрифлекс",
+        "requirement": "Опыт работы с DWH. Опыт работы с BI-системами. Опыт с <highlighttext>Python</highlighttext> и библиотек анализа данных (Pandas, SciPy). ",
+        "salary_from": "160000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Разработчик Python",
+        "url": "https://api.hh.ru/vacancies/78125583?host=hh.ru",
+        "responsibility": "Участвовать в разработке продуктов компании на языке программирования - <highlighttext>Python</highlighttext>. Разрабатывать и поддерживать интеграции со сторонними API. Взаимодействовать с командой аналитиков...",
+        "town": "Москва",
+        "employer": "Staffwell",
+        "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 3х лет. Опыт разработки REST API на каком-либо из мини-фреймворков (Flask...",
+        "salary_from": "0",
+        "salary_to": "300000"
+    },
+    {
         "name": "Python-developer",
         "url": "https://api.hh.ru/vacancies/72693020?host=hh.ru",
         "responsibility": null,
@@ -1500,33 +1580,13 @@
         "salary_to": "220000"
     },
     {
-        "name": "Специалист по машинному обучению/ИИ",
-        "url": "https://api.hh.ru/vacancies/77775406?host=hh.ru",
-        "responsibility": "Это большой и сложный корпоративный продукт, предназначенный для оценки финансовых/коррупционных рисков при заключении контрактов с новыми контрагентами и найме...",
-        "town": "Санкт-Петербург",
-        "employer": "Платформа",
-        "requirement": "ML, Machine learning, Py Torch, Tensorflow, Keras. Язык программирования <highlighttext>Python</highlighttext>. Знание реляционных БД. Умение работать с системами контроля версий (git). ",
-        "salary_from": "250000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Аналитик данных / Data Analyst / BI-аналитик",
-        "url": "https://api.hh.ru/vacancies/78694897?host=hh.ru",
-        "responsibility": "Составление дэшбордов по метрикам продуктов (выборки данных из разных БД, построение DWH, визуализация метрик). Формулирование и проверка гипотез. ",
-        "town": "Москва",
-        "employer": "Фрифлекс",
-        "requirement": "Опыт работы с DWH. Опыт работы с BI-системами. Опыт с <highlighttext>Python</highlighttext> и библиотек анализа данных (Pandas, SciPy). ",
-        "salary_from": "160000",
-        "salary_to": "None"
-    },
-    {
         "name": "Data engineer (middle+)",
         "url": "https://api.hh.ru/vacancies/78519105?host=hh.ru",
         "responsibility": "Разработка и развитие платформы прогнозирования - архитектура и реализация инструментов для построения ML-пайплайнов (подготовка данных, сбор фичей, обучение моделей, применение...",
         "town": "Москва",
         "employer": "Мамаева Ирина Анатольевна",
         "requirement": "Уверенные знания <highlighttext>Python</highlighttext> 3+ (структуры данных, алгоритмы, концепции языка). Уверенные знания SQL: агрегации, джойны, вложенные запросы, индексы, оптимизации запросов. ",
-        "salary_from": "None",
+        "salary_from": "0",
         "salary_to": "350000"
     },
     {
@@ -1540,14 +1600,14 @@
         "salary_to": "150000"
     },
     {
-        "name": "Разработчик Python (Middle+)",
-        "url": "https://api.hh.ru/vacancies/78744603?host=hh.ru",
-        "responsibility": "Разработка backend с нуля. Разработка backend для предоставления данных на front. Оптимизация работы существующего приложения. Работа в команде разработчиков.",
+        "name": "Junior DevOps / Младший системный инженер",
+        "url": "https://api.hh.ru/vacancies/77914303?host=hh.ru",
+        "responsibility": "2) Dotnet приложения в Docker контейнерах. 3) В качестве CI/CD инструмента используется Jenkins (планируем переверсти сборку основных сервисов на...",
         "town": "Москва",
-        "employer": "Дивергент",
-        "requirement": "<highlighttext>Python</highlighttext> 3. Опыт работы программистом от 3 года (только реальный опыт в роли). Знание баз данных (Postgres). Работа с git. ",
-        "salary_from": "None",
-        "salary_to": "230000"
+        "employer": "Передовые Технологии",
+        "requirement": "Опыт работы с Jenkins Pipeline, написание groovy скриптов. <highlighttext>Python</highlighttext>. Опыт работы с локальным docker registry без UI. GET/POST запросы...",
+        "salary_from": "68000",
+        "salary_to": "0"
     },
     {
         "name": "Бэкенд разработчик",
@@ -1560,14 +1620,54 @@
         "salary_to": "60000"
     },
     {
-        "name": "Junior DevOps / Младший системный инженер",
-        "url": "https://api.hh.ru/vacancies/77914303?host=hh.ru",
-        "responsibility": "2) Dotnet приложения в Docker контейнерах. 3) В качестве CI/CD инструмента используется Jenkins (планируем переверсти сборку основных сервисов на...",
+        "name": "Python разработчик веб-приложений (fullstack)",
+        "url": "https://api.hh.ru/vacancies/78254984?host=hh.ru",
+        "responsibility": "Fullstack разработка веб-приложения для интерактивной визуализации данных (графов). При визуализации используется двусторонняя синхронизация графа с отдельным сервером данных. ",
+        "town": "Санкт-Петербург",
+        "employer": "ЦОМИА ИНФО ПРО",
+        "requirement": "Обязательно) Опыт коммерческой разработки на <highlighttext>Python</highlighttext> не менее 1 лет. Выполнение тестового задания.",
+        "salary_from": "100000",
+        "salary_to": "270000"
+    },
+    {
+        "name": "Специалист по машинному обучению/ИИ",
+        "url": "https://api.hh.ru/vacancies/77775406?host=hh.ru",
+        "responsibility": "Это большой и сложный корпоративный продукт, предназначенный для оценки финансовых/коррупционных рисков при заключении контрактов с новыми контрагентами и найме...",
+        "town": "Санкт-Петербург",
+        "employer": "Платформа",
+        "requirement": "ML, Machine learning, Py Torch, Tensorflow, Keras. Язык программирования <highlighttext>Python</highlighttext>. Знание реляционных БД. Умение работать с системами контроля версий (git). ",
+        "salary_from": "250000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Разработчик Python",
+        "url": "https://api.hh.ru/vacancies/72052201?host=hh.ru",
+        "responsibility": "Участвовать в разработке высоконагруженных приложений для работы с транзакционными и аналитическими данными, отвечающих требованиям по распределённости, горизонтальной масштабируемости, производительности и...",
         "town": "Москва",
-        "employer": "Передовые Технологии",
-        "requirement": "Опыт работы с Jenkins Pipeline, написание groovy скриптов. <highlighttext>Python</highlighttext>. Опыт работы с локальным docker registry без UI. GET/POST запросы...",
-        "salary_from": "68000",
-        "salary_to": "None"
+        "employer": "QIWI",
+        "requirement": "Пишешь на <highlighttext>Python</highlighttext> от 3х лет, опыт коммерческой разработки от года. Ориентируешься в общих вопросах программирования: паттерны проектирования, структуры...",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python разработчик/программист (Middle Python Developer)",
+        "url": "https://api.hh.ru/vacancies/77865712?host=hh.ru",
+        "responsibility": "Разработка сервисов для middle-офиса компании – автоматизация ежедневных расчётов, автоматическое формирование конфигурационных файлов, расчёт показателей и генерация управленческой отчётности (позиции...",
+        "town": "Москва",
+        "employer": "Финмаркет Софт",
+        "requirement": "Уверенные знания и достаточный для решения задач опыт разработки на <highlighttext>Python</highlighttext> 3+. Умение работать с git. Высокий уровень знаний...",
+        "salary_from": "180000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Специалист по тестированию (Python)",
+        "url": "https://api.hh.ru/vacancies/78452409?host=hh.ru",
+        "responsibility": "Написание автотестов api бэкенда. - Работа в команде с разработчиками. Амбициозные задачи: участие в разработке и внедрении федеральных проектов Компании.",
+        "town": "Москва",
+        "employer": "БУРГЕР КИНГ РОССИЯ",
+        "requirement": "Понимание основ теории тестирования. Знание методик тестирования ПО. - Опыт работы с баг-трекинговыми системами. - Опыт написания тестовой документации (чек-листы...",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
         "name": "Middle Python разработчик",
@@ -1578,6 +1678,16 @@
         "requirement": "Опыт разработки на <highlighttext>Python</highlighttext> от 2 лет. Опыт работы с Django framework/Flask. Опыт работы с Redis/Celery. ",
         "salary_from": "0",
         "salary_to": "0"
+    },
+    {
+        "name": "Разработчик Python (Middle+)",
+        "url": "https://api.hh.ru/vacancies/78744603?host=hh.ru",
+        "responsibility": "Разработка backend с нуля. Разработка backend для предоставления данных на front. Оптимизация работы существующего приложения. Работа в команде разработчиков.",
+        "town": "Москва",
+        "employer": "Дивергент",
+        "requirement": "<highlighttext>Python</highlighttext> 3. Опыт работы программистом от 3 года (только реальный опыт в роли). Знание баз данных (Postgres). Работа с git. ",
+        "salary_from": "0",
+        "salary_to": "230000"
     },
     {
         "name": "Программист Python (удаленно)",
@@ -1600,32 +1710,22 @@
         "salary_to": "3400"
     },
     {
-        "name": "Python разработчик веб-приложений (fullstack)",
-        "url": "https://api.hh.ru/vacancies/78254984?host=hh.ru",
-        "responsibility": "Fullstack разработка веб-приложения для интерактивной визуализации данных (графов). При визуализации используется двусторонняя синхронизация графа с отдельным сервером данных. ",
-        "town": "Санкт-Петербург",
-        "employer": "ЦОМИА ИНФО ПРО",
-        "requirement": "Обязательно) Опыт коммерческой разработки на <highlighttext>Python</highlighttext> не менее 1 лет. Выполнение тестового задания.",
-        "salary_from": "100000",
-        "salary_to": "270000"
+        "name": "Разработчик back-end (python)",
+        "url": "https://api.hh.ru/vacancies/74365886?host=hh.ru",
+        "responsibility": "Разработка на <highlighttext>Python</highlighttext> и Django. Доработка и сопровождение существующего кода. Участие в планировании/code-review задач.",
+        "town": "Томск",
+        "employer": "ИнфоТеКС",
+        "requirement": "Отличное знание <highlighttext>Python</highlighttext>, Django. Понимание принципов ООП, SOLID, паттернов проектирования. Опыт работы с базами данных.",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
-        "name": "Python разработчик/программист (Middle Python Developer)",
-        "url": "https://api.hh.ru/vacancies/77865712?host=hh.ru",
-        "responsibility": "Разработка сервисов для middle-офиса компании – автоматизация ежедневных расчётов, автоматическое формирование конфигурационных файлов, расчёт показателей и генерация управленческой отчётности (позиции...",
+        "name": "Full Stack разработчик (Python и Django)",
+        "url": "https://api.hh.ru/vacancies/78860945?host=hh.ru",
+        "responsibility": "Разрабатывать бэк-энд части приложений на <highlighttext>Python</highlighttext> Django, интегрированными между собой и с внешними сервисами. Разрабатывать фронт-энд часть приложений...",
         "town": "Москва",
-        "employer": "Финмаркет Софт",
-        "requirement": "Уверенные знания и достаточный для решения задач опыт разработки на <highlighttext>Python</highlighttext> 3+. Умение работать с git. Высокий уровень знаний...",
-        "salary_from": "180000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Специалист по тестированию (Python)",
-        "url": "https://api.hh.ru/vacancies/78452409?host=hh.ru",
-        "responsibility": "Написание автотестов api бэкенда. - Работа в команде с разработчиками. Амбициозные задачи: участие в разработке и внедрении федеральных проектов Компании.",
-        "town": "Москва",
-        "employer": "БУРГЕР КИНГ РОССИЯ",
-        "requirement": "Понимание основ теории тестирования. Знание методик тестирования ПО. - Опыт работы с баг-трекинговыми системами. - Опыт написания тестовой документации (чек-листы...",
+        "employer": "URSiP",
+        "requirement": "<highlighttext>Python</highlighttext> Django, FastApi. Javascript, Vue.js (работали со стейт Vuex). HTML, CSS. Владение VCS Git. Понимание и применение принципов и практик...",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -1650,6 +1750,16 @@
         "salary_to": "0"
     },
     {
+        "name": "Senior Python Developer",
+        "url": "https://api.hh.ru/vacancies/78049761?host=hh.ru",
+        "responsibility": "Участие в разработке новых продуктов используя язык <highlighttext>Python</highlighttext> и стек технологий: asyncio, aiohttp( jrpc, GraphQL), PostgresSQL(Sqlalchemy). Анализ и оптимизация...",
+        "town": "Москва",
+        "employer": "Филиал компании Лист Ренталс Лимитед",
+        "requirement": "Техническое образование или эквивалентный практический опыт. Хороший опыт разработки на <highlighttext>Python</highlighttext>. Опыт разработки веб-приложений. Не понаслышке знать про aiohttp...",
+        "salary_from": "3500",
+        "salary_to": "5500"
+    },
+    {
         "name": "Python разработчик",
         "url": "https://api.hh.ru/vacancies/78691596?host=hh.ru",
         "responsibility": "Активно участвовать во всех этапах разработки в составе Scrum-команды: от сбора и анализа требований до написания кода и выкатки...",
@@ -1660,24 +1770,14 @@
         "salary_to": "0"
     },
     {
-        "name": "NLP Analyst",
-        "url": "https://api.hh.ru/vacancies/78732240?host=hh.ru",
-        "responsibility": "Proposing ideas, hypothesis, and models to use modern NLP approaches for the development of new products or improving the existing...",
-        "town": "Санкт-Петербург",
-        "employer": "Дом Программ",
-        "requirement": "Proven software engineering skills in <highlighttext>Python</highlighttext> programming, fluent use scientific packages (Numpy, Pandas, Matptotlib, etc.). Skills in other languages (C#...",
-        "salary_from": "250000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Senior Python Developer",
-        "url": "https://api.hh.ru/vacancies/78049761?host=hh.ru",
-        "responsibility": "Участие в разработке новых продуктов используя язык <highlighttext>Python</highlighttext> и стек технологий: asyncio, aiohttp( jrpc, GraphQL), PostgresSQL(Sqlalchemy). Анализ и оптимизация...",
+        "name": "Python разработчик (backend)",
+        "url": "https://api.hh.ru/vacancies/78887375?host=hh.ru",
+        "responsibility": "Участие в разработке lowcode инструмента для автоматизации банковских бизнес-процессов. Создание управленческой отчетности на 3000+ пользователей. Проектирование архитектуры и...",
         "town": "Москва",
-        "employer": "Филиал компании Лист Ренталс Лимитед",
-        "requirement": "Техническое образование или эквивалентный практический опыт. Хороший опыт разработки на <highlighttext>Python</highlighttext>. Опыт разработки веб-приложений. Не понаслышке знать про aiohttp...",
-        "salary_from": "3500",
-        "salary_to": "5500"
+        "employer": "СБЕР",
+        "requirement": "Хорошее знание SQL (Oracle/PostgreSQL/MS SQL) . Опыт бэкенд-разработки на <highlighttext>Python</highlighttext> в роли senior разработчика. Опыт проектирования и развития...",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
         "name": "Python developer",
@@ -1690,6 +1790,16 @@
         "salary_to": "0"
     },
     {
+        "name": "NLP Analyst",
+        "url": "https://api.hh.ru/vacancies/78732240?host=hh.ru",
+        "responsibility": "Proposing ideas, hypothesis, and models to use modern NLP approaches for the development of new products or improving the existing...",
+        "town": "Санкт-Петербург",
+        "employer": "Дом Программ",
+        "requirement": "Proven software engineering skills in <highlighttext>Python</highlighttext> programming, fluent use scientific packages (Numpy, Pandas, Matptotlib, etc.). Skills in other languages (C#...",
+        "salary_from": "250000",
+        "salary_to": "0"
+    },
+    {
         "name": "C++ Software Developer",
         "url": "https://api.hh.ru/vacancies/78578145?host=hh.ru",
         "responsibility": "Разработка на C/C++, в меньшей степени на <highlighttext>Python</highlighttext>. Работа с множеством сервисов и различных сетевых технологий. Участие в конференциях.",
@@ -1697,7 +1807,27 @@
         "employer": "Варити+",
         "requirement": "Опыт разработки с использованием Git. Желательно: Знание C; Знания <highlighttext>Python</highlighttext>; Знание сетевого протокола HTTP2/3, SSL/TLS; Знание сетевых...",
         "salary_from": "250000",
-        "salary_to": "None"
+        "salary_to": "0"
+    },
+    {
+        "name": "Backend разработчик",
+        "url": "https://api.hh.ru/vacancies/78796000?host=hh.ru",
+        "responsibility": "Это работа на заказ под конкретных клиентов, ориентированная на качество и современность конечного продукта.",
+        "town": "Астана",
+        "employer": "ITB Company",
+        "requirement": "Опыт разработки на <highlighttext>Python</highlighttext> Django Rest Framework, создание Rest API с помощью DRF, GraphQL. Опыт работы с СУБД PostgreSQL, Docker. ",
+        "salary_from": "150000",
+        "salary_to": "200000"
+    },
+    {
+        "name": "Full stack разработчик (Python)",
+        "url": "https://api.hh.ru/vacancies/78869705?host=hh.ru",
+        "responsibility": "Разработка и развитие корпоративных Web приложений и сайтов. Разработка API для Web приложений и интеграции с другими информационными системами. ",
+        "town": "Москва",
+        "employer": "ЛогЛаб",
+        "requirement": "...сервисов на <highlighttext>python</highlighttext>. Стек технологий Back-end: <highlighttext>Python</highlighttext> 2.7, 3.8, 3.9, 3.10, <highlighttext>Python</highlighttext> Django, <highlighttext>Python</highlighttext> FastApi...",
+        "salary_from": "160000",
+        "salary_to": "220000"
     },
     {
         "name": "Middle / Senior Python Backend Developer",
@@ -1710,14 +1840,14 @@
         "salary_to": "0"
     },
     {
-        "name": "Backend разработчик",
-        "url": "https://api.hh.ru/vacancies/78796000?host=hh.ru",
-        "responsibility": "Это работа на заказ под конкретных клиентов, ориентированная на качество и современность конечного продукта.",
-        "town": "Астана",
-        "employer": "ITB Company",
-        "requirement": "Опыт разработки на <highlighttext>Python</highlighttext> Django Rest Framework, создание Rest API с помощью DRF, GraphQL. Опыт работы с СУБД PostgreSQL, Docker. ",
-        "salary_from": "150000",
-        "salary_to": "200000"
+        "name": "Программист Python",
+        "url": "https://api.hh.ru/vacancies/77915079?host=hh.ru",
+        "responsibility": "Мы в поиске программистов <highlighttext>Python</highlighttext> для поддержки и развития наших продуктов, для класса систем: антивирусный мультисканер, Sandbox, Deception. ",
+        "town": "Москва",
+        "employer": "АВ Софт",
+        "requirement": "Необходимые навыки: Опыт коммерческой разработки от 2-х лет. Понимание и умение применять основные принципы ООП и структуры данных. ",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
         "name": "Python программист",
@@ -1740,42 +1870,12 @@
         "salary_to": "0"
     },
     {
-        "name": "Программист Python",
-        "url": "https://api.hh.ru/vacancies/77915079?host=hh.ru",
-        "responsibility": "Мы в поиске программистов <highlighttext>Python</highlighttext> для поддержки и развития наших продуктов, для класса систем: антивирусный мультисканер, Sandbox, Deception. ",
-        "town": "Москва",
-        "employer": "АВ Софт",
-        "requirement": "Необходимые навыки: Опыт коммерческой разработки от 2-х лет. Понимание и умение применять основные принципы ООП и структуры данных. ",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Full Stack разработчик (Python и Django)",
-        "url": "https://api.hh.ru/vacancies/78860945?host=hh.ru",
-        "responsibility": "Разрабатывать бэк-энд части приложений на <highlighttext>Python</highlighttext> Django, интегрированными между собой и с внешними сервисами. Разрабатывать фронт-энд часть приложений...",
-        "town": "Москва",
-        "employer": "URSiP",
-        "requirement": "<highlighttext>Python</highlighttext> Django, FastApi. Javascript, Vue.js (работали со стейт Vuex). HTML, CSS. Владение VCS Git. Понимание и применение принципов и практик...",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Младший научный сотрудник (Junior Data Scientist)",
         "url": "https://api.hh.ru/vacancies/78853190?host=hh.ru",
         "responsibility": "Изучение существующих SOTA методов по направлениям VAD, диаризации. Верификации и идентификации дикторов. Проектирование и реализация моделей, которые позволяют создавать SOTA. ",
         "town": "Санкт-Петербург",
         "employer": "ЦРТ | Группа компаний",
         "requirement": "Понимание и практический опыт в области машинного обучения. Знакомство с направлением глубокий нейронных сетей. Уверенное владение <highlighttext>Python</highlighttext>. Опыт работы с...",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Python developer",
-        "url": "https://api.hh.ru/vacancies/78767376?host=hh.ru",
-        "responsibility": "Проектирование и разработка функциональных и вспомогательных сервисов. Backend-разработка на <highlighttext>Python</highlighttext>. Проектирование и оптимизация схемы хранения данных в СУБД (PostgreSQL). ",
-        "town": "Москва",
-        "employer": "СБЕР",
-        "requirement": "Опыт коммерческой разработки от 2-х лет. Знание Django, FastAPI. Уверенное владение Asyncio. Опыт работы с технологиями PostgreSQL, Kafka.",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -1791,21 +1891,31 @@
     },
     {
         "name": "Преподаватель Python",
-        "url": "https://api.hh.ru/vacancies/78671563?host=hh.ru",
-        "responsibility": "Проведение занятий 2 раза в неделю в вечернее время (по будням). Тематическое планирование занятий. Индивидуальный подход к каждому слушателю. ",
-        "town": "Пермь",
-        "employer": "Компьютерная Академия Top",
-        "requirement": "Умение ориентироваться в современных ИТ-технологиях. Знание языков программирования JavaScript/<highlighttext>Python</highlighttext>/HTML/CSS. Умение доходчиво объяснять информацию, вдохновлять студентов на...",
-        "salary_from": "15000",
-        "salary_to": "None"
+        "url": "https://api.hh.ru/vacancies/78250449?host=hh.ru",
+        "responsibility": "Программирование <highlighttext>Python</highlighttext>. Лабораторный химический анализ. Мехатроника и робототехника. BIM-проектирование. Электротехника. Автоматизированные системы управления. Микроэлектроника. Проведение занятий по направлению «<highlighttext>Python</highlighttext>...",
+        "town": "Самара",
+        "employer": "Алабуга, ОЭЗ ППТ",
+        "requirement": "...примере <highlighttext>Python</highlighttext> и JavaScript. Приветствуется опыт создания паттернов проектирования, на примере паттерна MVC и WEB-Framework-а Django для <highlighttext>Python</highlighttext>. ",
+        "salary_from": "125000",
+        "salary_to": "0"
     },
     {
-        "name": "Middle Python Developer",
-        "url": "https://api.hh.ru/vacancies/78843836?host=hh.ru",
-        "responsibility": "Проектирование и разработка отказоустойчивых и высоконагруженных микросервисов. Участие в разработке бизнес-логики нового продукта. Интеграция с другими системами.",
-        "town": "Минск",
-        "employer": "Банковский процессинговый центр",
-        "requirement": "RabbitMQ. Redis. Имеешь обширный опыт проектирования и разработки приложений на <highlighttext>Python</highlighttext>. Знаешь что такое Pep8 и следуешь ему. ",
+        "name": "Python developer",
+        "url": "https://api.hh.ru/vacancies/77860749?host=hh.ru",
+        "responsibility": "Развитие и поддержка сервиса многофакторной оценки клиентов на базе моделей машинного обучения. Разработка и поддержка инструментов и инфраструктуры для экспериментов...",
+        "town": "Новосибирск",
+        "employer": "LC Group",
+        "requirement": "Знание <highlighttext>Python</highlighttext>, SQL. Умение работать с git. Опыт работы с реляционными базами данных. Понимание принципов ООП. Опыт работы с Docker. ",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python developer",
+        "url": "https://api.hh.ru/vacancies/78767376?host=hh.ru",
+        "responsibility": "Проектирование и разработка функциональных и вспомогательных сервисов. Backend-разработка на <highlighttext>Python</highlighttext>. Проектирование и оптимизация схемы хранения данных в СУБД (PostgreSQL). ",
+        "town": "Москва",
+        "employer": "СБЕР",
+        "requirement": "Опыт коммерческой разработки от 2-х лет. Знание Django, FastAPI. Уверенное владение Asyncio. Опыт работы с технологиями PostgreSQL, Kafka.",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -1817,7 +1927,7 @@
         "employer": "Наследие Диджитл",
         "requirement": "Свободное владение PyTorch, Keras, transformers, pipeline, <highlighttext>python</highlighttext>, numpy, pandas. Знание Java или C++. Свободное владение <highlighttext>python</highlighttext> для стат. ",
         "salary_from": "100000",
-        "salary_to": "None"
+        "salary_to": "0"
     },
     {
         "name": "Преподаватель Python",
@@ -1827,7 +1937,27 @@
         "employer": "Алабуга, ОЭЗ ППТ",
         "requirement": "...примере <highlighttext>Python</highlighttext> и JavaScript. Приветствуется опыт создания паттернов проектирования, на примере паттерна MVC и WEB-Framework-а Django для <highlighttext>Python</highlighttext>. ",
         "salary_from": "125000",
-        "salary_to": "None"
+        "salary_to": "0"
+    },
+    {
+        "name": "Преподаватель Python",
+        "url": "https://api.hh.ru/vacancies/78671563?host=hh.ru",
+        "responsibility": "Проведение занятий 2 раза в неделю в вечернее время (по будням). Тематическое планирование занятий. Индивидуальный подход к каждому слушателю. ",
+        "town": "Пермь",
+        "employer": "Компьютерная Академия Top",
+        "requirement": "Умение ориентироваться в современных ИТ-технологиях. Знание языков программирования JavaScript/<highlighttext>Python</highlighttext>/HTML/CSS. Умение доходчиво объяснять информацию, вдохновлять студентов на...",
+        "salary_from": "15000",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python developer",
+        "url": "https://api.hh.ru/vacancies/77860750?host=hh.ru",
+        "responsibility": "Развитие и поддержка сервиса многофакторной оценки клиентов на базе моделей машинного обучения. Разработка и поддержка инструментов и инфраструктуры для экспериментов...",
+        "town": "Санкт-Петербург",
+        "employer": "LC Group",
+        "requirement": "Знание <highlighttext>Python</highlighttext>, SQL. Умение работать с git. Опыт работы с реляционными базами данных. Понимание принципов ООП. Опыт работы с Docker. ",
+        "salary_from": "0",
+        "salary_to": "0"
     },
     {
         "name": "Python разработчик (удалённо)",
@@ -1840,22 +1970,22 @@
         "salary_to": "250000"
     },
     {
-        "name": "Senior Data Engineer",
-        "url": "https://api.hh.ru/vacancies/78524259?host=hh.ru",
-        "responsibility": "Development of new ETL pipelines. Support ETL pipelines. Support infrastructure related to Data team.",
-        "town": "Москва",
-        "employer": "Truv Inc.",
-        "requirement": "Experience with cloud providers, preferably AWS. Proficient at both SQL and <highlighttext>Python</highlighttext>. Experience with building and maintaining data pipelines, ensuring...",
-        "salary_from": "5000",
-        "salary_to": "7000"
-    },
-    {
         "name": "AI / ML Specialist",
         "url": "https://api.hh.ru/vacancies/78805132?host=hh.ru",
         "responsibility": "Система наблюдения и диагностики заболеваний лошадей. Система анализа речи и эмоций человека.",
         "town": "Новосибирск",
         "employer": "DEEPSOUND",
         "requirement": "Системный подход. Стремление к идеалу. ПРОФЕССИОНАЛЬНЫЕ НАВЫКИ. Знание языка <highlighttext>Python</highlighttext>. Понимание архитектур RNN, CNN, Transformers. Опыт работы в PyTorch. ",
+        "salary_from": "0",
+        "salary_to": "0"
+    },
+    {
+        "name": "Python Developer (Middle+)",
+        "url": "https://api.hh.ru/vacancies/78886137?host=hh.ru",
+        "responsibility": "Развитие студенческой платформы (интерактивные уроки, тренажеры). Разработка нового функционала и доработка уже существующего (в т.ч. ускорение работы платформы). ",
+        "town": "Москва",
+        "employer": "Remokate",
+        "requirement": "Опыт в продуктовой разработке от 3-х лет. Отличное знание <highlighttext>Python</highlighttext>. Опыт проектирования систем. Знание реляционных БД на хорошем уровне. ",
         "salary_from": "0",
         "salary_to": "0"
     },
@@ -1868,135 +1998,5 @@
         "requirement": "В руководстве командой - от 1-1.5 лет. Обладаешь навыками: Обязательно: <highlighttext>Python</highlighttext> 3. Django (DRF). SQL. PosgreSQL. Docker. Unittest/pytest. ",
         "salary_from": "350000",
         "salary_to": "500000"
-    },
-    {
-        "name": "Преподаватель Python",
-        "url": "https://api.hh.ru/vacancies/78250449?host=hh.ru",
-        "responsibility": "Программирование <highlighttext>Python</highlighttext>. Лабораторный химический анализ. Мехатроника и робототехника. BIM-проектирование. Электротехника. Автоматизированные системы управления. Микроэлектроника. Проведение занятий по направлению «<highlighttext>Python</highlighttext>...",
-        "town": "Самара",
-        "employer": "Алабуга, ОЭЗ ППТ",
-        "requirement": "...примере <highlighttext>Python</highlighttext> и JavaScript. Приветствуется опыт создания паттернов проектирования, на примере паттерна MVC и WEB-Framework-а Django для <highlighttext>Python</highlighttext>. ",
-        "salary_from": "125000",
-        "salary_to": "None"
-    },
-    {
-        "name": "Python Developer, New Zealand",
-        "url": "https://api.hh.ru/vacancies/77658597?host=hh.ru",
-        "responsibility": null,
-        "town": "Москва",
-        "employer": "ГК ВИЗАВИ Консалт",
-        "requirement": "3+ years in a development role. <highlighttext>Python</highlighttext>. Linux, Bash. Git. Data analysis using R or SQL. Experience in genomics...",
-        "salary_from": "5000",
-        "salary_to": "7500"
-    },
-    {
-        "name": "Full stack разработчик (Python)",
-        "url": "https://api.hh.ru/vacancies/78869705?host=hh.ru",
-        "responsibility": "Разработка и развитие корпоративных Web приложений и сайтов. Разработка API для Web приложений и интеграции с другими информационными системами. ",
-        "town": "Москва",
-        "employer": "ЛогЛаб",
-        "requirement": "...сервисов на <highlighttext>python</highlighttext>. Стек технологий Back-end: <highlighttext>Python</highlighttext> 2.7, 3.8, 3.9, 3.10, <highlighttext>Python</highlighttext> Django, <highlighttext>Python</highlighttext> FastApi...",
-        "salary_from": "160000",
-        "salary_to": "220000"
-    },
-    {
-        "name": "Инженер (стажер) по тестированию ПО",
-        "url": "https://api.hh.ru/vacancies/77764621?host=hh.ru",
-        "responsibility": "Разработка и поддержка тестовых планов (сценариев). Выполнение тестовых процедур (проведение испытаний). Документирование обнаруженных ошибок и результатов испытаний. Проверка исправлений обнаруженных...",
-        "town": "Таганрог",
-        "employer": "ДС БАРС",
-        "requirement": "...и анализировать исходный код. Развитое логическое мышление. Ответственность, пунктуальность. Знание языка <highlighttext>Python</highlighttext>. Навыки разработки и/или тестирования ПО для микроконтроллеров.",
-        "salary_from": "40000",
-        "salary_to": "50000"
-    },
-    {
-        "name": "ML инженер",
-        "url": "https://api.hh.ru/vacancies/78549915?host=hh.ru",
-        "responsibility": "Обучение моделей CV, NLP и др. для разного рода задач: классификации, сегментации, распознавания речи, генерации и т.д. ",
-        "town": "Москва",
-        "employer": "Авентика",
-        "requirement": "Знает и понимает современные архитектуры нейронных сетей, в том числе их ограничения и преимущества/недостатки. <highlighttext>Python</highlighttext> 3. PyTorch, transformers, pandas...",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Разработчик на Python в команду отчётности DWH Фантеха",
-        "url": "https://api.hh.ru/vacancies/78767383?host=hh.ru",
-        "responsibility": "Работать с обширной кодовой базой на <highlighttext>Python</highlighttext> по принципам ООП. Подключать новые источники данных, создавать новые виды отчётности. ",
-        "town": "Москва",
-        "employer": "Яндекс",
-        "requirement": "Будет плюсом:",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Python + R Developer (bioinformatic), New Zealand",
-        "url": "https://api.hh.ru/vacancies/77394308?host=hh.ru",
-        "responsibility": null,
-        "town": "Москва",
-        "employer": "ГК ВИЗАВИ Консалт",
-        "requirement": "3+ years in a development role. <highlighttext>Python</highlighttext>. Git. Data analysis using R or SQL. Experience in genomics - is a...",
-        "salary_from": "5000",
-        "salary_to": "7500"
-    },
-    {
-        "name": "Разработчик Python",
-        "url": "https://api.hh.ru/vacancies/78672718?host=hh.ru",
-        "responsibility": "Анализ бизнеса и системных требований, генерацией идей, проработкой технических решений, интеграционных взаимодействий. Участие в разработке продуктов и концепций (мозговые штурмы...",
-        "town": "Екатеринбург",
-        "employer": "СБЕР",
-        "requirement": "Опыт разработки на <highlighttext>Python</highlighttext> от 2 лет. Знание AsyncIO. Понимание принципов микросервисной архитектуры. Опыт работы с брокерами сообщений (Apache Kafka...",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Разработчик Python",
-        "url": "https://api.hh.ru/vacancies/72052201?host=hh.ru",
-        "responsibility": "Участвовать в разработке высоконагруженных приложений для работы с транзакционными и аналитическими данными, отвечающих требованиям по распределённости, горизонтальной масштабируемости, производительности и...",
-        "town": "Москва",
-        "employer": "QIWI",
-        "requirement": "Пишешь на <highlighttext>Python</highlighttext> от 3х лет, опыт коммерческой разработки от года. Ориентируешься в общих вопросах программирования: паттерны проектирования, структуры...",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Python разработчик",
-        "url": "https://api.hh.ru/vacancies/77894522?host=hh.ru",
-        "responsibility": "Разрабатывать и поддерживать веб-проекты для внешних и внутренних (сотрудники компании) пользователей; микросервисы, предоставляющие API для мобильных приложений, сайта и...",
-        "town": "Москва",
-        "employer": "РБК",
-        "requirement": "Опыт командной разработки на <highlighttext>Python</highlighttext> не менее 2-х лет. Знание основ ООП в <highlighttext>Python</highlighttext> и соответствующих принципов разработки ПО. ",
-        "salary_from": "250000",
-        "salary_to": "300000"
-    },
-    {
-        "name": "Data Analyst",
-        "url": "https://api.hh.ru/vacancies/78710089?host=hh.ru",
-        "responsibility": "Аналитические исследования, поиск, формулировка и проверка гипотез. Разработка и поддержка автоматизированных отчётов в Fine BI, Plotly. Одноразовые выгрузки данных (ad...",
-        "town": "Санкт-Петербург",
-        "employer": "Lesta Games",
-        "requirement": "Опыт работы с SQL – Impala SQL, Oracle SQL. <highlighttext>Python</highlighttext> - на уровне библиотек pandas, numpy, matplotlib, scikit-learn, odbc (знание построения...",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Программист Python",
-        "url": "https://api.hh.ru/vacancies/77725574?host=hh.ru",
-        "responsibility": "Разработка приложения для нефтегазовой отрасли. Сопровождение приложений для нефтегазовой отрасли. Интеграция приложений для нефтегазовой отрасли.",
-        "town": "Уфа",
-        "employer": "Центр технологий моделирования",
-        "requirement": "Опыт разработки на языке <highlighttext>Python</highlighttext>. Опыт работы с Oracle или PostgreSQL, знание SQL. Приветствуется: опыт интеграции приложений.",
-        "salary_from": "100000",
-        "salary_to": "150000"
-    },
-    {
-        "name": "Data Analyst (senior)",
-        "url": "https://api.hh.ru/vacancies/77411849?host=hh.ru",
-        "responsibility": "Понимать бизнес проблемы поставщиков маркетплейсов и придумывать решения с использованием данных. Анализировать данные (как данные маркетплейсов, так и поведение пользователей...",
-        "town": "Москва",
-        "employer": "ANABAR",
-        "requirement": "Методы проведения A/B экспериментов. Базовое знание <highlighttext>python</highlighttext>. Хорошее знание <highlighttext>Python</highlighttext> и опыт работы с Git будет плюсом. ",
-        "salary_from": "200000",
-        "salary_to": "300000"
     }
 ]

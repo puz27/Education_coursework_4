@@ -1,5 +1,6 @@
 
 superjob_api_key = "v3.r.137436720.8c7f8aba97fa695bc8eb530e248876d05b91ac49.93eb1ab45d1127728b93d412484a5f08ae09f2c8"
+# Вопросы для меню
 user_questions = [
     {
         " 1.Запросить данные с сайта HEAD HUNTER\n": "1",
@@ -25,6 +26,7 @@ user_questions = [
 
 ]
 
+# Варианты ответов для меню "Работа с файлом"
 user_search = {
     " 1.Поле:'name'          - название вакансии\n": "1",
     "2.Поле:'url'          - ссылка на вакансию\n": "2",
@@ -35,7 +37,6 @@ user_search = {
     "7.Поле:'salary_from'               - ЗП от\n": "7",
     "8.Поле:'salary_to'                 - ЗП до\n": "8",
     }
-
 user_search_answers = {
     "1": "name",
     "2": "url",

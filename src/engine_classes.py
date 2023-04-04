@@ -52,10 +52,14 @@ class HH(Engine):
                     # url_id_request = "https://api.hh.ru/vacancies/" + id
                     # vacancy_id_response = requests.get(url_id_request)
 
-                    #обработка данных по заработной плате
-                    if vacancy["salary"] != None:
+                    # Обработка данных по заработной плате
+                    if vacancy["salary"] is not None:
                         salary_from = vacancy["salary"]["from"]
+                        if salary_from is None:
+                            salary_from = 0
                         salary_to = vacancy["salary"]["to"]
+                        if salary_to is None:
+                            salary_to = 0
                     else:
                         salary_from = 0
                         salary_to = 0
