@@ -1,16 +1,16 @@
 from abc import ABC, abstractmethod
 import requests
 
+
 class Engine(ABC):
 
     @abstractmethod
     def get_request(self, *args, **kwargs):
         pass
 
-    @staticmethod
-    def get_connector(self):
-        """Return instance of class Connector"""
-        pass
+    # @abstractmethod
+    # def set_last_request(self, *args, **kwargs):
+    #     pass
 
 
 class HH(Engine):
@@ -18,10 +18,15 @@ class HH(Engine):
 
     def __init__(self) -> None:
         self.__vacancies = []
+        self.__config = [{"last request": "Последний запрос был к HEAD HUNTER"}]
 
     @property
     def vacancies(self):
         return self.__vacancies
+
+    @property
+    def config(self):
+        return self.__config
 
     def get_request(self, keywords: str) -> None or str:
         """Return request"""
@@ -89,12 +94,16 @@ class SJ(Engine):
 
     def __init__(self, api_key: str) -> None:
         self.__vacancies = []
+        self.__config = [{"last request": "Последний запрос был к SUPER JOB"}]
         self.__api_key = api_key
-        #количество результатов на странице
 
     @property
     def vacancies(self):
         return self.__vacancies
+
+    @property
+    def config(self):
+        return self.__config
 
     def get_request(self, keywords: str) -> None or str:
         print("Делаем запрос с SUPER JOB")

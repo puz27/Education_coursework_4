@@ -46,7 +46,7 @@ class Connector:
         json_object = json.dumps(data, indent=4, ensure_ascii=False)
         with open(self.__path_file, "w", encoding='utf-8') as write_file:
             write_file.write(json_object)
-            print(f"Заносим данные в файл {self.__data_file}.")
+            #print(f"Заносим данные в файл {self.__data_file}.")
 
     def select(self, query: dict) -> list or str:
         """

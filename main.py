@@ -6,9 +6,8 @@ from src.jobs_classes import HHVacancy, SJVacancy
 user_answer = ""
 user_question = False
 
-# Для теста стоит 1 по умолчанию 0
-type_of_request = 1
 connector_to_file = Connector("information.json")
+connector_to_file_config = Connector("configuration.json")
 
 # основное меню пользователя
 while True:
@@ -26,13 +25,15 @@ while True:
 
         # Создаем экземпляр для работы с HEAD HUNTER и делаем запрос
         head_hunter = HH()
+
         head_hunter.get_request(search_filter)
         respond = head_hunter.vacancies
 
         # Если данные получили, записываем в файл
         if respond:
-            type_of_request = 1
+            connector_to_file_config.insert(head_hunter.config)
             connector_to_file.insert(head_hunter.vacancies)
+
         else:
             print("Нет данных по запросу.\n")
 
@@ -48,7 +49,7 @@ while True:
 
         # Если данные получили, записываем в файл
         if respond:
-            type_of_request = 2
+            connector_to_file_config.insert(super_job.config)
             connector_to_file.insert(super_job.vacancies)
         else:
             print("Нет данных по запросу.\n")
@@ -121,13 +122,9 @@ while True:
 
         # Валидация файла
         if connector_to_file.validate() is True:
-
+            get_last_status_request = (connector_to_file_config.select({"*": "*"}))[0]["last request"]
+            print(get_last_status_request)
             while True:
-
-                if type_of_request == 1:
-                    print("Последний запрос был к сайту HEAD HUNTER")
-                if type_of_request == 2:
-                    print("Последний запрос был к сайту SUPER JOB")
 
                 # Меню взаимодействия при работе с вакансиями
                 print(*user_questions[2])
@@ -143,10 +140,11 @@ while True:
 
                 # Вывести N самых высокооплачиваемые вакансии
                 elif user_answer == user_questions[2]["2.Вывести N самых высокооплачиваемые вакансии\n"]:
-                    count_of_vacancies = int(input("Ввести количество вакансий.\n"))
+                    count_of_vacancies = int(input("Ввести искомое количество вакансий.\n"
+                                                   "Если число больше найденных вакансий, будут выведены все.\n"))
 
                     # Обработка для HEAD HUNTER
-                    if type_of_request == 1:
+                    if get_last_status_request == "Последний запрос был к HEAD HUNTER":
 
                         all_vacancy = connector_to_file.select({"*": "*"})
                         sort_dict = []
@@ -160,7 +158,7 @@ while True:
                             print(vacancy)
 
                     # Обработка для SUPER JOB
-                    if type_of_request == 2:
+                    if get_last_status_request == "Последний запрос был к SUPER JOB":
 
                         all_vacancy = connector_to_file.select({"*": "*"})
                         sort_dict = []
