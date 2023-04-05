@@ -1,5 +1,6 @@
 from src.engine_classes import *
-from src.utils import user_questions, user_search, user_search_answers, user_search_vacancies,user_search_answers_vacancies
+from src.utils import user_questions, user_search, user_search_answers, user_search_vacancies,\
+    user_search_answers_vacancies, user_search_sorted, user_search_sorted_answers
 from src.connector import Connector
 from src.jobs_classes import HHVacancy, SJVacancy
 
@@ -67,7 +68,7 @@ while True:
                 user_answer = input()
 
                 # Выйти в основное меню
-                if user_answer == user_questions[1]["3.Выйти в команды верхнего меню\n"]:
+                if user_answer == user_questions[1]["4.Выйти в команды верхнего меню\n"]:
                     break
 
                 # Выбор данных их файла
@@ -91,7 +92,6 @@ while True:
                     print(connector_to_file.select(search_filter))
                     founded_vacancies = connector_to_file.select(search_filter)
 
-
                     input("Для продолжения нажмите Enter...")
 
                 # Удаление данных их файла
@@ -114,6 +114,25 @@ while True:
                     print(f"Было удалено:{connector_to_file.delete(search_filter)} вакансий.")
                     input("Удаление выполнено. Для продолжения нажмите Enter...")
 
+                # Полная сортировка данных файла
+                elif user_answer == user_questions[1]["3.Полная сортировка данных файла\n"]:
+
+                    while True:
+
+                        # Меню для выборки ключа поиска
+                        print("Выберите поле для сортировки.\n")
+                        print(*user_search_sorted)
+                        user_answer_key = input()
+
+                        if user_answer_key in str((1, 2, 3, 4, 5)):
+                            break
+                        else:
+                            print("! Некорректная команда ввода !\n")
+
+                    sorted_filter = user_search_sorted_answers[user_answer_key]
+                    connector_to_file.sort_all(sorted_filter)
+                    input("Данные отсортированы. Для продолжения нажмите Enter...")
+
                 else:
                     print(*user_questions[3])
 
@@ -131,15 +150,11 @@ while True:
                 user_answer = input()
 
                 # Выйти в основное меню
-                if user_answer == user_questions[2]["4.Выйти в команды верхнего меню\n"]:
+                if user_answer == user_questions[2]["3.Выйти в команды верхнего меню\n"]:
                     break
 
-                # Не сделано
-                elif user_answer == user_questions[2][" 1.Вывести произвольное количество вакансий из файла\n"]:
-                    print("Вывести произвольное количество вакансий из файла")
-
                 # Вывести N самых высокооплачиваемые вакансии
-                elif user_answer == user_questions[2]["2.Вывести N самых высокооплачиваемые вакансии\n"]:
+                elif user_answer == user_questions[2][" 1.Вывести N самых высокооплачиваемые вакансии\n"]:
                     count_of_vacancies = int(input("Ввести искомое количество вакансий.\n"
                                                    "Если число больше найденных вакансий, будут выведены все.\n"))
 
@@ -172,7 +187,7 @@ while True:
                             print(vacancy)
 
                 # Гибкий поиск по вакансиям
-                elif user_answer == user_questions[2]["3.Глубокий поиск по вакансиям\n"]:
+                elif user_answer == user_questions[2]["2.Глубокий поиск по вакансиям\n"]:
 
                     while True:
 
@@ -180,7 +195,7 @@ while True:
                         print("Выбрать поле для поиска.\n")
                         # Меню с вариантами ключей поиска
                         print(*user_search_vacancies)
-                        user_answer_key = input("Введите значение для поиска.")
+                        user_answer_key = input("Введите значение для поиска.\n")
 
                         if user_answer_key in str((1, 2, 3, 4, 5)):
                             break
@@ -191,7 +206,7 @@ while True:
                     search_filter = {user_search_answers_vacancies[user_answer_key]: user_answer_value}
 
                     # Обработка для HEAD HUNTER
-                    if type_of_request == 1:
+                    if get_last_status_request == "Последний запрос был к HEAD HUNTER":
                         all_vacancy = connector_to_file.select({"*": "*"})
 
                         if user_answer_key == "1":
@@ -224,29 +239,45 @@ while True:
                                 if user_answer_value in str(vacancy_instance.requirement):
                                     print(vacancy_instance)
 
+                    # Обработка для SUPER JOB
+                    if get_last_status_request == "Последний запрос был к SUPER JOB":
+                        all_vacancy = connector_to_file.select({"*": "*"})
 
+                        if user_answer_key == "1":
+                            for vacancy in all_vacancy:
+                                vacancy_instance = SJVacancy(vacancy)
+                                if user_answer_value in vacancy_instance.name:
+                                    print(vacancy_instance)
 
+                        elif user_answer_key == "2":
+                            for vacancy in all_vacancy:
+                                vacancy_instance = SJVacancy(vacancy)
+                                if user_answer_value in vacancy_instance.responsibility:
+                                    print(vacancy_instance)
 
+                        elif user_answer_key == "3":
+                            for vacancy in all_vacancy:
+                                vacancy_instance = SJVacancy(vacancy)
+                                if user_answer_value in vacancy_instance.town:
+                                    print(vacancy_instance)
 
+                        elif user_answer_key == "4":
+                            for vacancy in all_vacancy:
+                                vacancy_instance = SJVacancy(vacancy)
+                                if user_answer_value in vacancy_instance.employer:
+                                    print(vacancy_instance)
+
+                        elif user_answer_key == "5":
+                            for vacancy in all_vacancy:
+                                vacancy_instance = SJVacancy(vacancy)
+                                if user_answer_value in str(vacancy_instance.requirement):
+                                    print(vacancy_instance)
 
                 else:
                     print(*user_questions[3])
 
     else:
         print(*user_questions[3])
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

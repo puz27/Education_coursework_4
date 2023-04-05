@@ -113,3 +113,22 @@ class Connector:
             print("! Файл для обработки неверного формата, либо пустой !\n")
             return False
         return True
+
+    def sort_all(self, key: str) -> list or str:
+        """
+        Выбор данных из файла с применением фильтрации
+        query содержит словарь, в котором ключ это поле для
+        фильтрации, а значение это искомое значение, например:
+        {'price': 1000}, должно отфильтровать данные по полю price
+        и вернуть все строки, в которых цена 1000
+        """
+        # Счытывает информацию из файла
+        with open(self.__path_file, "r", encoding='utf-8') as read_file:
+            datas = json.load(read_file)
+        new_list = sorted(datas, key=lambda sorting: sorting[key])
+
+        # Запись информации в файл
+        json_object = json.dumps(new_list, indent=4, ensure_ascii=False)
+        with open(self.__path_file, "w", encoding='utf-8') as write_file:
+            write_file.write(json_object)
+
