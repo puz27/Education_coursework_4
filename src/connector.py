@@ -72,10 +72,11 @@ class Connector:
                     if search_key == list(query.values())[0]:
                         data_filter.append(data)
 
-        if len(data_filter) == 0:
-            return f"Данные не найдены"
-        else:
-            return data_filter
+        # if len(data_filter) == 0:
+        #     return f"Данные не найдены"
+        # else:
+        #     return data_filter
+        return data_filter
 
     def delete(self, query: dict) -> int:
         """

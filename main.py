@@ -1,6 +1,11 @@
 from src.engine_classes import *
-from src.utils import user_questions, user_search, user_search_answers, user_search_vacancies,\
+from src.utils import *
+
+
+from src.dictionary import user_questions, user_search, user_search_answers, user_search_vacancies,\
     user_search_answers_vacancies, user_search_sorted, user_search_sorted_answers
+
+
 from src.connector import Connector
 from src.jobs_classes import HHVacancy, SJVacancy
 
@@ -89,8 +94,16 @@ while True:
                     # Ввод значение поля поиска
                     user_answer_value = input("Введите значение. Регистр важен.\n")
                     search_filter = {user_search_answers[user_answer_key]: user_answer_value}
-                    print(connector_to_file.select(search_filter))
                     founded_vacancies = connector_to_file.select(search_filter)
+                    if founded_vacancies:
+                        input("Будет выведена информация: Название|Город|Компания|ЗП от|ЗП до|\n")
+                        for vacancy in founded_vacancies:
+                            vacancy_instance = HHVacancy(vacancy)
+                            print_info(vacancy_instance.name,
+                                       vacancy_instance.town,
+                                       vacancy_instance.employer,
+                                       vacancy_instance.salary_from,
+                                       vacancy_instance.salary_to)
 
                     input("Для продолжения нажмите Enter...")
 
@@ -112,7 +125,7 @@ while True:
                     user_answer_value = input("Введите значение для удаления. Регистр важен.\n")
                     search_filter = {user_search_answers[user_answer_key]: user_answer_value}
                     print(f"Было удалено:{connector_to_file.delete(search_filter)} вакансий.")
-                    input("Удаление выполнено. Для продолжения нажмите Enter...")
+                    input("Операция проведена. Для продолжения нажмите Enter...")
 
                 # Полная сортировка данных файла
                 elif user_answer == user_questions[1]["3.Полная сортировка данных файла\n"]:
