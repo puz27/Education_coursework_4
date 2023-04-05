@@ -1,11 +1,7 @@
-from src.engine_classes import *
+from src.engine_classes import HH, SJ
 from src.utils import sj_api_key, print_info
-
-
 from src.dictionary import user_questions, user_search, user_search_answers, user_search_vacancies,\
     user_search_answers_vacancies, user_search_sorted, user_search_sorted_answers
-
-
 from src.connector import Connector
 from src.jobs_classes import HHVacancy, SJVacancy
 
@@ -306,7 +302,3 @@ while True:
 
     else:
         print(*user_questions[3])
-
-
-
-

@@ -10,116 +10,6 @@
         "salary_to": "60000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://astrakhan.superjob.ru/vakansii/prepodavatel-matematiki-44838428.html",
-        "responsibility": "Данных нет",
-        "town": "Астрахань",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://astrakhan.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838592.html",
-        "responsibility": "Данных нет",
-        "town": "Астрахань",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского языка",
-        "url": "https://balashiha.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-44403978.html",
-        "responsibility": "Данных нет",
-        "town": "Балашиха",
-        "employer": "Школа № 26",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://balashiha.superjob.ru/vakansii/uchitel-matematiki-45705455.html",
-        "responsibility": "Данных нет",
-        "town": "Балашиха",
-        "employer": "МБОУ \"Средняя общеобразовательная школа №1\" г. Реутов",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель истории и обществознания",
-        "url": "https://balashiha.superjob.ru/vakansii/uchitel-istorii-i-obschestvoznaniya-46091623.html",
-        "responsibility": "Данных нет",
-        "town": "Балашиха",
-        "employer": "Школа №32",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://barnaul.superjob.ru/vakansii/prepodavatel-matematiki-44838418.html",
-        "responsibility": "Данных нет",
-        "town": "Барнаул",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://barnaul.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838582.html",
-        "responsibility": "Данных нет",
-        "town": "Барнаул",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://belgorod.superjob.ru/vakansii/prepodavatel-matematiki-44838445.html",
-        "responsibility": "Данных нет",
-        "town": "Белгород",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://belgorod.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838609.html",
-        "responsibility": "Данных нет",
-        "town": "Белгород",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://bryansk.superjob.ru/vakansii/prepodavatel-matematiki-44838443.html",
-        "responsibility": "Данных нет",
-        "town": "Брянск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://bryansk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838607.html",
-        "responsibility": "Данных нет",
-        "town": "Брянск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель русского языка и литературы",
         "url": "https://novgorod.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-45958282.html",
         "responsibility": "Данных нет",
@@ -130,146 +20,6 @@
         "salary_to": "48000"
     },
     {
-        "name": "Преподаватель Дерматовенерологии",
-        "url": "https://vladivostok.superjob.ru/vakansii/prepodavatel-dermatovenerologii-39736774.html",
-        "responsibility": "Данных нет",
-        "town": "Владивосток",
-        "employer": "ФГБОУ ВО ТГМУ Минздрава России",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://vladivostok.superjob.ru/vakansii/prepodavatel-matematiki-44838420.html",
-        "responsibility": "Данных нет",
-        "town": "Владивосток",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://vladivostok.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838584.html",
-        "responsibility": "Данных нет",
-        "town": "Владивосток",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель-логопед",
-        "url": "https://vladimir.superjob.ru/vakansii/uchitel-logoped-44416147.html",
-        "responsibility": "Данных нет",
-        "town": "Владимир",
-        "employer": "ГАУ ВО ЦЕНТР ПСИХОЛОГО-ПЕДАГОГИЧЕСКОЙ, МЕДИЦИНСКОЙ И СОЦИАЛЬНОЙ ПОМОЩИ, ГАУ ВО ЦППМС",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физики",
-        "url": "https://vladimir.superjob.ru/vakansii/uchitel-fiziki-45991206.html",
-        "responsibility": "Данных нет",
-        "town": "Владимир",
-        "employer": "МАОУ \"Лицей № 14\"",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель-организатор ОБЖ",
-        "url": "https://volgograd.superjob.ru/vakansii/prepodavatel-organizator-obzh-29914133.html",
-        "responsibility": "Данных нет",
-        "town": "Волгоград",
-        "employer": "МОУ СОШ № 101",
-        "requirement": "Данных нет",
-        "salary_from": "27000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по охране труда и метрологии",
-        "url": "https://volgograd.superjob.ru/vakansii/prepodavatel-po-ohrane-truda-i-metrologii-45138323.html",
-        "responsibility": "Данных нет",
-        "town": "Волгоград",
-        "employer": "ГБПОУ Волгоградский колледж машиностроения и связи",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://volgograd.superjob.ru/vakansii/prepodavatel-matematiki-44838411.html",
-        "responsibility": "Данных нет",
-        "town": "Волгоград",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://volgograd.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838575.html",
-        "responsibility": "Данных нет",
-        "town": "Волгоград",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://voronezh.superjob.ru/vakansii/prepodavatel-matematiki-44838412.html",
-        "responsibility": "Данных нет",
-        "town": "Воронеж",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://voronezh.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838576.html",
-        "responsibility": "Данных нет",
-        "town": "Воронеж",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель профессиональной дисциплины Метрология, стандартизация и подтверждение качества",
-        "url": "https://vyborg.superjob.ru/vakansii/prepodavatel-professionalnoj-discipliny-metrologiya-33905509.html",
-        "responsibility": "Данных нет",
-        "town": "Выборг",
-        "employer": "Выборгский филиал Санкт-Петербургского Государственного Университета Гражданской Авиации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель профессионального модуля Эксплуатация и техническое обслуживание летательных аппаратов",
-        "url": "https://vyborg.superjob.ru/vakansii/prepodavatel-professionalnogo-modulya-ekspluataciya-i-tehnicheskoe-obsluzhivanie-letatelnyh-apparatov-33906441.html",
-        "responsibility": "Данных нет",
-        "town": "Выборг",
-        "employer": "Выборгский филиал Санкт-Петербургского Государственного Университета Гражданской Авиации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель спецдисциплин отделения беспилотных летательных аппаратов",
-        "url": "https://vyborg.superjob.ru/vakansii/prepodavatel-specdisciplin-otdeleniya-bespilotnyh-letatelnyh-apparatov-45867117.html",
-        "responsibility": "Данных нет",
-        "town": "Выборг",
-        "employer": "Выборгский филиал Санкт-Петербургского Государственного Университета Гражданской Авиации",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель по специальности Монтаж и эксплуатация внутренних сантехнических устройств",
         "url": "https://dzerzhinsk.superjob.ru/vakansii/prepodavatel-po-specialnosti-montazh-i-ekspluataciya-vnutrennih-santehnicheskih-ustrojstv-37206137.html",
         "responsibility": "Данных нет",
@@ -278,86 +28,6 @@
         "requirement": "Данных нет",
         "salary_from": "30000",
         "salary_to": "40000"
-    },
-    {
-        "name": "Учитель русского языка и литературы",
-        "url": "https://dolgoprudniy.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-36894176.html",
-        "responsibility": "Данных нет",
-        "town": "Долгопрудный",
-        "employer": "АНОО \"Физтех-лицей\" им. П. Л. Капицы",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физической культуры",
-        "url": "https://domodedovo.superjob.ru/vakansii/uchitel-fizicheskoj-kultury-45928310.html",
-        "responsibility": "Данных нет",
-        "town": "Домодедово",
-        "employer": "МАОУ Домодедовская школа №7 с УИОП",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель ценообразование в строительстве",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-cenoobrazovanie-v-stroitelstve-45917021.html",
-        "responsibility": "Данных нет",
-        "town": "Донецк (Донецкая область)",
-        "employer": "ФАУ РОСКАПСТРОЙ",
-        "requirement": "Данных нет",
-        "salary_from": "150000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://ekaterinburg.superjob.ru/vakansii/prepodavatel-matematiki-44838401.html",
-        "responsibility": "Данных нет",
-        "town": "Екатеринбург",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://ekaterinburg.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838565.html",
-        "responsibility": "Данных нет",
-        "town": "Екатеринбург",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов и английского языка",
-        "url": "https://ekaterinburg.superjob.ru/vakansii/uchitel-nachalnyh-klassov-i-anglijskogo-yazyka-29899906.html",
-        "responsibility": "Данных нет",
-        "town": "Екатеринбург",
-        "employer": "МКОУ СОШ с. Кленовское",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://zheleznodorozhniy.superjob.ru/vakansii/uchitel-matematiki-36346701.html",
-        "responsibility": "Данных нет",
-        "town": "Железнодорожный",
-        "employer": "МБОУ СОШ № 10",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://zheleznodorozhniy.superjob.ru/vakansii/uchitel-matematiki-45705456.html",
-        "responsibility": "Данных нет",
-        "town": "Железнодорожный",
-        "employer": "МБОУ \"Средняя общеобразовательная школа №1\" г. Реутов",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель по программированию",
@@ -390,26 +60,6 @@
         "salary_to": "30500"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://ivanovo.superjob.ru/vakansii/prepodavatel-matematiki-44838442.html",
-        "responsibility": "Данных нет",
-        "town": "Иваново",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://ivanovo.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838606.html",
-        "responsibility": "Данных нет",
-        "town": "Иваново",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель-организатор ОБЖ",
         "url": "https://izhevsk.superjob.ru/vakansii/prepodavatel-organizator-obzh-43478800.html",
         "responsibility": "Данных нет",
@@ -420,206 +70,6 @@
         "salary_to": "40000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://izhevsk.superjob.ru/vakansii/prepodavatel-matematiki-44838417.html",
-        "responsibility": "Данных нет",
-        "town": "Ижевск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://izhevsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838581.html",
-        "responsibility": "Данных нет",
-        "town": "Ижевск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель технической эксплуатации подъемно-транспортных, дорожных, строит. машин и оборудования",
-        "url": "https://irkutsk.superjob.ru/vakansii/prepodavatel-tehnicheskoj-ekspluatacii-podemno-transportnyh-34078512.html",
-        "responsibility": "Данных нет",
-        "town": "Иркутск",
-        "employer": "Иркутский колледж автомобильного транспорта и дорожного строительства",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://irkutsk.superjob.ru/vakansii/prepodavatel-matematiki-44838419.html",
-        "responsibility": "Данных нет",
-        "town": "Иркутск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://irkutsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838583.html",
-        "responsibility": "Данных нет",
-        "town": "Иркутск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель КИТАЙСКОГО ЯЗЫКА СРОЧНО",
-        "url": "https://irkutsk.superjob.ru/vakansii/uchitel-kitajskogo-yazyka-srochno-28990367.html",
-        "responsibility": "Данных нет",
-        "town": "Иркутск",
-        "employer": "СОШ №77",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики и информатики",
-        "url": "https://istra.superjob.ru/vakansii/uchitel-matematiki-i-informatiki-44781421.html",
-        "responsibility": "Данных нет",
-        "town": "Истра",
-        "employer": "МОУ \"ИСТРИНСКАЯ СОШ №3\"",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине Патофизиология",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-po-discipline-patofiziologiya-45344713.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине Оториноларингология",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-po-discipline-otorinolaringologiya-45344719.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине Госпитальная терапия",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-po-discipline-gospitalnaya-terapiya-45344721.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине Пропедевтика внутренних болезней",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-po-discipline-propedevtika-vnutrennih-boleznej-45344723.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине Эндокринология",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-po-discipline-endokrinologiya-45344726.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине Медицинская генетика",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-po-discipline-medicinskaya-genetika-45344728.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине Педиатрия",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-po-discipline-pediatriya-45344735.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине Инфекционные болезни",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-po-discipline-infekcionnye-bolezni-45344736.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель",
-        "url": "https://ioshkar-ola.superjob.ru/vakansii/prepodavatel-45344792.html",
-        "responsibility": "Данных нет",
-        "town": "Йошкар-Ола",
-        "employer": "Марийский государственный университет",
-        "requirement": "Данных нет",
-        "salary_from": "24990",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://kazan.superjob.ru/vakansii/prepodavatel-matematiki-44838403.html",
-        "responsibility": "Данных нет",
-        "town": "Казань",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://kazan.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838567.html",
-        "responsibility": "Данных нет",
-        "town": "Казань",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://kaliningrad.superjob.ru/vakansii/prepodavatel-matematiki-44838436.html",
-        "responsibility": "Данных нет",
-        "town": "Калининград",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://kaliningrad.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838600.html",
-        "responsibility": "Данных нет",
-        "town": "Калининград",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель по специализации Теплоснабжение и теплотехническое оборудование",
         "url": "https://kemerovo.superjob.ru/vakansii/prepodavatel-po-specializacii-teplosnabzhenie-i-teplotehnicheskoe-oborudovanie-30085814.html",
         "responsibility": "Данных нет",
@@ -628,26 +78,6 @@
         "requirement": "Данных нет",
         "salary_from": "28000",
         "salary_to": "35000"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://kemerovo.superjob.ru/vakansii/prepodavatel-matematiki-44838427.html",
-        "responsibility": "Данных нет",
-        "town": "Кемерово",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://kemerovo.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838591.html",
-        "responsibility": "Данных нет",
-        "town": "Кемерово",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Преподаватель электротехники",
@@ -680,46 +110,6 @@
         "salary_to": "34000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://kirov.superjob.ru/vakansii/prepodavatel-matematiki-44838434.html",
-        "responsibility": "Данных нет",
-        "town": "Киров (Кировская область)",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://kirov.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838598.html",
-        "responsibility": "Данных нет",
-        "town": "Киров (Кировская область)",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель дисциплин специальности Сетевое и системное администрирование",
-        "url": "https://krasnogorsk.superjob.ru/vakansii/prepodavatel-disciplin-specialnosti-setevoe-i-sistemnoe-administrirovanie-46065177.html",
-        "responsibility": "Данных нет",
-        "town": "Красногорск",
-        "employer": "ГБПОУ МО \"Красногорский колледж\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Воспитатель-учитель английского",
-        "url": "https://krasnogorsk.superjob.ru/vakansii/vospitatel-uchitel-anglijskogo-46039958.html",
-        "responsibility": "Данных нет",
-        "town": "Красногорск",
-        "employer": "ООО «Детский Клуб Кленово»",
-        "requirement": "Данных нет",
-        "salary_from": "45000",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель по программированию",
         "url": "https://krasnogorsk.superjob.ru/vakansii/uchitel-po-programmirovaniyu-45698482.html",
         "responsibility": "Данных нет",
@@ -728,26 +118,6 @@
         "requirement": "Данных нет",
         "salary_from": "0",
         "salary_to": "60000"
-    },
-    {
-        "name": "Преподаватель информатики",
-        "url": "https://krasnogorsk.superjob.ru/vakansii/prepodavatel-informatiki-46065100.html",
-        "responsibility": "Данных нет",
-        "town": "Красногорск",
-        "employer": "ГБПОУ МО \"Красногорский колледж\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики, математики и информатики, математики и физики",
-        "url": "https://krasnogorsk.superjob.ru/vakansii/uchitel-matematiki-29012907.html",
-        "responsibility": "Данных нет",
-        "town": "Красногорск",
-        "employer": "СОШ №12",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Преподаватель математики",
@@ -760,166 +130,6 @@
         "salary_to": "35000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://krasnodar.superjob.ru/vakansii/prepodavatel-matematiki-44838414.html",
-        "responsibility": "Данных нет",
-        "town": "Краснодар",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://krasnodar.superjob.ru/vakansii/prepodavatel-matematiki-46041800.html",
-        "responsibility": "Данных нет",
-        "town": "Краснодар",
-        "employer": "Краснодарский информационно-технологический техникум",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://krasnodar.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-46041841.html",
-        "responsibility": "Данных нет",
-        "town": "Краснодар",
-        "employer": "Краснодарский информационно-технологический техникум",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель программирования",
-        "url": "https://krasnodar.superjob.ru/vakansii/prepodavatel-programmirovaniya-46041857.html",
-        "responsibility": "Данных нет",
-        "town": "Краснодар",
-        "employer": "Краснодарский информационно-технологический техникум",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://krasnodar.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838578.html",
-        "responsibility": "Данных нет",
-        "town": "Краснодар",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского",
-        "url": "https://krasnodar.superjob.ru/vakansii/uchitel-anglijskogo-45620504.html",
-        "responsibility": "Данных нет",
-        "town": "Краснодар",
-        "employer": "МАОУ СОШ № 58",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель архитектуры",
-        "url": "https://krasnoyarsk.superjob.ru/vakansii/prepodavatel-arhitektury-46092976.html",
-        "responsibility": "Данных нет",
-        "town": "Красноярск",
-        "employer": "Краевое государственное бюджетное профессиональное образовательное учреждение Красноярский строительный техникум",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://krasnoyarsk.superjob.ru/vakansii/prepodavatel-matematiki-44838409.html",
-        "responsibility": "Данных нет",
-        "town": "Красноярск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://krasnoyarsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838573.html",
-        "responsibility": "Данных нет",
-        "town": "Красноярск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель информатики",
-        "url": "https://kronshtadt.superjob.ru/vakansii/prepodavatel-informatiki-45875666.html",
-        "responsibility": "Данных нет",
-        "town": "Кронштадт",
-        "employer": "Морская техническая академия им. адмирала Д. Н. Сенявина",
-        "requirement": "Данных нет",
-        "salary_from": "45000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель химии, биологии",
-        "url": "https://kronshtadt.superjob.ru/vakansii/prepodavatel-himii-42922874.html",
-        "responsibility": "Данных нет",
-        "town": "Кронштадт",
-        "employer": "Морская техническая академия им. адмирала Д. Н. Сенявина",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://kursk.superjob.ru/vakansii/prepodavatel-matematiki-44838437.html",
-        "responsibility": "Данных нет",
-        "town": "Курск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://kursk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838601.html",
-        "responsibility": "Данных нет",
-        "town": "Курск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://lipetsk.superjob.ru/vakansii/prepodavatel-matematiki-44838432.html",
-        "responsibility": "Данных нет",
-        "town": "Липецк",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://lipetsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838596.html",
-        "responsibility": "Данных нет",
-        "town": "Липецк",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель информатики",
-        "url": "https://lipetsk.superjob.ru/vakansii/uchitel-informatiki-31473935.html",
-        "responsibility": "Данных нет",
-        "town": "Липецк",
-        "employer": "МАОУ СОШ №18",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель музыки",
         "url": "https://lyubertsy.superjob.ru/vakansii/uchitel-muzyki-35922390.html",
         "responsibility": "Данных нет",
@@ -928,26 +138,6 @@
         "requirement": "Данных нет",
         "salary_from": "35000",
         "salary_to": "40000"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://magnitogorsk.superjob.ru/vakansii/prepodavatel-matematiki-44838440.html",
-        "responsibility": "Данных нет",
-        "town": "Магнитогорск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://magnitogorsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838604.html",
-        "responsibility": "Данных нет",
-        "town": "Магнитогорск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Учитель по программированию",
@@ -960,36 +150,6 @@
         "salary_to": "60000"
     },
     {
-        "name": "Преподаватель ценообразование в строительстве",
-        "url": "https://mariupol.superjob.ru/vakansii/prepodavatel-cenoobrazovanie-v-stroitelstve-45917020.html",
-        "responsibility": "Данных нет",
-        "town": "Мариуполь",
-        "employer": "ФАУ РОСКАПСТРОЙ",
-        "requirement": "Данных нет",
-        "salary_from": "150000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://makhachkala.superjob.ru/vakansii/prepodavatel-matematiki-44838423.html",
-        "responsibility": "Данных нет",
-        "town": "Махачкала",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://makhachkala.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838587.html",
-        "responsibility": "Данных нет",
-        "town": "Махачкала",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель по программированию",
         "url": "https://mo.superjob.ru/vakansii/uchitel-po-programmirovaniyu-45698484.html",
         "responsibility": "Данных нет",
@@ -998,46 +158,6 @@
         "requirement": "Данных нет",
         "salary_from": "0",
         "salary_to": "60000"
-    },
-    {
-        "name": "Преподаватель робототехники",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-robototehniki-28405629.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа в районе Бирюлёво Восточное",
-        "requirement": "Данных нет",
-        "salary_from": "70000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель физики и астрономии (по гражданско-правовому договору)",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-fiziki-i-astronomii-42411563.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Колледж Москва",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка, деловой речи",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-45830697.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Академия Федеральной службы безопасности Российской Федерации",
-        "requirement": "Данных нет",
-        "salary_from": "36000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель дисциплины (сварочное производство)",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-discipliny-45917548.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Колледж архитектуры и строительства № 7",
-        "requirement": "Данных нет",
-        "salary_from": "85000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель преподаватель английского языка в школе",
@@ -1060,76 +180,6 @@
         "salary_to": "50000"
     },
     {
-        "name": "Преподаватель по дисциплине Бухгалтерский учет",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-po-discipline-buhgalterskij-uchet-27158827.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Колледж многоуровневого профессионального образования РАНХиГС",
-        "requirement": "Данных нет",
-        "salary_from": "70000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по классу Гитара",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-po-klassu-gitara-36155004.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Филиал ПМЦ Диалог",
-        "requirement": "Данных нет",
-        "salary_from": "15000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по специальности Организация перевозок на транспорте и логистики",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-po-specialnosti-organizaciya-perevozok-na-transporte-i-logistiki-30186307.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБПОУ Технологический колледж №34",
-        "requirement": "Данных нет",
-        "salary_from": "85000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Педагог дополнительного образования (преподаватель) по программированию и IT-технологиям",
-        "url": "https://www.superjob.ru/vakansii/pedagog-dopolnitelnogo-obrazovaniya-43792279.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа №2001",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель электроники",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-elektroniki-44616693.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа №2001",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплинам (информатика и информационные технологии в медицине)",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-po-disciplinam-34073472.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ФГБПОУ \"Медицинский колледж\" (МК РАМН)",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель ИТ дисциплин",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-it-disciplin-45713772.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБПОУ КБТ",
-        "requirement": "Данных нет",
-        "salary_from": "100000",
-        "salary_to": "0"
-    },
-    {
         "name": "Доцент, преподаватель математических дисциплин",
         "url": "https://www.superjob.ru/vakansii/docent-46060340.html",
         "responsibility": "Данных нет",
@@ -1138,56 +188,6 @@
         "requirement": "Данных нет",
         "salary_from": "120000",
         "salary_to": "150000"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-matematiki-44838398.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838563.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель иностранного языка",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-inostrannogo-yazyka-36896211.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Академия Федеральной службы безопасности Российской Федерации",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-31163841.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа № 1208",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка как иностранного",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-kak-inostrannogo-41872274.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Академия Федеральной службы безопасности Российской Федерации",
-        "requirement": "Данных нет",
-        "salary_from": "36000",
-        "salary_to": "0"
     },
     {
         "name": "Инструктор по лечебной физкультуре НЕ ТРЕНЕР и НЕ УЧИТЕЛЬ",
@@ -1200,26 +200,6 @@
         "salary_to": "100000"
     },
     {
-        "name": "Учитель-дефектолог на 2 дня в неделю",
-        "url": "https://www.superjob.ru/vakansii/uchitel-defektolog-na-2-dnya-v-nedelyu-45814564.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "АНОО Лицей Ковчег XXI",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-45997354.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа № 504",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель английского языка",
         "url": "https://www.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-46073381.html",
         "responsibility": "Данных нет",
@@ -1228,126 +208,6 @@
         "requirement": "Данных нет",
         "salary_from": "40000",
         "salary_to": "80000"
-    },
-    {
-        "name": "Учитель истории и обществознания",
-        "url": "https://www.superjob.ru/vakansii/uchitel-istorii-i-obschestvoznaniya-32194858.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "АНОО Лицей Ковчег XXI",
-        "requirement": "Данных нет",
-        "salary_from": "70000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по специальности Информационные системы и программирование",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-po-specialnosti-informacionnye-sistemy-i-programmirovanie-31405237.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБПОУ Технологический колледж №34",
-        "requirement": "Данных нет",
-        "salary_from": "85000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-matematiki-31247907.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Колледж многоуровневого профессионального образования РАНХиГС",
-        "requirement": "Данных нет",
-        "salary_from": "70000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://www.superjob.ru/vakansii/uchitel-nachalnyh-klassov-29925728.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "АНО \"Павловская гимназия\"",
-        "requirement": "Данных нет",
-        "salary_from": "130000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель русского языка и литературы",
-        "url": "https://www.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-34925043.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель информатики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-informatiki-32187102.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа № 771",
-        "requirement": "Данных нет",
-        "salary_from": "84000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://www.superjob.ru/vakansii/uchitel-nachalnyh-klassov-32083399.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа № 1355",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физики на 2 дня",
-        "url": "https://www.superjob.ru/vakansii/uchitel-fiziki-na-2-dnya-27745792.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "АНОО Лицей Ковчег XXI",
-        "requirement": "Данных нет",
-        "salary_from": "60000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель-организатор ОБЖ",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-organizator-obzh-45374986.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБПОУ КБТ",
-        "requirement": "Данных нет",
-        "salary_from": "100000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-38545443.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "АНО Павловская гимназия",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://www.superjob.ru/vakansii/uchitel-nachalnyh-klassov-31809120.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель изобразительного искусства",
-        "url": "https://www.superjob.ru/vakansii/uchitel-izobrazitelnogo-iskusstva-45994237.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа № 717",
-        "requirement": "Данных нет",
-        "salary_from": "85000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель физики",
@@ -1370,46 +230,6 @@
         "salary_to": "85000"
     },
     {
-        "name": "Учитель физики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-fiziki-46098974.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Образовательный центр Протон",
-        "requirement": "Данных нет",
-        "salary_from": "87000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-29729688.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Гимназия №1534",
-        "requirement": "Данных нет",
-        "salary_from": "90000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель информатики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-informatiki-30893519.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа № 1298",
-        "requirement": "Данных нет",
-        "salary_from": "82000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-34280431.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа № 1317",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель математики",
         "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-40931448.html",
         "responsibility": "Данных нет",
@@ -1418,76 +238,6 @@
         "requirement": "Данных нет",
         "salary_from": "31000",
         "salary_to": "56000"
-    },
-    {
-        "name": "Учитель русского языка и литературы",
-        "url": "https://www.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-41760874.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа № 1539",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-43158598.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Курчатовская школа",
-        "requirement": "Данных нет",
-        "salary_from": "84100",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель информатики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-informatiki-44334979.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа № 717",
-        "requirement": "Данных нет",
-        "salary_from": "85000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского языка",
-        "url": "https://www.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-39249510.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "МБОУ \"Бутовская СОШ №1\"",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-fiziki-45208197.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа №2001",
-        "requirement": "Данных нет",
-        "salary_from": "150000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель истории и обществознания",
-        "url": "https://www.superjob.ru/vakansii/uchitel-istorii-i-obschestvoznaniya-31159506.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа № 2107",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики и физики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-i-fiziki-45984612.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "МАОУ Востряковский лицей №1",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель математики",
@@ -1500,46 +250,6 @@
         "salary_to": "100000"
     },
     {
-        "name": "Учитель-дефектолог",
-        "url": "https://www.superjob.ru/vakansii/uchitel-defektolog-46090620.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ СОШ №2098 имени Героя Советского Союза Л. М. Доватора",
-        "requirement": "Данных нет",
-        "salary_from": "70000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель информатики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-informatiki-33310091.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа № 1551 г. Москвы",
-        "requirement": "Данных нет",
-        "salary_from": "80000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-fiziki-33917803.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа в Капотне",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель русского языка и литературы",
-        "url": "https://www.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-34112861.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Вешняковская школа",
-        "requirement": "Данных нет",
-        "salary_from": "84100",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель информатики",
         "url": "https://www.superjob.ru/vakansii/uchitel-informatiki-36793322.html",
         "responsibility": "Данных нет",
@@ -1548,16 +258,6 @@
         "requirement": "Данных нет",
         "salary_from": "0",
         "salary_to": "130000"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-36510478.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа № 2036",
-        "requirement": "Данных нет",
-        "salary_from": "84000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель химии и биологии",
@@ -1570,26 +270,6 @@
         "salary_to": "90000"
     },
     {
-        "name": "Учитель математики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-matematiki-43380495.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "Школа № 1552",
-        "requirement": "Данных нет",
-        "salary_from": "84100",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель информатики",
-        "url": "https://www.superjob.ru/vakansii/uchitel-informatiki-43774844.html",
-        "responsibility": "Данных нет",
-        "town": "Москва",
-        "employer": "ГБОУ Школа № 1355",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель информатики и информационных технологий",
         "url": "https://www.superjob.ru/vakansii/uchitel-informatiki-i-informacionnyh-tehnologij-45546757.html",
         "responsibility": "Данных нет",
@@ -1600,116 +280,6 @@
         "salary_to": "90000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://naberezhnye-chelny.superjob.ru/vakansii/prepodavatel-matematiki-44838430.html",
-        "responsibility": "Данных нет",
-        "town": "Набережные Челны",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://naberezhnye-chelny.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838594.html",
-        "responsibility": "Данных нет",
-        "town": "Набережные Челны",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель-организатор ОБЖ",
-        "url": "https://nn.superjob.ru/vakansii/prepodavatel-organizator-obzh-44676575.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "МБОУ \"Школа №170\"",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://nn.superjob.ru/vakansii/prepodavatel-matematiki-44838402.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель-организатор ОБЖ",
-        "url": "https://nn.superjob.ru/vakansii/prepodavatel-organizator-obzh-29497592.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "МБОУ \"Школа № 133\"",
-        "requirement": "Данных нет",
-        "salary_from": "20000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://nn.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838566.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://nn.superjob.ru/vakansii/uchitel-nachalnyh-klassov-36657779.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "Школа №12",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского языка",
-        "url": "https://nn.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-31396038.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "МБОУ \"Школа № 20\".",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики и информатики",
-        "url": "https://nn.superjob.ru/vakansii/uchitel-matematiki-i-informatiki-36301254.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "РО Нижегородская епархия Русской Православной Церкви",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель ментальной арифметики для школьников",
-        "url": "https://nn.superjob.ru/vakansii/uchitel-mentalnoj-arifmetiki-dlya-shkolnikov-30794841.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "МБОУ Школа №20",
-        "requirement": "Данных нет",
-        "salary_from": "15000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физики",
-        "url": "https://nn.superjob.ru/vakansii/uchitel-fiziki-31918302.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "МАОУ \"Школа\" №3",
-        "requirement": "Данных нет",
-        "salary_from": "20000",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель начальных классов",
         "url": "https://nn.superjob.ru/vakansii/uchitel-nachalnyh-klassov-37678367.html",
         "responsibility": "Данных нет",
@@ -1718,146 +288,6 @@
         "requirement": "Данных нет",
         "salary_from": "20000",
         "salary_to": "25000"
-    },
-    {
-        "name": "Учитель физики",
-        "url": "https://nn.superjob.ru/vakansii/uchitel-fiziki-45993067.html",
-        "responsibility": "Данных нет",
-        "town": "Нижний Новгород",
-        "employer": "РО Нижегородская епархия Русской Православной Церкви",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://novokuznetsk.superjob.ru/vakansii/prepodavatel-matematiki-44838426.html",
-        "responsibility": "Данных нет",
-        "town": "Новокузнецк",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://novokuznetsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838590.html",
-        "responsibility": "Данных нет",
-        "town": "Новокузнецк",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://nsk.superjob.ru/vakansii/prepodavatel-matematiki-44838400.html",
-        "responsibility": "Данных нет",
-        "town": "Новосибирск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://nsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838562.html",
-        "responsibility": "Данных нет",
-        "town": "Новосибирск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель музыкально-теоретических дисциплин",
-        "url": "https://norilsk.superjob.ru/vakansii/prepodavatel-muzykalno-teoreticheskih-disciplin-45945691.html",
-        "responsibility": "Данных нет",
-        "town": "Норильск",
-        "employer": "МБУ ДО НОРИЛЬСКАЯ ДЕТСКАЯ ШКОЛА ИСКУССТВ",
-        "requirement": "Данных нет",
-        "salary_from": "55000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://omsk.superjob.ru/vakansii/prepodavatel-matematiki-44838406.html",
-        "responsibility": "Данных нет",
-        "town": "Омск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://omsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838570.html",
-        "responsibility": "Данных нет",
-        "town": "Омск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://orenburg.superjob.ru/vakansii/prepodavatel-matematiki-44838424.html",
-        "responsibility": "Данных нет",
-        "town": "Оренбург",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://orenburg.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838588.html",
-        "responsibility": "Данных нет",
-        "town": "Оренбург",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://penza.superjob.ru/vakansii/prepodavatel-matematiki-44838431.html",
-        "responsibility": "Данных нет",
-        "town": "Пенза",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://penza.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838595.html",
-        "responsibility": "Данных нет",
-        "town": "Пенза",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://perm.superjob.ru/vakansii/prepodavatel-matematiki-44838410.html",
-        "responsibility": "Данных нет",
-        "town": "Пермь",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://perm.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838574.html",
-        "responsibility": "Данных нет",
-        "town": "Пермь",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Учитель по программированию",
@@ -1880,86 +310,6 @@
         "salary_to": "35000"
     },
     {
-        "name": "Преподаватель по классу духовые и ударные инструменты",
-        "url": "https://poronaisk.superjob.ru/vakansii/prepodavatel-po-klassu-duhovye-i-udarnye-instrumenty-46056126.html",
-        "responsibility": "Данных нет",
-        "town": "Поронайск",
-        "employer": "МБОУДО ДШИ г. Поронайска",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по классу скрипка",
-        "url": "https://poronaisk.superjob.ru/vakansii/prepodavatel-po-klassu-skripka-31399146.html",
-        "responsibility": "Данных нет",
-        "town": "Поронайск",
-        "employer": "МБОУДО ДШИ г. Поронайска",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по классу фортепиано, концертмейстер",
-        "url": "https://poronaisk.superjob.ru/vakansii/prepodavatel-po-klassu-fortepiano-31399121.html",
-        "responsibility": "Данных нет",
-        "town": "Поронайск",
-        "employer": "МБОУДО ДШИ г. Поронайска",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель теоретических музыкальных дисциплин",
-        "url": "https://poronaisk.superjob.ru/vakansii/prepodavatel-teoreticheskih-muzykalnyh-disciplin-31399148.html",
-        "responsibility": "Данных нет",
-        "town": "Поронайск",
-        "employer": "МБОУДО ДШИ г. Поронайска",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по классу народные инструменты",
-        "url": "https://poronaisk.superjob.ru/vakansii/prepodavatel-po-klassu-narodnye-instrumenty-46056124.html",
-        "responsibility": "Данных нет",
-        "town": "Поронайск",
-        "employer": "МБОУДО ДШИ г. Поронайска",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по классу живопись",
-        "url": "https://poronaisk.superjob.ru/vakansii/prepodavatel-po-klassu-zhivopis-46056125.html",
-        "responsibility": "Данных нет",
-        "town": "Поронайск",
-        "employer": "МБОУДО ДШИ г. Поронайска",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского языка",
-        "url": "https://putilkovo.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-31425897.html",
-        "responsibility": "Данных нет",
-        "town": "Путилково",
-        "employer": "МБОУ СОШ №20",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского языка",
-        "url": "https://putilkovo.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-38588868.html",
-        "responsibility": "Данных нет",
-        "town": "Путилково",
-        "employer": "Образовательный центр «Вершина»",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель физкультуры",
         "url": "https://pushkino.superjob.ru/vakansii/prepodavatel-fizkultury-46100590.html",
         "responsibility": "Данных нет",
@@ -1980,56 +330,6 @@
         "salary_to": "30000"
     },
     {
-        "name": "Преподаватель колледжа по специальности Информационные системы и программирование",
-        "url": "https://ramenskoe.superjob.ru/vakansii/prepodavatel-kolledzha-po-specialnosti-informacionnye-sistemy-i-programmirovanie-36196855.html",
-        "responsibility": "Данных нет",
-        "town": "Раменское",
-        "employer": "ФГБОУ ВО «Гжельский государственный университет»",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель колледжа по специальности 43.02.10 Туризм",
-        "url": "https://ramenskoe.superjob.ru/vakansii/prepodavatel-kolledzha-po-specialnosti-43-42738629.html",
-        "responsibility": "Данных нет",
-        "town": "Раменское",
-        "employer": "ФГБОУ ВО \"Гжельский государственный университет\"",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель колледжа по специальности 40.02.01 Право и организация социального обеспечения",
-        "url": "https://ramenskoe.superjob.ru/vakansii/prepodavatel-kolledzha-po-specialnosti-40-42738610.html",
-        "responsibility": "Данных нет",
-        "town": "Раменское",
-        "employer": "ФГБОУ ВО \"Гжельский государственный университет\"",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель колледжа по специальности 38.02.01 Экономика и бухгалтерский учет (по отраслям)",
-        "url": "https://ramenskoe.superjob.ru/vakansii/prepodavatel-kolledzha-po-specialnosti-38-42738591.html",
-        "responsibility": "Данных нет",
-        "town": "Раменское",
-        "employer": "ФГБОУ ВО \"Гжельский государственный университет\"",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель колледжа по специальности 43.02.14 Гостиничное дело",
-        "url": "https://ramenskoe.superjob.ru/vakansii/prepodavatel-kolledzha-po-specialnosti-43-42738786.html",
-        "responsibility": "Данных нет",
-        "town": "Раменское",
-        "employer": "ФГБОУ ВО \"Гжельский государственный университет\"",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель по программированию",
         "url": "https://mo.superjob.ru/vakansii/uchitel-po-programmirovaniyu-45698486.html",
         "responsibility": "Данных нет",
@@ -2040,66 +340,6 @@
         "salary_to": "60000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://rnd.superjob.ru/vakansii/prepodavatel-matematiki-44838407.html",
-        "responsibility": "Данных нет",
-        "town": "Ростов-на-Дону",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://rnd.superjob.ru/vakansii/prepodavatel-matematiki-46012995.html",
-        "responsibility": "Данных нет",
-        "town": "Ростов-на-Дону",
-        "employer": "ГБПОУ РО Ростовский торгово-экономический колледж",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://rnd.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838571.html",
-        "responsibility": "Данных нет",
-        "town": "Ростов-на-Дону",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель информатики",
-        "url": "https://rnd.superjob.ru/vakansii/prepodavatel-informatiki-46012913.html",
-        "responsibility": "Данных нет",
-        "town": "Ростов-на-Дону",
-        "employer": "ГБПОУ РО Ростовский торгово-экономический колледж",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель-дефектолог",
-        "url": "https://rnd.superjob.ru/vakansii/uchitel-defektolog-32518179.html",
-        "responsibility": "Данных нет",
-        "town": "Ростов-на-Дону",
-        "employer": "Детский сад № 254",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель специальных дисциплин косметологии",
-        "url": "https://ryazan.superjob.ru/vakansii/prepodavatel-specialnyh-disciplin-kosmetologii-44382909.html",
-        "responsibility": "Данных нет",
-        "town": "Рязань",
-        "employer": "Рязанский политехнический колледж",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель математики и физики",
         "url": "https://ryazan.superjob.ru/vakansii/prepodavatel-matematiki-i-fiziki-45641168.html",
         "responsibility": "Данных нет",
@@ -2108,26 +348,6 @@
         "requirement": "Данных нет",
         "salary_from": "25000",
         "salary_to": "30000"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://ryazan.superjob.ru/vakansii/prepodavatel-matematiki-44838429.html",
-        "responsibility": "Данных нет",
-        "town": "Рязань",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://ryazan.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838593.html",
-        "responsibility": "Данных нет",
-        "town": "Рязань",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Преподаватель общественных дисциплин",
@@ -2150,26 +370,6 @@
         "salary_to": "30000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://samara.superjob.ru/vakansii/prepodavatel-matematiki-44838404.html",
-        "responsibility": "Данных нет",
-        "town": "Самара",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель",
-        "url": "https://samara.superjob.ru/vakansii/prepodavatel-45981774.html",
-        "responsibility": "Данных нет",
-        "town": "Самара",
-        "employer": "МБУ ДО г. о. Самара \"ДМШ № 14\"",
-        "requirement": "Данных нет",
-        "salary_from": "20000",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель по классу гитары",
         "url": "https://samara.superjob.ru/vakansii/prepodavatel-po-klassu-gitary-46022184.html",
         "responsibility": "Данных нет",
@@ -2178,16 +378,6 @@
         "requirement": "Данных нет",
         "salary_from": "25000",
         "salary_to": "35000"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://samara.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838568.html",
-        "responsibility": "Данных нет",
-        "town": "Самара",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Преподаватель духовых инструментов",
@@ -2200,36 +390,6 @@
         "salary_to": "35000"
     },
     {
-        "name": "Учитель информатики",
-        "url": "https://samara.superjob.ru/vakansii/uchitel-informatiki-45677964.html",
-        "responsibility": "Данных нет",
-        "town": "Самара",
-        "employer": "МБОУ Школа №24 г. о. Самары",
-        "requirement": "Данных нет",
-        "salary_from": "20000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://samara.superjob.ru/vakansii/uchitel-matematiki-45812071.html",
-        "responsibility": "Данных нет",
-        "town": "Самара",
-        "employer": "МБОУ Школа № 79",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Педагог дополнительного образования, преподаватель по изобразительной деятельности",
-        "url": "https://spb.superjob.ru/vakansii/pedagog-dopolnitelnogo-obrazovaniya-33118938.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГДОУ Детский сад №101 общеразвивающего вида Невского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "24000",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель химии",
         "url": "https://spb.superjob.ru/vakansii/prepodavatel-himii-38023026.html",
         "responsibility": "Данных нет",
@@ -2238,16 +398,6 @@
         "requirement": "Данных нет",
         "salary_from": "70000",
         "salary_to": "85000"
-    },
-    {
-        "name": "Преподаватель (Отделение-Техносферная безопасность) (2 площадка)",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-43668816.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Морская техническая академия им. адмирала Д. Н. Сенявина",
-        "requirement": "Данных нет",
-        "salary_from": "45000",
-        "salary_to": "0"
     },
     {
         "name": "Преподаватель-организатор ОБЖ",
@@ -2270,16 +420,6 @@
         "salary_to": "60000"
     },
     {
-        "name": "Преподаватель биологии и химии",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-biologii-i-himii-38388133.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургский фельдшерский колледж",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель шахмат",
         "url": "https://spb.superjob.ru/vakansii/prepodavatel-shahmat-45791311.html",
         "responsibility": "Данных нет",
@@ -2290,16 +430,6 @@
         "salary_to": "50000"
     },
     {
-        "name": "Преподаватель спец. дисциплин по профессии (мастер слесарных работ)",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-spec-46061564.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургское ГБПОУ Лицей Сервиса и индустриальных технологий",
-        "requirement": "Данных нет",
-        "salary_from": "34837",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель военного учебного центра",
         "url": "https://spb.superjob.ru/vakansii/prepodavatel-voennogo-uchebnogo-centra-25603511.html",
         "responsibility": "Данных нет",
@@ -2308,86 +438,6 @@
         "requirement": "Данных нет",
         "salary_from": "65000",
         "salary_to": "75000"
-    },
-    {
-        "name": "Преподаватель робототехники",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-robototehniki-33082461.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Государственное бюджетное общеобразовательное учреждение школа № 219 Красносельского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "24000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель спец. дисциплин по сварочному производству",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-spec-29056010.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "СПб ГБПОУ \"Техникум \"Автосервис\" (МЦПК)\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка как иностранного",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-kak-inostrannogo-41366191.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ФГБОУ ВО \"Петербургский государственный университет путей сообщения Императора Александра I\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель физики и астрономии с 01.09.2023 года",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-fiziki-i-astronomii-s-01-44041624.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургский фельдшерский колледж",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель (преподаватель) физики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-27315990.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Оптико-механический лицей",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель-организатор ОБЖ",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-organizator-obzh-44851933.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ школа № 65",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель (истории и обществознания)",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-45429760.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБПОУ Некрасовский Педколледж № 1",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель общепрофессиональных дисциплин (Прикладная геодезия)",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-obscheprofessionalnyh-disciplin-45674378.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "СПб ГБПОУ \"Колледж ПетроСтройСервис\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Преподаватель кафедры/врач функциональной диагностики",
@@ -2408,46 +458,6 @@
         "requirement": "Данных нет",
         "salary_from": "30000",
         "salary_to": "50000"
-    },
-    {
-        "name": "Преподаватель спецдисциплин для судовых электромехаников",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-specdisciplin-dlya-sudovyh-elektromehanikov-38195803.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Морская техническая академия им. адмирала Д. Н. Сенявина",
-        "requirement": "Данных нет",
-        "salary_from": "60000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-matematiki-44838399.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838564.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель спецдисциплин для судовых механиков",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-specdisciplin-dlya-sudovyh-mehanikov-46073419.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Морская техническая академия им. адмирала Д. Н. Сенявина",
-        "requirement": "Данных нет",
-        "salary_from": "60000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель русского языка и литературы",
@@ -2480,36 +490,6 @@
         "salary_to": "90000"
     },
     {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-27394321.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ №619 Калининского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-31222696.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 418 Кронштадтского района СПб",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель Сестринского дела в реабилитации",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-sestrinskogo-dela-v-reabilitacii-34311080.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургский фельдшерский колледж",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель физики",
         "url": "https://spb.superjob.ru/vakansii/prepodavatel-fiziki-36695093.html",
         "responsibility": "Данных нет",
@@ -2518,166 +498,6 @@
         "requirement": "Данных нет",
         "salary_from": "90000",
         "salary_to": "120000"
-    },
-    {
-        "name": "Преподаватель микробиологии с 01.09.2023",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-mikrobiologii-s-01-34360544.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургский фельдшерский колледж",
-        "requirement": "Данных нет",
-        "salary_from": "28000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель анатомии с 01.09.2023",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-anatomii-s-01-44052634.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургский фельдшерский колледж",
-        "requirement": "Данных нет",
-        "salary_from": "28000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Инженер ИКТ / учитель информатики",
-        "url": "https://spb.superjob.ru/vakansii/inzhener-ikt-44344094.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ №29",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-44433683.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ №527 Невского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель Сестринского дела в реанимации",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-sestrinskogo-dela-v-reanimacii-45152460.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургский фельдшерский колледж",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-45179098.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 195",
-        "requirement": "Данных нет",
-        "salary_from": "45000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель Сестринского дела в хирургии",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-sestrinskogo-dela-v-hirurgii-45724200.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургский фельдшерский колледж",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-45838829.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ Гимназия № 116 Приморского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физической культуры с 01.09.23",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-fizicheskoj-kultury-s-01-45998198.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Центр Образования № 195 Адмиралтейского района СПБ",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-46007449.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ЧОУ Школа \"Таурас\"",
-        "requirement": "Данных нет",
-        "salary_from": "70000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-matematiki-46061526.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургское ГБПОУ Лицей Сервиса и индустриальных технологий",
-        "requirement": "Данных нет",
-        "salary_from": "34837",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель химии",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-himii-46061542.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургское ГБПОУ Лицей Сервиса и индустриальных технологий",
-        "requirement": "Данных нет",
-        "salary_from": "34837",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель обществознания",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-obschestvoznaniya-46061560.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Санкт-Петербургское ГБПОУ Лицей Сервиса и индустриальных технологий",
-        "requirement": "Данных нет",
-        "salary_from": "34837",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальной школы",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnoj-shkoly-46076853.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Онлайн-Школа №1",
-        "requirement": "Данных нет",
-        "salary_from": "62500",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель биологии",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-biologii-46099628.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ Школа № 120 Выборгского района",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель русского языка и литературы",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-32484682.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 133",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
     },
     {
         "name": "Преподаватель математики",
@@ -2700,36 +520,6 @@
         "salary_to": "93000"
     },
     {
-        "name": "Доцент, преподаватель английского языка",
-        "url": "https://spb.superjob.ru/vakansii/docent-38742344.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ФГБОУ ВО \"Петербургский государственный университет путей сообщения Императора Александра I\"",
-        "requirement": "Данных нет",
-        "salary_from": "29536",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-39794035.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ №707 Невского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по классу гитары",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-po-klassu-gitary-28441494.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБУ ДО Центр искусств \"Эдельвейс\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель математики",
         "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-45510827.html",
         "responsibility": "Данных нет",
@@ -2740,16 +530,6 @@
         "salary_to": "90000"
     },
     {
-        "name": "Преподаватель дисциплины Строительство и эксплуатация зданий и сооружений",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-discipliny-stroitelstvo-i-ekspluataciya-zdanij-i-sooruzhenij-45672912.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "СПб ГБПОУ \"Колледж ПетроСтройСервис\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель информатики",
         "url": "https://spb.superjob.ru/vakansii/uchitel-informatiki-45707107.html",
         "responsibility": "Данных нет",
@@ -2758,146 +538,6 @@
         "requirement": "Данных нет",
         "salary_from": "50000",
         "salary_to": "60000"
-    },
-    {
-        "name": "Преподаватель специальных дисциплин по устройству двигателей",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-specialnyh-disciplin-po-ustrojstvu-dvigatelej-45898715.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "СПб ГБПОУ \"Техникум \"Автосервис\" (МЦПК)\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель специальных дисциплин по ТО и ремонту автомобилей",
-        "url": "https://spb.superjob.ru/vakansii/prepodavatel-specialnyh-disciplin-po-to-i-remontu-avtomobilej-45898779.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "СПб ГБПОУ \"Техникум \"Автосервис\" (МЦПК)\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Профессор, преподаватель английского языка",
-        "url": "https://spb.superjob.ru/vakansii/professor-45321937.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ФГБОУ ВО \"Петербургский государственный университет путей сообщения Императора Александра I\"",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-46053877.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 352 Красносельского района СПб с углубленным изучением немецкого языка",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель музыки",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-muzyki-46098840.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ средняя школа № 478 Красногвардейского района",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель русского языка и литературы",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-33861755.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 692",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-29713665.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "МОБУ СОШ ЦО Кудрово",
-        "requirement": "Данных нет",
-        "salary_from": "60000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель технологии со знанием робототехники",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-tehnologii-so-znaniem-robototehniki-32356886.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ №619 Калининского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского языка с 01.09.2023",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-s-01-33843776.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 204",
-        "requirement": "Данных нет",
-        "salary_from": "65000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физической культуры с 1 сентября 2023 года",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-fizicheskoj-kultury-s-1-sentyabrya-2023-goda-29517778.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ Лицей № 144",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель русского языка и литературы",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-12157955.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 684 \"Берегиня\" Московского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель русского языка и литературы",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-russkogo-yazyka-i-literatury-31201352.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 418 Кронштадтского района СПб",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель истории и обществознания",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-istorii-i-obschestvoznaniya-42058905.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Школа №351 с углубленным изучением иностранных языков",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского языка",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-42791362.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ Средняя общеобразовательная школа №327 Невского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель начальных классов",
@@ -2930,96 +570,6 @@
         "salary_to": "40000"
     },
     {
-        "name": "Учитель информатики, робототехники",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-informatiki-32047392.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ лицей № 299 Фрунзенского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель-логопед",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-logoped-45583227.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ №515",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель истории и обществознания с 01.09.23",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-istorii-i-obschestvoznaniya-s-01-45998092.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Центр Образования № 195 Адмиралтейского района СПБ",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-46090883.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Гимназия №587",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов (в классах ОВЗ)",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-46099472.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ Школа № 120 Выборгского района",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель музыки",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-muzyki-26071688.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "\"Лицей №126\" Калининского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-fiziki-26806282.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Средняя общеобразовательная школа №547 Красносельского района",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель музыки",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-muzyki-30956194.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ гимназия № 52 Приморского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-25120019.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ школа №489",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель начальных классов",
         "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-28448083.html",
         "responsibility": "Данных нет",
@@ -3050,66 +600,6 @@
         "salary_to": "45000"
     },
     {
-        "name": "Тренер/учитель по шахматам",
-        "url": "https://spb.superjob.ru/vakansii/trener-11916827.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ средняя общеобразовательная школа № 683 Приморского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-25449922.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ Гимназия №63",
-        "requirement": "Данных нет",
-        "salary_from": "35000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-30842703.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Государственное бюджетное образовательное учреждение средняя общеобразовательная школа №221",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-30510178.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ лицей № 82",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель физики (вакансия с 01.09.2023г)",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-fiziki-31778007.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ Лицей № 40",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-34510779.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 134",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель-логопед",
         "url": "https://spb.superjob.ru/vakansii/uchitel-logoped-12207813.html",
         "responsibility": "Данных нет",
@@ -3130,26 +620,6 @@
         "salary_to": "50000"
     },
     {
-        "name": "Учитель физики и астрономии",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-fiziki-i-astronomii-38609785.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "СОШ №75 с углубленным изучением немецкого языка",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-31411105.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ школа № 518 Выборгского района СПб",
-        "requirement": "Данных нет",
-        "salary_from": "60000",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель музыки",
         "url": "https://spb.superjob.ru/vakansii/uchitel-muzyki-39070969.html",
         "responsibility": "Данных нет",
@@ -3158,66 +628,6 @@
         "requirement": "Данных нет",
         "salary_from": "45000",
         "salary_to": "60000"
-    },
-    {
-        "name": "Учитель истории и обществознания",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-istorii-i-obschestvoznaniya-37893946.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Государственное бюджетное общеобразовательное учреждение средняя школа № 2",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-40279713.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Школа 203 Красносельского района СПб",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-31125820.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ Школа №601 Приморского района",
-        "requirement": "Данных нет",
-        "salary_from": "40000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-26355052.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ ШКОЛА № 336 НЕВСКОГО РАЙОНА САНКТ-ПЕТЕРБУРГА",
-        "requirement": "Данных нет",
-        "salary_from": "70000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель русского и литературы",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-russkogo-i-literatury-44603904.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "БФ \"Дети ждут\"",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель математики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-matematiki-45594251.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ \"Морской лицей\" Приморского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Учитель музыки",
@@ -3230,16 +640,6 @@
         "salary_to": "75000"
     },
     {
-        "name": "Учитель физики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-fiziki-31778329.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Школа № 320 Приморского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "60000",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель информатики",
         "url": "https://spb.superjob.ru/vakansii/uchitel-informatiki-37332570.html",
         "responsibility": "Данных нет",
@@ -3248,26 +648,6 @@
         "requirement": "Данных нет",
         "salary_from": "40000",
         "salary_to": "60000"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-nachalnyh-klassov-46041616.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ СОШ № 564",
-        "requirement": "Данных нет",
-        "salary_from": "50000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель английского языка",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-46040798.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "Лицей № 408 Пушкинского района Санкт-Петербурга",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель английского языка",
@@ -3280,16 +660,6 @@
         "salary_to": "55000"
     },
     {
-        "name": "Учитель технологии для девочек",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-tehnologii-dlya-devochek-46098815.html",
-        "responsibility": "Данных нет",
-        "town": "Санкт-Петербург",
-        "employer": "ГБОУ средняя школа № 478 Красногвардейского района",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель ОБЖ и технологии (мальчики), преподаватель-организатор ОБЖ",
         "url": "https://saratov.superjob.ru/vakansii/uchitel-obzh-i-tehnologii-38611720.html",
         "responsibility": "Данных нет",
@@ -3298,26 +668,6 @@
         "requirement": "Данных нет",
         "salary_from": "31000",
         "salary_to": "32000"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://saratov.superjob.ru/vakansii/prepodavatel-matematiki-44838413.html",
-        "responsibility": "Данных нет",
-        "town": "Саратов",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://saratov.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838577.html",
-        "responsibility": "Данных нет",
-        "town": "Саратов",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Учитель по программированию",
@@ -3350,26 +700,6 @@
         "salary_to": "25000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://sochi.superjob.ru/vakansii/prepodavatel-matematiki-44838444.html",
-        "responsibility": "Данных нет",
-        "town": "Сочи",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://sochi.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838608.html",
-        "responsibility": "Данных нет",
-        "town": "Сочи",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель хоровых дисциплин",
         "url": "https://sochi.superjob.ru/vakansii/prepodavatel-horovyh-disciplin-45571557.html",
         "responsibility": "Данных нет",
@@ -3378,126 +708,6 @@
         "requirement": "Данных нет",
         "salary_from": "20000",
         "salary_to": "25000"
-    },
-    {
-        "name": "Преподаватель народного вокала",
-        "url": "https://sochi.superjob.ru/vakansii/prepodavatel-narodnogo-vokala-45666774.html",
-        "responsibility": "Данных нет",
-        "town": "Сочи",
-        "employer": "МБУДО г. Сочи Детская школа искусств №6",
-        "requirement": "Данных нет",
-        "salary_from": "16000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://stavropol.superjob.ru/vakansii/prepodavatel-matematiki-44838439.html",
-        "responsibility": "Данных нет",
-        "town": "Ставрополь",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://stavropol.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838603.html",
-        "responsibility": "Данных нет",
-        "town": "Ставрополь",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель ценообразование в строительстве",
-        "url": "https://www.superjob.ru/vakansii/prepodavatel-cenoobrazovanie-v-stroitelstve-45917022.html",
-        "responsibility": "Данных нет",
-        "town": "Станица Луганская (Луганская область)",
-        "employer": "ФАУ РОСКАПСТРОЙ",
-        "requirement": "Данных нет",
-        "salary_from": "150000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://surgut.superjob.ru/vakansii/prepodavatel-matematiki-44838446.html",
-        "responsibility": "Данных нет",
-        "town": "Сургут",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://surgut.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838610.html",
-        "responsibility": "Данных нет",
-        "town": "Сургут",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель информатики",
-        "url": "https://spb.superjob.ru/vakansii/uchitel-informatiki-33813406.html",
-        "responsibility": "Данных нет",
-        "town": "Сясьстрой",
-        "employer": "МОБУ \"Сясьстройская СОШ №2\"",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель психологии",
-        "url": "https://tver.superjob.ru/vakansii/prepodavatel-psihologii-45640433.html",
-        "responsibility": "Данных нет",
-        "town": "Тверь",
-        "employer": "ГБП ОУ \"Тверской политехнический колледж\"",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://tver.superjob.ru/vakansii/prepodavatel-matematiki-44838441.html",
-        "responsibility": "Данных нет",
-        "town": "Тверь",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://tver.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838605.html",
-        "responsibility": "Данных нет",
-        "town": "Тверь",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель физики и электротехники",
-        "url": "https://tver.superjob.ru/vakansii/prepodavatel-fiziki-i-elektrotehniki-45404713.html",
-        "responsibility": "Данных нет",
-        "town": "Тверь",
-        "employer": "ГБП ОУ \"Тверской политехнический колледж\"",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель черчения и технической механики",
-        "url": "https://tver.superjob.ru/vakansii/prepodavatel-chercheniya-i-tehnicheskoj-mehaniki-45640442.html",
-        "responsibility": "Данных нет",
-        "town": "Тверь",
-        "employer": "ГБП ОУ \"Тверской политехнический колледж\"",
-        "requirement": "Данных нет",
-        "salary_from": "25000",
-        "salary_to": "0"
     },
     {
         "name": "Учитель математики",
@@ -3520,26 +730,6 @@
         "salary_to": "27000"
     },
     {
-        "name": "Преподаватель математики",
-        "url": "https://tolyatti.superjob.ru/vakansii/prepodavatel-matematiki-44838415.html",
-        "responsibility": "Данных нет",
-        "town": "Тольятти",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://tolyatti.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838579.html",
-        "responsibility": "Данных нет",
-        "town": "Тольятти",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель английского языка с 1 сентября 2023г",
         "url": "https://tomilino.superjob.ru/vakansii/uchitel-anglijskogo-yazyka-s-1-sentyabrya-2023g-30710240.html",
         "responsibility": "Данных нет",
@@ -3548,146 +738,6 @@
         "requirement": "Данных нет",
         "salary_from": "25000",
         "salary_to": "60000"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://tomsk.superjob.ru/vakansii/prepodavatel-matematiki-44838425.html",
-        "responsibility": "Данных нет",
-        "town": "Томск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://tomsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838589.html",
-        "responsibility": "Данных нет",
-        "town": "Томск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель-организатор ОБЖ",
-        "url": "https://tosno.superjob.ru/vakansii/prepodavatel-organizator-obzh-45917081.html",
-        "responsibility": "Данных нет",
-        "town": "Тосно",
-        "employer": "МКОУ \"Тельмановская СОШ\"",
-        "requirement": "Данных нет",
-        "salary_from": "20000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель отдельной дисциплины (математика, информатика и ИКТ)",
-        "url": "https://tula.superjob.ru/vakansii/prepodavatel-otdelnoj-discipliny-45901129.html",
-        "responsibility": "Данных нет",
-        "town": "Тула",
-        "employer": "ФГКОУ Тульское суворовское военное училище МО РФ",
-        "requirement": "Данных нет",
-        "salary_from": "44000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://tula.superjob.ru/vakansii/prepodavatel-matematiki-44838433.html",
-        "responsibility": "Данных нет",
-        "town": "Тула",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://tula.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838597.html",
-        "responsibility": "Данных нет",
-        "town": "Тула",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель отдельной дисциплины (русский язык и литература)",
-        "url": "https://tula.superjob.ru/vakansii/prepodavatel-otdelnoj-discipliny-45900871.html",
-        "responsibility": "Данных нет",
-        "town": "Тула",
-        "employer": "ФГКОУ Тульское суворовское военное училище МО РФ",
-        "requirement": "Данных нет",
-        "salary_from": "44000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по дисциплине рисунок",
-        "url": "https://tyumen.superjob.ru/vakansii/prepodavatel-po-discipline-risunok-41195596.html",
-        "responsibility": "Данных нет",
-        "town": "Тюмень",
-        "employer": "Тюменский индустриальный университет",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://tyumen.superjob.ru/vakansii/prepodavatel-matematiki-44838416.html",
-        "responsibility": "Данных нет",
-        "town": "Тюмень",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://tyumen.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838580.html",
-        "responsibility": "Данных нет",
-        "town": "Тюмень",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://ulan-ude.superjob.ru/vakansii/prepodavatel-matematiki-44838438.html",
-        "responsibility": "Данных нет",
-        "town": "Улан-Удэ",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://ulan-ude.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838602.html",
-        "responsibility": "Данных нет",
-        "town": "Улан-Удэ",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://ulyanovsk.superjob.ru/vakansii/prepodavatel-matematiki-44838397.html",
-        "responsibility": "Данных нет",
-        "town": "Ульяновск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://ulyanovsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838561.html",
-        "responsibility": "Данных нет",
-        "town": "Ульяновск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Учитель английского",
@@ -3700,146 +750,6 @@
         "salary_to": "48000"
     },
     {
-        "name": "Преподаватель по должности врач-эпидемиолог",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-epidemiolog-45654489.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-matematiki-44838408.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838572.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-косметолог",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-kosmetolog-45612934.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-фтизиатр",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-ftiziatr-45612982.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-статистик",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-statistik-45612985.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-травматолог",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-travmatolog-45613004.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-рентгенолог",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-rentgenolog-45613031.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-педиатр",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-pediatr-45456576.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-терапевт",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-terapevt-45458909.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-анестезиолог-реаниматолог",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-anesteziolog-reanimatolog-45458962.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель по должности врач-хирург",
-        "url": "https://ufa.superjob.ru/vakansii/prepodavatel-po-dolzhnosti-vrach-hirurg-45459049.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "ГАУ ДПО РБ Центр повышения квалификации",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель начальных классов",
-        "url": "https://ufa.superjob.ru/vakansii/uchitel-nachalnyh-klassov-25896765.html",
-        "responsibility": "Данных нет",
-        "town": "Уфа",
-        "employer": "МАОУ ШКОЛА № 157 ИМ. С. Х. СУФЬЯНОВА",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель информатики",
-        "url": "https://habarovsk.superjob.ru/vakansii/prepodavatel-informatiki-30063883.html",
-        "responsibility": "Данных нет",
-        "town": "Хабаровск",
-        "employer": "Хабаровский торгово-экономический техникум",
-        "requirement": "Данных нет",
-        "salary_from": "30000",
-        "salary_to": "0"
-    },
-    {
         "name": "Преподаватель математики",
         "url": "https://habarovsk.superjob.ru/vakansii/prepodavatel-matematiki-27789791.html",
         "responsibility": "Данных нет",
@@ -3848,36 +758,6 @@
         "requirement": "Данных нет",
         "salary_from": "0",
         "salary_to": "30000"
-    },
-    {
-        "name": "Преподаватель английского языка",
-        "url": "https://habarovsk.superjob.ru/vakansii/prepodavatel-anglijskogo-yazyka-45512461.html",
-        "responsibility": "Данных нет",
-        "town": "Хабаровск",
-        "employer": "Хабаровский филиал им. Б. Г. Езерского СПбГУ ГА",
-        "requirement": "Данных нет",
-        "salary_from": "45000",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://habarovsk.superjob.ru/vakansii/prepodavatel-matematiki-44838422.html",
-        "responsibility": "Данных нет",
-        "town": "Хабаровск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://habarovsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838586.html",
-        "responsibility": "Данных нет",
-        "town": "Хабаровск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Учитель-логопед",
@@ -3890,16 +770,6 @@
         "salary_to": "30000"
     },
     {
-        "name": "Учитель технологии (мальчики)",
-        "url": "https://habarovsk.superjob.ru/vakansii/uchitel-tehnologii-46048980.html",
-        "responsibility": "Данных нет",
-        "town": "Хабаровск",
-        "employer": "МУНИЦИПАЛЬНОЕ АВТОНОМНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ Г. ХАБАРОВСКА “ЛИЦЕЙ “ЗВЁЗДНЫЙ”",
-        "requirement": "Данных нет",
-        "salary_from": "24000",
-        "salary_to": "0"
-    },
-    {
         "name": "Учитель по программированию",
         "url": "https://himki.superjob.ru/vakansii/uchitel-po-programmirovaniyu-45698488.html",
         "responsibility": "Данных нет",
@@ -3908,46 +778,6 @@
         "requirement": "Данных нет",
         "salary_from": "0",
         "salary_to": "60000"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://cheboksary.superjob.ru/vakansii/prepodavatel-matematiki-44838435.html",
-        "responsibility": "Данных нет",
-        "town": "Чебоксары",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://cheboksary.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838599.html",
-        "responsibility": "Данных нет",
-        "town": "Чебоксары",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://chelyabinsk.superjob.ru/vakansii/prepodavatel-matematiki-44838405.html",
-        "responsibility": "Данных нет",
-        "town": "Челябинск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://chelyabinsk.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838569.html",
-        "responsibility": "Данных нет",
-        "town": "Челябинск",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
     },
     {
         "name": "Учитель русского языка",
@@ -3968,35 +798,5 @@
         "requirement": "Данных нет",
         "salary_from": "0",
         "salary_to": "60000"
-    },
-    {
-        "name": "Преподаватель математики",
-        "url": "https://yaroslavl.superjob.ru/vakansii/prepodavatel-matematiki-44838421.html",
-        "responsibility": "Данных нет",
-        "town": "Ярославль",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Преподаватель русского языка",
-        "url": "https://yaroslavl.superjob.ru/vakansii/prepodavatel-russkogo-yazyka-44838585.html",
-        "responsibility": "Данных нет",
-        "town": "Ярославль",
-        "employer": "Профи-центр",
-        "requirement": "Данных нет",
-        "salary_from": "0",
-        "salary_to": "0"
-    },
-    {
-        "name": "Учитель информатики и математики",
-        "url": "https://yaroslavl.superjob.ru/vakansii/uchitel-informatiki-i-matematiki-44622043.html",
-        "responsibility": "Данных нет",
-        "town": "Ярославль",
-        "employer": "МОУ Средняя школа №55",
-        "requirement": "Данных нет",
-        "salary_from": "20000",
-        "salary_to": "0"
     }
 ]
