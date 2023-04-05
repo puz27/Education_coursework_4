@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from src.utils import format_text
 import requests
 
 
@@ -7,10 +8,6 @@ class Engine(ABC):
     @abstractmethod
     def get_request(self, *args, **kwargs):
         pass
-
-    # @abstractmethod
-    # def set_last_request(self, *args, **kwargs):
-    #     pass
 
 
 class HH(Engine):
@@ -45,17 +42,10 @@ class HH(Engine):
                         }
 
             response = requests.get(url_head_hunter, params=params)
-
             if response.status_code == 200:
 
                 vacancies = response.json()["items"]
                 for vacancy in vacancies:
-
-                    # данные по experience тянем через этот запрос
-
-                    # id = vacancy["id"]
-                    # url_id_request = "https://api.hh.ru/vacancies/" + id
-                    # vacancy_id_response = requests.get(url_id_request)
 
                     # Обработка данных по заработной плате
                     if vacancy["salary"] is not None:
@@ -69,17 +59,19 @@ class HH(Engine):
                         salary_from = 0
                         salary_to = 0
 
-                    # получаем всю информацию по запросу
+                    # Обработка формата для поля responsibility/requirement
+                    convert_responsibility = format_text(vacancy["snippet"]["responsibility"])
+                    convert_requirement = format_text(vacancy["snippet"]["requirement"])
 
+                    # получаем всю информацию по запросу
                     self.__vacancies.append({"name": vacancy["name"],
                                              "url": vacancy["url"],
-                                             "responsibility": vacancy["snippet"]["responsibility"],
+                                             "responsibility": convert_responsibility,
                                              "town": vacancy["area"]["name"],
                                              "employer": vacancy["employer"]["name"],
-                                             "requirement": vacancy["snippet"]["requirement"],
+                                             "requirement": convert_requirement,
                                              "salary_from": str(salary_from),
                                              "salary_to": str(salary_to),
-                                             #"experience": vacancy_id_response.json()["experience"]["id"]
                                              })
             else:
                 return "Error:", response.status_code
@@ -124,15 +116,18 @@ class SJ(Engine):
                 vacancies = response.json()["objects"]
 
                 for vacancy in vacancies:
+                    # Обработка формата для поля responsibility/requirement
+                    convert_responsibility = format_text(vacancy["candidat"])
+                    convert_requirement = format_text(vacancy["work"])
+
                     self.__vacancies.append({"name": vacancy["profession"],
                                              "url": vacancy["link"],
-                                             "responsibility": vacancy["candidat"],
+                                             "responsibility": convert_responsibility,
                                              "town": vacancy["town"]["title"],
                                              "employer": vacancy["firm_name"],
-                                             "requirement": vacancy["work"],
+                                             "requirement": convert_requirement,
                                              "salary_from": str(vacancy["payment_from"]),
-                                             "salary_to": str(vacancy["payment_to"]),
-                                             #"experience": vacancy["experience"]["id"]
+                                             "salary_to": str(vacancy["payment_to"])
                                              })
 
             else:

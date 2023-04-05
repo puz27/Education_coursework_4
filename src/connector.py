@@ -72,10 +72,6 @@ class Connector:
                     if search_key == list(query.values())[0]:
                         data_filter.append(data)
 
-        # if len(data_filter) == 0:
-        #     return f"Данные не найдены"
-        # else:
-        #     return data_filter
         return data_filter
 
     def delete(self, query: dict) -> int:
@@ -84,7 +80,7 @@ class Connector:
         как в методе select. Если в query передан пустой словарь, то
         функция удаления не сработает
         """
-        # Список который не попадает под условия фильрации, его будем сохранять
+        # Список который не попадает под условия фильтрации, его будем сохранять
         data_not_delete = []
         # Счытывает информацию из файла
         with open(self.__path_file, "r", encoding='utf-8') as read_file:
@@ -132,4 +128,5 @@ class Connector:
         json_object = json.dumps(new_list, indent=4, ensure_ascii=False)
         with open(self.__path_file, "w", encoding='utf-8') as write_file:
             write_file.write(json_object)
+
 

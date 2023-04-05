@@ -1,5 +1,4 @@
 class Vacancy:
-    # __slots__ = ...
 
     def __init__(self, args):
         self.__name = args["name"]
@@ -15,6 +14,10 @@ class Vacancy:
     @property
     def name(self):
         return self.__name
+
+    @property
+    def url(self):
+        return self.__url
 
     @property
     def requirement(self):
@@ -54,6 +57,7 @@ class Vacancy:
 
 class HHVacancy(Vacancy):
     """ HeadHunter Vacancy """
+
     def __str__(self):
         return f"Данные с HeadHunter\n{super().__str__()}\n"
 

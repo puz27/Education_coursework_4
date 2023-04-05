@@ -1,5 +1,5 @@
 from src.engine_classes import *
-from src.utils import *
+from src.utils import sj_api_key, print_info
 
 
 from src.dictionary import user_questions, user_search, user_search_answers, user_search_vacancies,\
@@ -45,10 +45,22 @@ while True:
 
     # Запросить данные с сайта SUPER JOB
     elif user_answer == user_questions[0]["2.Запросить данные с сайта SUPER JOB\n"]:
+        print("Для запроса необходимо ввести токен подключения.\n"
+              "Если у вас он есть нажмите - 1, если нет - 2(будет использоваться 'демо' токен)")
+
+        while True:
+            user_choice = input()
+            if user_choice in str((1, 2)):
+                break
+            else:
+                print("! Некорректная команда ввода !\n")
+
+        if user_choice == "1":
+            sj_api_key = input("Введите токен\n")
+
         search_filter = input("Введите слово поиска для вакансии\n")
 
         # Создаем экземпляр для работы с SUPER JOB и делаем запрос
-        sj_api_key = "v3.r.137436720.8c7f8aba97fa695bc8eb530e248876d05b91ac49.93eb1ab45d1127728b93d412484a5f08ae09f2c8"
         super_job = SJ(sj_api_key)
         super_job.get_request(search_filter)
         respond = super_job.vacancies
@@ -95,11 +107,14 @@ while True:
                     user_answer_value = input("Введите значение. Регистр важен.\n")
                     search_filter = {user_search_answers[user_answer_key]: user_answer_value}
                     founded_vacancies = connector_to_file.select(search_filter)
+
                     if founded_vacancies:
-                        input("Будет выведена информация: Название|Город|Компания|ЗП от|ЗП до|\n")
+                        input("Нажмите Enter. Будет выведена информация: Ссылка|Название|Город|Компания|ЗП от|ЗП до|\n")
                         for vacancy in founded_vacancies:
                             vacancy_instance = HHVacancy(vacancy)
-                            print_info(vacancy_instance.name,
+
+                            print_info(vacancy_instance.url,
+                                       vacancy_instance.name,
                                        vacancy_instance.town,
                                        vacancy_instance.employer,
                                        vacancy_instance.salary_from,
