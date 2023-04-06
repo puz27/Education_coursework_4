@@ -24,7 +24,9 @@ def format_text(text: str) -> str:
         2: ['</highlighttext>', '']
     }
 
-    if text is None or "null":
+    if text == "null":
+        return f"Данных нет"
+    elif text is None:
         return f"Данных нет"
     else:
         for i in patterns:
