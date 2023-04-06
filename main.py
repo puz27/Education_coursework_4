@@ -1,5 +1,7 @@
 from src.engine_classes import HH, SJ
-from src.utils import sj_api_key, print_info
+from src.utils import sj_api_key, print_info, check_user_answer, get_best_hh_vacancies, get_best_sj_vacancies,\
+    get_deep_query_hh_vacancies, get_deep_query_sj_vacancies
+
 from src.dictionary import user_questions, user_search, user_search_answers, user_search_vacancies,\
     user_search_answers_vacancies, user_search_sorted, user_search_sorted_answers
 from src.connector import Connector
@@ -41,15 +43,9 @@ while True:
 
     # Запросить данные с сайта SUPER JOB
     elif user_answer == user_questions[0]["2.Запросить данные с сайта SUPER JOB\n"]:
-        print("Для запроса необходимо ввести токен подключения.\n"
-              "Если у вас он есть нажмите - 1, если нет - 2(будет использоваться 'демо' токен)")
 
-        while True:
-            user_choice = input()
-            if user_choice in str((1, 2)):
-                break
-            else:
-                print("! Некорректная команда ввода !\n")
+        # Запрос на взаимодействие с токеном
+        user_choice = check_user_answer("Нужен токен подключения. Использовать свой - 1, использовать демо - 2", "", 2)
 
         if user_choice == "1":
             sj_api_key = input("Введите токен\n")
@@ -87,20 +83,12 @@ while True:
                 # Выбор данных их файла
                 elif user_answer == user_questions[1][" 1.Выбор данных их файла\n"]:
 
-                    while True:
-
-                        # Меню для выборки ключа поиска
-                        print("Выберите поле для поиска.\n")
-                        print(*user_search)
-                        user_answer_key = input()
-
-                        if user_answer_key in str((1, 2, 3, 4, 5, 6, 7, 8)):
-                            break
-                        else:
-                            print("! Некорректная команда ввода !\n")
+                    # Запрос на критерии выборки ключа поиска
+                    user_answer_key = check_user_answer("Выберите поле для поиска.", user_search, 8)
 
                     # Ввод значение поля поиска
                     user_answer_value = input("Введите значение. Регистр важен.\n")
+
                     search_filter = {user_search_answers[user_answer_key]: user_answer_value}
                     founded_vacancies = connector_to_file.select(search_filter)
 
@@ -121,16 +109,8 @@ while True:
                 # Удаление данных их файла
                 elif user_answer == user_questions[1]["2.Удаление данных их файла\n"]:
 
-                    # Поле для удаления вакансии
-                    while True:
-                        print("Выберите поле для операции удаления вакансии.\n")
-                        print(*user_search)
-                        user_answer_key = input()
-
-                        if user_answer_key in str((1, 2, 3, 4, 5, 6, 7, 8)):
-                            break
-                        else:
-                            print("! Введите корректную команду !\n")
+                    # Запрос на критерии удаления данных
+                    user_answer_key = check_user_answer("Выберите поле для операции удаления вакансии.", user_search, 8)
 
                     # Значение поля для удаления вакансии
                     user_answer_value = input("Введите значение для удаления. Регистр важен.\n")
@@ -141,17 +121,8 @@ while True:
                 # Полная сортировка данных файла
                 elif user_answer == user_questions[1]["3.Полная сортировка данных файла\n"]:
 
-                    while True:
-
-                        # Меню для выборки ключа поиска
-                        print("Выберите поле для сортировки.\n")
-                        print(*user_search_sorted)
-                        user_answer_key = input()
-
-                        if user_answer_key in str((1, 2, 3, 4, 5)):
-                            break
-                        else:
-                            print("! Некорректная команда ввода !\n")
+                    # Запрос на критерии сортировки
+                    user_answer_key = check_user_answer("Выберите поле для сортировки.", user_search_sorted, 5)
 
                     sorted_filter = user_search_sorted_answers[user_answer_key]
                     connector_to_file.sort_all(sorted_filter)
@@ -185,46 +156,24 @@ while True:
                     # Обработка для HEAD HUNTER
                     if get_last_status_request == "Последний запрос был к HEAD HUNTER":
 
+                        # Поиск высокооплачиваемые вакансии
                         all_vacancy = connector_to_file.select({"*": "*"})
-                        sort_dict = []
-                        for vacancy in all_vacancy:
-                            vacancy_instance = HHVacancy(vacancy)
-                            sort_dict.append(vacancy_instance)
-
-                        # Сортировка списка с экземплярами вакансий
-                        sort_dict.sort(reverse=True)
-                        for vacancy in sort_dict[:count_of_vacancies]:
-                            print(vacancy)
+                        best_vacancy = get_best_hh_vacancies(all_vacancy, count_of_vacancies)
+                        [print(vacancy) for vacancy in best_vacancy]
 
                     # Обработка для SUPER JOB
                     if get_last_status_request == "Последний запрос был к SUPER JOB":
 
+                        # Поиск высокооплачиваемые вакансии
                         all_vacancy = connector_to_file.select({"*": "*"})
-                        sort_dict = []
-                        for vacancy in all_vacancy:
-                            vacancy_instance = SJVacancy(vacancy)
-                            sort_dict.append(vacancy_instance)
-
-                        # Сортировка списка с экземплярами вакансий
-                        sort_dict.sort(reverse=True)
-                        for vacancy in sort_dict[:count_of_vacancies]:
-                            print(vacancy)
+                        best_vacancy = get_best_sj_vacancies(all_vacancy, count_of_vacancies)
+                        [print(vacancy) for vacancy in best_vacancy]
 
                 # Гибкий поиск по вакансиям
                 elif user_answer == user_questions[2]["2.Глубокий поиск по вакансиям\n"]:
 
-                    while True:
-
-                        # Запрос на критерии поиска и поиск по этим критериям
-                        print("Выбрать поле для поиска.\n")
-                        # Меню с вариантами ключей поиска
-                        print(*user_search_vacancies)
-                        user_answer_key = input("Введите значение для поиска.\n")
-
-                        if user_answer_key in str((1, 2, 3, 4, 5)):
-                            break
-                        else:
-                            print("! Некорректная команда ввода !\n")
+                    # Запрос на критерии поиска и поиск по этим критериям
+                    user_answer_key = check_user_answer("Выбрать поле для поиска.", user_search_vacancies, 5)
 
                     user_answer_value = input("Введите значение для поиска. Ищет совпадения. Регистр важен.\n")
                     search_filter = {user_search_answers_vacancies[user_answer_key]: user_answer_value}
@@ -232,70 +181,12 @@ while True:
                     # Обработка для HEAD HUNTER
                     if get_last_status_request == "Последний запрос был к HEAD HUNTER":
                         all_vacancy = connector_to_file.select({"*": "*"})
-
-                        if user_answer_key == "1":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = HHVacancy(vacancy)
-                                if user_answer_value in vacancy_instance.name:
-                                    print(vacancy_instance)
-
-                        elif user_answer_key == "2":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = HHVacancy(vacancy)
-                                if user_answer_value in vacancy_instance.responsibility:
-                                    print(vacancy_instance)
-
-                        elif user_answer_key == "3":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = HHVacancy(vacancy)
-                                if user_answer_value in vacancy_instance.town:
-                                    print(vacancy_instance)
-
-                        elif user_answer_key == "4":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = HHVacancy(vacancy)
-                                if user_answer_value in vacancy_instance.employer:
-                                    print(vacancy_instance)
-
-                        elif user_answer_key == "5":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = HHVacancy(vacancy)
-                                if user_answer_value in str(vacancy_instance.requirement):
-                                    print(vacancy_instance)
+                        get_deep_query_hh_vacancies(all_vacancy, user_answer_value, user_answer_key)
 
                     # Обработка для SUPER JOB
                     if get_last_status_request == "Последний запрос был к SUPER JOB":
                         all_vacancy = connector_to_file.select({"*": "*"})
-
-                        if user_answer_key == "1":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = SJVacancy(vacancy)
-                                if user_answer_value in vacancy_instance.name:
-                                    print(vacancy_instance)
-
-                        elif user_answer_key == "2":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = SJVacancy(vacancy)
-                                if user_answer_value in vacancy_instance.responsibility:
-                                    print(vacancy_instance)
-
-                        elif user_answer_key == "3":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = SJVacancy(vacancy)
-                                if user_answer_value in vacancy_instance.town:
-                                    print(vacancy_instance)
-
-                        elif user_answer_key == "4":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = SJVacancy(vacancy)
-                                if user_answer_value in vacancy_instance.employer:
-                                    print(vacancy_instance)
-
-                        elif user_answer_key == "5":
-                            for vacancy in all_vacancy:
-                                vacancy_instance = SJVacancy(vacancy)
-                                if user_answer_value in str(vacancy_instance.requirement):
-                                    print(vacancy_instance)
+                        get_deep_query_sj_vacancies(all_vacancy, user_answer_value, user_answer_key)
 
                 else:
                     print(*user_questions[3])

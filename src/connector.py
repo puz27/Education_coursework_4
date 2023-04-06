@@ -10,10 +10,12 @@ class Connector:
     внешнего деградации
     """
 
-    def __init__(self, data_file: str) -> None:
-        self.__data_file = data_file
+    __slots__ = ["__data_file", "__path_file"]
+
+    def __init__(self, name_file: str) -> None:
+        self.__data_file = name_file
         self.__path_file = None
-        self.data_file = data_file
+        self.data_file = name_file
 
     @property
     def data_file(self) -> str:

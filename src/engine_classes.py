@@ -13,6 +13,8 @@ class Engine(ABC):
 class HH(Engine):
     """Class for work with HeadHunter"""
 
+    __slots__ = ["__vacancies", "__config"]
+
     def __init__(self) -> None:
         self.__vacancies = []
         self.__config = [{"last request": "Последний запрос был к HEAD HUNTER"}]

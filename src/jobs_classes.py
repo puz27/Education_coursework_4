@@ -1,5 +1,8 @@
 class Vacancy:
 
+    __slots__ = ["__name", "__url", "__responsibility", "__town", "__employer",
+                 "__requirement", "__salary_from", "__salary_to"]
+
     def __init__(self, args):
         self.__name = args["name"]
         self.__url = args["url"]
@@ -9,7 +12,7 @@ class Vacancy:
         self.__requirement = args["requirement"]
         self.__salary_from = args["salary_from"]
         self.__salary_to = args["salary_to"]
-        self.limit = 10
+        #self.limit = 10
 
     @property
     def name(self):
