@@ -32,7 +32,7 @@ def format_text(text: str) -> str:
         return text
 
 
-def check_user_answer(print_1: str, print_2: dict, counts_cases: int) -> str or None:
+def check_user_answer(print_1: str, print_2: dict or str, counts_cases: int) -> str or None:
     """
     Обработка вариантов ответов пользователя
     :param print_1: Сообщение пользователю

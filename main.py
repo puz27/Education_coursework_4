@@ -5,10 +5,7 @@ from src.utils import sj_api_key, print_info, check_user_answer, get_best_hh_vac
 from src.dictionary import user_questions, user_search, user_search_answers, user_search_vacancies,\
     user_search_answers_vacancies, user_search_sorted, user_search_sorted_answers
 from src.connector import Connector
-from src.jobs_classes import HHVacancy, SJVacancy
-
-user_answer = ""
-user_question = False
+from src.jobs_classes import HHVacancy
 
 connector_to_file = Connector("information.json")
 connector_to_file_config = Connector("configuration.json")

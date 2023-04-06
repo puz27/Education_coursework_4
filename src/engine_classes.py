@@ -4,15 +4,14 @@ import requests
 
 
 class Engine(ABC):
-
+    """Абстрактный метод для взаимодействия через API"""
     @abstractmethod
     def get_request(self, *args, **kwargs):
         pass
 
 
 class HH(Engine):
-    """Class for work with HeadHunter"""
-
+    """Класс для работы с HEAD HUNTER"""
     __slots__ = ["__vacancies", "__config"]
 
     def __init__(self) -> None:
@@ -20,15 +19,19 @@ class HH(Engine):
         self.__config = [{"last request": "Последний запрос был к HEAD HUNTER"}]
 
     @property
-    def vacancies(self):
+    def vacancies(self) -> list:
         return self.__vacancies
 
     @property
-    def config(self):
+    def config(self) -> list:
         return self.__config
 
     def get_request(self, keywords: str) -> None or str:
-        """Return request"""
+        """
+        Запрос к ресурсу
+        :param keywords: название вакансии для поиска
+        :return: список с данными или None
+        """
         print("Делаем запрос с HEAD HUNTER")
         url_head_hunter = "https://api.hh.ru/vacancies"
         page_number = 0
@@ -84,22 +87,26 @@ class HH(Engine):
 
 
 class SJ(Engine):
-    """Class for work with SuperJob """
-
+    """Класс для работы с SUPER JOB"""
     def __init__(self, api_key: str) -> None:
         self.__vacancies = []
         self.__config = [{"last request": "Последний запрос был к SUPER JOB"}]
         self.__api_key = api_key
 
     @property
-    def vacancies(self):
+    def vacancies(self) -> list:
         return self.__vacancies
 
     @property
-    def config(self):
+    def config(self) -> list:
         return self.__config
 
     def get_request(self, keywords: str) -> None or str:
+        """
+         Запрос к ресурсу
+        :param keywords: название вакансии для поиска
+        :return: список с данными или None
+        """
         print("Делаем запрос с SUPER JOB")
         url_super_job = "https://api.superjob.ru/2.0/vacancies/"
         headers = {'X-Api-App-Id': self.__api_key}
