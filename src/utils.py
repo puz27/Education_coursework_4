@@ -172,5 +172,3 @@ def get_deep_query_sj_vacancies(all_vacancy: list, user_answer_value: str, user_
                 if user_answer_value in str(vacancy_instance.requirement):
                     print(vacancy_instance)
 
-
-
