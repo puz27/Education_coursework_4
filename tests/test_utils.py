@@ -277,5 +277,3 @@ def test_get_deep_query_sj_vacancies_5(capsys, all_vacancies):
  'ЗП до: 400000\n'
  '\n')
     assert captured.out == expected
-
-

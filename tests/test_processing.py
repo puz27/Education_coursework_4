@@ -101,18 +101,8 @@ def test_connector_validate_2(capsys):
     assert captured.out == "! Файл для обработки неверного формата, либо пустой !\n\n"
 
 
-def test_hh_vacancy_name(capsys):
+def test_hh_vacancy_name(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "разработчик", "fullstack разработчик\n"
     vacancy_instance = HHVacancy(vacancy)
     if user_answer_value in vacancy_instance.name:
@@ -121,18 +111,8 @@ def test_hh_vacancy_name(capsys):
     assert captured.out == expected
 
 
-def test_sj_vacancy_name(capsys):
+def test_sj_vacancy_name(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "разработчик", "fullstack разработчик\n"
     vacancy_instance = SJVacancy(vacancy)
     if user_answer_value in vacancy_instance.name:
@@ -141,18 +121,8 @@ def test_sj_vacancy_name(capsys):
     assert captured.out == expected
 
 
-def test_hh_vacancy_responsibility(capsys):
+def test_hh_vacancy_responsibility(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "разработка", "разработка нового функционала\n"
     vacancy_instance = HHVacancy(vacancy)
     if user_answer_value in vacancy_instance.responsibility:
@@ -161,18 +131,8 @@ def test_hh_vacancy_responsibility(capsys):
     assert captured.out == expected
 
 
-def test_sj_vacancy_responsibility(capsys):
+def test_sj_vacancy_responsibility(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "разработка", "разработка нового функционала\n"
     vacancy_instance = SJVacancy(vacancy)
     if user_answer_value in vacancy_instance.responsibility:
@@ -181,18 +141,8 @@ def test_sj_vacancy_responsibility(capsys):
     assert captured.out == expected
 
 
-def test_hh_vacancy_town(capsys):
+def test_hh_vacancy_town(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "нижний новгород", "нижний новгород\n"
     vacancy_instance = HHVacancy(vacancy)
     if user_answer_value in vacancy_instance.town:
@@ -201,18 +151,8 @@ def test_hh_vacancy_town(capsys):
     assert captured.out == expected
 
 
-def test_sj_vacancy_town(capsys):
+def test_sj_vacancy_town(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "нижний новгород", "нижний новгород\n"
     vacancy_instance = SJVacancy(vacancy)
     if user_answer_value in vacancy_instance.town:
@@ -221,18 +161,8 @@ def test_sj_vacancy_town(capsys):
     assert captured.out == expected
 
 
-def test_hh_vacancy_employer(capsys):
+def test_hh_vacancy_employer(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "yandex", "yandex\n"
     vacancy_instance = HHVacancy(vacancy)
     if user_answer_value in vacancy_instance.employer:
@@ -241,18 +171,8 @@ def test_hh_vacancy_employer(capsys):
     assert captured.out == expected
 
 
-def test_sj_vacancy_employer(capsys):
+def test_sj_vacancy_employer(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "yandex", "yandex\n"
     vacancy_instance = SJVacancy(vacancy)
     if user_answer_value in vacancy_instance.employer:
@@ -261,18 +181,8 @@ def test_sj_vacancy_employer(capsys):
     assert captured.out == expected
 
 
-def test_hh_vacancy_requirement(capsys):
+def test_hh_vacancy_requirement(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "python", "знание python\n"
     vacancy_instance = HHVacancy(vacancy)
     if user_answer_value in vacancy_instance.requirement:
@@ -281,22 +191,11 @@ def test_hh_vacancy_requirement(capsys):
     assert captured.out == expected
 
 
-def test_sj_vacancy_requirement(capsys):
+def test_sj_vacancy_requirement(capsys, vacancy):
     """ Проверка геттеров для экземпляра класса при запросе пользователя """
-    vacancy = {
-        "name": "fullstack разработчик",
-        "url": "https://api.hh.ru/vacancies/78464455?host=hh.ru",
-        "responsibility": "разработка нового функционала",
-        "town": "нижний новгород",
-        "employer": "yandex",
-        "requirement": "знание python",
-        "salary_from": "120000",
-        "salary_to": "0"
-    }
     user_answer_value, expected = "python", "знание python\n"
     vacancy_instance = SJVacancy(vacancy)
     if user_answer_value in vacancy_instance.requirement:
         print(vacancy_instance.requirement)
     captured = capsys.readouterr()
     assert captured.out == expected
-
