@@ -299,3 +299,4 @@ def test_sj_vacancy_requirement(capsys):
         print(vacancy_instance.requirement)
     captured = capsys.readouterr()
     assert captured.out == expected
+

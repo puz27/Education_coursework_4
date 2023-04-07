@@ -48,7 +48,9 @@ def check_user_answer(print_1: str, print_2: dict or str, counts_cases: int) -> 
         answer = input().lower()
 
         cases = [case for case in range(1, counts_cases + 1)]
-        if answer in "":
+        if answer in "00000":
+            print("! Некорректная команда ввода !\n")
+        elif answer in "":
             print("! Данные не переданы !\n")
         elif answer in str(cases):
             return answer
@@ -92,7 +94,7 @@ def get_deep_query_hh_vacancies(all_vacancy: list, user_answer_value: str, user_
     """
     Глубокий поиск по экземплярам вакансий HEAD HUNTER. Печать по условию.
     :param all_vacancy: Список всех вакансий из файла
-    :param user_answer_value: Слово которое изем
+    :param user_answer_value: Слово которое ищем
     :param user_answer_key: Номер поля по которому ищем
     :return:
     """

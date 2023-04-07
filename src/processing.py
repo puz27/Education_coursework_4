@@ -152,8 +152,7 @@ def main_processing() -> None:
 
                     # Вывести N самых высокооплачиваемые вакансии
                     elif user_answer == user_questions[2][" 1.Вывести N самых высокооплачиваемые вакансии\n"]:
-                        count_of_vacancies = int(
-                            check_user_answer("Ввести искомое количество вакансий. От 1 до 100.", "", 100))
+                        count_of_vacancies = int(check_user_answer("Ввести искомое количество вакансий. От 1 до 100.", "", 100))
 
                         # Обработка для HEAD HUNTER
                         if get_last_status_request == "Последний запрос был к HEAD HUNTER":
