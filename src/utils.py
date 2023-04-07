@@ -1,5 +1,5 @@
-sj_api_key = "v3.r.137436720.8c7f8aba97fa695bc8eb530e248876d05b91ac49.93eb1ab45d1127728b93d412484a5f08ae09f2c8"
 from src.jobs_classes import HHVacancy, SJVacancy
+api_key = "v3.r.137436720.8c7f8aba97fa695bc8eb530e248876d05b91ac49.93eb1ab45d1127728b93d412484a5f08ae09f2c8"
 
 
 def print_info(*args) -> None:
@@ -171,4 +171,6 @@ def get_deep_query_sj_vacancies(all_vacancy: list, user_answer_value: str, user_
                 vacancy_instance = SJVacancy(vacancy)
                 if user_answer_value in str(vacancy_instance.requirement):
                     print(vacancy_instance)
+
+
 

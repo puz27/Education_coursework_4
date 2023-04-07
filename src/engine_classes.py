@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from src.utils import format_text
+from src.utils import *
 import requests
 
 
@@ -35,10 +35,10 @@ class HH(Engine):
         print("Делаем запрос с HEAD HUNTER")
         url_head_hunter = "https://api.hh.ru/vacancies"
         page_number = 0
-        all_pages = 1
+        # количество страниц обработки
+        all_pages = 5
 
-        #while page_number < all_pages:
-        while page_number < 2:
+        while page_number < all_pages:
 
             params = {
                 "text": keywords,
@@ -81,8 +81,7 @@ class HH(Engine):
             else:
                 return "Error:", response.status_code
 
-            #all_pages = response.json()["pages"]
-            all_pages = 1
+            # для обработки информации на следующей странице (all_pages = response.json()["pages"])
             page_number += 1
 
 
@@ -144,3 +143,4 @@ class SJ(Engine):
 
             response_page = response.json()["more"]
             page_number += 1
+
