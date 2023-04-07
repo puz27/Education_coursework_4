@@ -45,7 +45,7 @@ def check_user_answer(print_1: str, print_2: dict or str, counts_cases: int) -> 
     print(print_1)
     print(*print_2)
     while True:
-        answer = input()
+        answer = input().lower()
 
         cases = [case for case in range(1, counts_cases + 1)]
         if answer in "":
@@ -96,35 +96,39 @@ def get_deep_query_hh_vacancies(all_vacancy: list, user_answer_value: str, user_
     :param user_answer_key: Номер поля по которому ищем
     :return:
     """
-    if user_answer_key == "1":
-        for vacancy in all_vacancy:
-            vacancy_instance = HHVacancy(vacancy)
-            if user_answer_value in vacancy_instance.name:
-                print(vacancy_instance)
+    if user_answer_value == "":
+        print("Для поиска введено пустое поле.\n")
 
-    elif user_answer_key == "2":
-        for vacancy in all_vacancy:
-            vacancy_instance = HHVacancy(vacancy)
-            if user_answer_value in vacancy_instance.responsibility:
-                print(vacancy_instance)
+    else:
+        if user_answer_key == "1":
+            for vacancy in all_vacancy:
+                vacancy_instance = HHVacancy(vacancy)
+                if user_answer_value in vacancy_instance.name:
+                    print(vacancy_instance)
 
-    elif user_answer_key == "3":
-        for vacancy in all_vacancy:
-            vacancy_instance = HHVacancy(vacancy)
-            if user_answer_value in vacancy_instance.town:
-                print(vacancy_instance)
+        elif user_answer_key == "2":
+            for vacancy in all_vacancy:
+                vacancy_instance = HHVacancy(vacancy)
+                if user_answer_value in vacancy_instance.responsibility:
+                    print(vacancy_instance)
 
-    elif user_answer_key == "4":
-        for vacancy in all_vacancy:
-            vacancy_instance = HHVacancy(vacancy)
-            if user_answer_value in vacancy_instance.employer:
-                print(vacancy_instance)
+        elif user_answer_key == "3":
+            for vacancy in all_vacancy:
+                vacancy_instance = HHVacancy(vacancy)
+                if user_answer_value in vacancy_instance.town:
+                    print(vacancy_instance)
 
-    elif user_answer_key == "5":
-        for vacancy in all_vacancy:
-            vacancy_instance = HHVacancy(vacancy)
-            if user_answer_value in str(vacancy_instance.requirement):
-                print(vacancy_instance)
+        elif user_answer_key == "4":
+            for vacancy in all_vacancy:
+                vacancy_instance = HHVacancy(vacancy)
+                if user_answer_value in vacancy_instance.employer:
+                    print(vacancy_instance)
+
+        elif user_answer_key == "5":
+            for vacancy in all_vacancy:
+                vacancy_instance = HHVacancy(vacancy)
+                if user_answer_value in str(vacancy_instance.requirement):
+                    print(vacancy_instance)
 
 
 def get_deep_query_sj_vacancies(all_vacancy: list, user_answer_value: str, user_answer_key: str) -> None:
@@ -135,33 +139,36 @@ def get_deep_query_sj_vacancies(all_vacancy: list, user_answer_value: str, user_
     :param user_answer_key: Номер поля по которому ищем
     :return:
     """
-    if user_answer_key == "1":
-        for vacancy in all_vacancy:
-            vacancy_instance = SJVacancy(vacancy)
-            if user_answer_value in vacancy_instance.name:
-                print(vacancy_instance)
+    if user_answer_value == "":
+        print("Для поиска введено пустое поле.\n")
+    else:
+        if user_answer_key == "1":
+            for vacancy in all_vacancy:
+                vacancy_instance = SJVacancy(vacancy)
+                if user_answer_value in vacancy_instance.name:
+                    print(vacancy_instance)
 
-    elif user_answer_key == "2":
-        for vacancy in all_vacancy:
-            vacancy_instance = SJVacancy(vacancy)
-            if user_answer_value in vacancy_instance.responsibility:
-                print(vacancy_instance)
+        elif user_answer_key == "2":
+            for vacancy in all_vacancy:
+                vacancy_instance = SJVacancy(vacancy)
+                if user_answer_value in vacancy_instance.responsibility:
+                    print(vacancy_instance)
 
-    elif user_answer_key == "3":
-        for vacancy in all_vacancy:
-            vacancy_instance = SJVacancy(vacancy)
-            if user_answer_value in vacancy_instance.town:
-                print(vacancy_instance)
+        elif user_answer_key == "3":
+            for vacancy in all_vacancy:
+                vacancy_instance = SJVacancy(vacancy)
+                if user_answer_value in vacancy_instance.town:
+                    print(vacancy_instance)
 
-    elif user_answer_key == "4":
-        for vacancy in all_vacancy:
-            vacancy_instance = SJVacancy(vacancy)
-            if user_answer_value in vacancy_instance.employer:
-                print(vacancy_instance)
+        elif user_answer_key == "4":
+            for vacancy in all_vacancy:
+                vacancy_instance = SJVacancy(vacancy)
+                if user_answer_value in vacancy_instance.employer:
+                    print(vacancy_instance)
 
-    elif user_answer_key == "5":
-        for vacancy in all_vacancy:
-            vacancy_instance = SJVacancy(vacancy)
-            if user_answer_value in str(vacancy_instance.requirement):
-                print(vacancy_instance)
+        elif user_answer_key == "5":
+            for vacancy in all_vacancy:
+                vacancy_instance = SJVacancy(vacancy)
+                if user_answer_value in str(vacancy_instance.requirement):
+                    print(vacancy_instance)
 

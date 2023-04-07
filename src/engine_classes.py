@@ -69,14 +69,14 @@ class HH(Engine):
                     convert_requirement = format_text(vacancy["snippet"]["requirement"])
 
                     # получаем всю информацию по запросу
-                    self.__vacancies.append({"name": vacancy["name"],
-                                             "url": vacancy["url"],
-                                             "responsibility": convert_responsibility,
-                                             "town": vacancy["area"]["name"],
-                                             "employer": vacancy["employer"]["name"],
-                                             "requirement": convert_requirement,
-                                             "salary_from": str(salary_from),
-                                             "salary_to": str(salary_to),
+                    self.__vacancies.append({"name": (vacancy["name"]).lower(),
+                                             "url": (vacancy["url"]).lower(),
+                                             "responsibility": convert_responsibility.lower(),
+                                             "town": (vacancy["area"]["name"]).lower(),
+                                             "employer": (vacancy["employer"]["name"]).lower(),
+                                             "requirement": convert_requirement.lower(),
+                                             "salary_from": (str(salary_from)).lower(),
+                                             "salary_to": (str(salary_to)).lower(),
                                              })
             else:
                 return "Error:", response.status_code
@@ -129,14 +129,14 @@ class SJ(Engine):
                     convert_responsibility = format_text(vacancy["candidat"])
                     convert_requirement = format_text(vacancy["work"])
 
-                    self.__vacancies.append({"name": vacancy["profession"],
-                                             "url": vacancy["link"],
-                                             "responsibility": convert_responsibility,
-                                             "town": vacancy["town"]["title"],
-                                             "employer": vacancy["firm_name"],
-                                             "requirement": convert_requirement,
-                                             "salary_from": str(vacancy["payment_from"]),
-                                             "salary_to": str(vacancy["payment_to"])
+                    self.__vacancies.append({"name": (vacancy["profession"]).lower(),
+                                             "url": (vacancy["link"]).lower(),
+                                             "responsibility": convert_responsibility.lower(),
+                                             "town": (vacancy["town"]["title"]).lower(),
+                                             "employer": (vacancy["firm_name"]).lower(),
+                                             "requirement": convert_requirement.lower(),
+                                             "salary_from": (str(vacancy["payment_from"])).lower(),
+                                             "salary_to": (str(vacancy["payment_to"])).lower()
                                              })
 
             else:
