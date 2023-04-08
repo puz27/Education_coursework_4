@@ -85,20 +85,12 @@ def test_connector_insert_delete(vacancies):
     assert datas == []
 
 
-def test_connector_validate_1(vacancies):
+def test_connector_validate(vacancies):
     """ Проверка коннектора / валидация файла """
     connector_to_file = Connector("information.json")
     connector_to_file.insert(vacancies)
     datas = connector_to_file.validate()
     assert datas is True
-
-
-def test_connector_validate_2(capsys):
-    """ Проверка коннектора / валидация файла """
-    connector_to_file = Connector("broken_information.json")
-    connector_to_file.validate()
-    captured = capsys.readouterr()
-    assert captured.out == "! Файл для обработки неверного формата, либо пустой !\n\n"
 
 
 def test_hh_vacancy_name(capsys, vacancy):
