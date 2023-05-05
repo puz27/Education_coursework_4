@@ -1,7 +1,7 @@
 from src.processing import main_processing
 
 
-# основное меню пользователя
+# Основное меню пользователя
 def main():
     main_processing()
 
